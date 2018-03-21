@@ -36,4 +36,6 @@ npm run build
 ### Documentation
 
 - [vue官方文档](https://cn.vuejs.org/)
+- [element-ui官方文档]（http://element-cn.eleme.io/#/）
 - [flask官方文档](http://flask.pocoo.org/)
+- [flask-restful官方文档](http://flask-restful.readthedocs.io/en/latest/)
