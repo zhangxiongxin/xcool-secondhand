@@ -1,6 +1,6 @@
 <template lang="pug">
-  .login-container
-    h1 登录页
+  .not-found
+    h1 not found!
 </template>
 <script>
 export default {
