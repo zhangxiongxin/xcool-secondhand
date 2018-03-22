@@ -6,7 +6,8 @@
       .verification
         el-input.verification-code(prefix-icon="el-icon-view", placeholder="请输入验证码")
           template(slot="append")
-            el-button(@click="getVerification") 获取验证码
+            el-button.get-code(@click="getVerification", :disabled="timeFlag") {{getCode}}
+              a(v-show="timeFlag") s
       el-button.regBtn(@click="register") 注册
     .user-info(v-else)
       h1 请填写必要的信息
@@ -22,6 +23,9 @@
 export default {
   data () {
     return {
+      timeFlag: false,
+      timer: null,
+      getCode: '获取验证码',
       oneFlag: true,
       userInfo: {
         name: 'xcool',
@@ -30,8 +34,26 @@ export default {
     }
   },
   methods: {
+    sendCodeCallback (type, message) {
+      this.$message({
+        showClose: true,
+        message: message,
+        type: type
+      })
+    },
+    isTime () {
+      clearInterval(this.timer)
+      this.timeFlag = false
+      this.getCode = '获取验证码'
+    },
     getVerification () {
       console.log('获取验证码')
+      this.timeFlag = true
+      this.getCode = 60
+      this.sendCodeCallback('success', '验证码发送成功，请注意查收！')
+      this.timer = setInterval(() => {
+        this.getCode === 0 ? this.isTime() : this.getCode--
+      }, 1000)
     },
     register () {
       this.oneFlag = false
@@ -40,6 +62,9 @@ export default {
 }
 </script>
 <style lang="stylus" scoped>
+  .register-container {
+    margin-top 200px
+  }
   .form {
     width 400px
     margin 0 auto
@@ -60,6 +85,9 @@ export default {
   }
   .comfirm {
     margin-top 20px
-    width 400px 
+    width 400px
+  }
+  .get-code {
+    width 112px
   }
 </style>
