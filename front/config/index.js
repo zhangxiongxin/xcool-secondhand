@@ -18,6 +18,10 @@ module.exports = {
         '/upload': {
             target: 'http://localhost:5000',
             changeOrigin: true
+        },
+        '/sendSMS': {
+            target: 'https://api.miaodiyun.com/20150822/industrySMS/sendSMS',
+            changeOrigin: true     
         }
     },
 

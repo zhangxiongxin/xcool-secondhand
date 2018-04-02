@@ -20,6 +20,8 @@
       el-button.comfirm 确定
 </template>
 <script>
+import md5 from 'md5'
+import ajax from 'axios'
 export default {
   data () {
     return {
@@ -56,7 +58,13 @@ export default {
       }, 1000)
     },
     register () {
-      this.oneFlag = false
+      // this.oneFlag = false
+      ajax.post('/sendSMS', {
+        accountSid: '26d1714cd0614834a0d62db2c002a730',
+        to: '17608015960',
+        timestamp: Date.parse(new Date()),
+        sig: md5('26d1714cd0614834a0d62db2c002a73055ba8bef73654108b7688c84de9c9ee2' + Date.parse(new Date()))
+      })
     }
   }
 }
