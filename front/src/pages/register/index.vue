@@ -21,7 +21,8 @@
 </template>
 <script>
 import md5 from 'md5'
-import ajax from 'axios'
+// import ajax from 'axios'
+import ajax from '@/server/ajax'
 export default {
   data () {
     return {
@@ -52,6 +53,7 @@ export default {
       console.log('获取验证码')
       this.timeFlag = true
       this.getCode = 60
+      this.register()
       this.sendCodeCallback('success', '验证码发送成功，请注意查收！')
       this.timer = setInterval(() => {
         this.getCode === 0 ? this.isTime() : this.getCode--
@@ -59,12 +61,29 @@ export default {
     },
     register () {
       // this.oneFlag = false
-      ajax.post('/sendSMS', {
+      var code = 123456
+      var m = 5
+      // ajax.post('sendSMS', {
+      //   accountSid: '26d1714cd0614834a0d62db2c002a730',
+      //   to: 17608015960,
+      //   timestamp: Date.parse(new Date()),
+      //   smsContent: `【惠物品】您的验证码为${code}，请于${m}分钟内正确输入，如非本人操作，请忽略此短信。`,
+      //   sig: md5('26d1714cd0614834a0d62db2c002a73055ba8bef73654108b7688c84de9c9ee2' + Date.parse(new Date()))
+      // }, {
+      //   headers: {'Content-Type': 'application/x-www-form-urlencoded'}
+      // })
+      var params = {
         accountSid: '26d1714cd0614834a0d62db2c002a730',
-        to: '17608015960',
+        to: 17608015960,
         timestamp: Date.parse(new Date()),
+        smsContent: `【惠物品】您的验证码为${code}，请于${m}分钟内正确输入，如非本人操作，请忽略此短信。`,
         sig: md5('26d1714cd0614834a0d62db2c002a73055ba8bef73654108b7688c84de9c9ee2' + Date.parse(new Date()))
-      })
+      }
+      ajax('sendSMS', { method: 'POST', params })
+      // ajax.post({
+      //   url: '/sendSMS',
+      //   methods
+      // })
     }
   }
 }

@@ -20,8 +20,9 @@ module.exports = {
             changeOrigin: true
         },
         '/sendSMS': {
-            target: 'https://api.miaodiyun.com/20150822/industrySMS/sendSMS',
-            changeOrigin: true     
+            target: 'https://api.miaodiyun.com/20150822/industrySMS/sendSMS/',
+            changeOrigin: true,
+            secure: false
         }
     },
 
