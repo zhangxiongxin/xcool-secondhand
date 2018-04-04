@@ -79,7 +79,7 @@ export default {
         smsContent: `【惠物品】您的验证码为${code}，请于${m}分钟内正确输入，如非本人操作，请忽略此短信。`,
         sig: md5('26d1714cd0614834a0d62db2c002a73055ba8bef73654108b7688c84de9c9ee2' + Date.parse(new Date()))
       }
-      ajax('sendSMS', { method: 'POST', params })
+      ajax('api/getCode', { method: 'POST', params })
       // ajax.post({
       //   url: '/sendSMS',
       //   methods

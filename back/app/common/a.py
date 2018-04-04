@@ -5,6 +5,8 @@ from flask import request
 from flask import make_response
 import os
 import json
+import sys
+from ..api.outApi import outApi
 # mysql = MySQL()
 # app = Flask(__name__)
 # app.config['MYSQL_DATABASE_USER'] = 'root'
@@ -57,8 +59,18 @@ class Upload(restful.Resource):
         upload_path = os.path.join(basepath,target,f.filename) #注意：没有的文件夹一定要先创建，不然会提示没有该路径
         f.save(upload_path)
         return response
+class GetCode(restful.Resource):
+    def post(self):
+        response = make_response()
+        response.headers['Access-Control-Allow-Origin'] = '*'
+        response.headers['Access-Control-Allow-Methods'] = 'POST'
+        response.body= 'haha'
+        postdata = request.args
+        print(outApi)
+        return request.args
 # api.add_resource(HelloWorld, '/api')
 api.add_resource(Upload, '/upload')
+api.add_resource(GetCode, '/api/getCode')
 # api.add_resource(HelloWorld, '/api')
 if __name__ == '__main__':
     app.run(debug=True)
