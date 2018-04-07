@@ -2,9 +2,9 @@
   .register-container
     .words 注册页
     .form(v-if="oneFlag")
-      el-input.tel(prefix-icon="el-icon-phone", placeholder="请输入手机号")
+      el-input.tel(prefix-icon="el-icon-phone", placeholder="请输入手机号", v-model="phoneNum")
       .verification
-        el-input.verification-code(prefix-icon="el-icon-view", placeholder="请输入验证码")
+        el-input.verification-code(prefix-icon="el-icon-view", placeholder="请输入验证码", v-model="authCode")
           template(slot="append")
             el-button.get-code(@click="getVerification", :disabled="timeFlag") {{getCode}}
               a(v-show="timeFlag") s
@@ -22,10 +22,13 @@
 <script>
 import md5 from 'md5'
 // import ajax from 'axios'
+import store from 'store'
 import ajax from '@/server/ajax'
 export default {
   data () {
     return {
+      authCode: '',
+      phoneNum: '',
       timeFlag: false,
       timer: null,
       getCode: '获取验证码',
@@ -37,6 +40,13 @@ export default {
     }
   },
   methods: {
+    random () {
+      var num = ''
+      for (let i = 0; i < 6; i++) {
+        num += Math.floor(Math.random() * 10)
+      }
+      return num
+    },
     sendCodeCallback (type, message) {
       this.$message({
         showClose: true,
@@ -50,40 +60,34 @@ export default {
       this.getCode = '获取验证码'
     },
     getVerification () {
-      console.log('获取验证码')
-      this.timeFlag = true
-      this.getCode = 60
-      this.register()
-      this.sendCodeCallback('success', '验证码发送成功，请注意查收！')
-      this.timer = setInterval(() => {
-        this.getCode === 0 ? this.isTime() : this.getCode--
-      }, 1000)
-    },
-    register () {
-      // this.oneFlag = false
-      var code = 123456
+      var code = this.random()
       var m = 5
-      // ajax.post('sendSMS', {
-      //   accountSid: '26d1714cd0614834a0d62db2c002a730',
-      //   to: 17608015960,
-      //   timestamp: Date.parse(new Date()),
-      //   smsContent: `【惠物品】您的验证码为${code}，请于${m}分钟内正确输入，如非本人操作，请忽略此短信。`,
-      //   sig: md5('26d1714cd0614834a0d62db2c002a73055ba8bef73654108b7688c84de9c9ee2' + Date.parse(new Date()))
-      // }, {
-      //   headers: {'Content-Type': 'application/x-www-form-urlencoded'}
-      // })
       var params = {
         accountSid: '26d1714cd0614834a0d62db2c002a730',
-        to: 17608015960,
+        to: this.phoneNum,
         timestamp: Date.parse(new Date()),
         smsContent: `【惠物品】您的验证码为${code}，请于${m}分钟内正确输入，如非本人操作，请忽略此短信。`,
         sig: md5('26d1714cd0614834a0d62db2c002a73055ba8bef73654108b7688c84de9c9ee2' + Date.parse(new Date()))
       }
+      var pwd = md5(`${code}${this.phoneNum}xcool`)
+      console.log(pwd, 11)
+      store.set('pwd', pwd)
       ajax('api/getCode', { method: 'POST', params })
-      // ajax.post({
-      //   url: '/sendSMS',
-      //   methods
-      // })
+        .then(res => {
+          this.timeFlag = true
+          this.getCode = 60
+          this.sendCodeCallback('success', '验证码发送成功，请注意查收！')
+          this.timer = setInterval(() => {
+            this.getCode === 0 ? this.isTime() : this.getCode--
+          }, 1000)
+        })
+    },
+    register () {
+      var pwd = md5(`${this.authCode}${this.phoneNum}xcool`)
+      console.log(pwd, 22)
+      if (pwd === store.get('pwd')) {
+        console.log('认证成功！')
+      }
     }
   }
 }
