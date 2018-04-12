@@ -2,11 +2,22 @@ from flask import Flask
 from flask.ext import restful
 from flask import request
 from app.api import outApi, user
+# from flask import make_response
+import traceback
 import json
 app = Flask(__name__)
 api = restful.Api(app)
+@app.before_request
+def my_before_request():
+  print('before request', request.headers)
+@app.after_request
+def my_after_request(self):
+  try: print('after request')
+  except: traceback.print_exc()
+  return self
 class GetCode(restful.Resource):
     def post(self):
+        # result = make_response()
         postdata = request.args
         url = 'https://api.miaodiyun.com/20150822/industrySMS/sendSMS'
         headers = {'content-type': 'application/x-www-form-urlencoded'}
