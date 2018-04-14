@@ -17,21 +17,20 @@ export default {
 }
 </script>
 <style scoped>
+  .card-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
   .simgle {
-    cursor: pointer;
     display: inline-block;
     width: 10rem;
     height: 14rem;
-    margin: 10px 0;
+    margin: 10px;
   }
   .goodsImg {
     width: 100%;
     height: 80%;
-  }
-  .card-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    flex-wrap: wrap;
   }
 </style>

@@ -7,6 +7,10 @@
         el-carousel-item(v-for="item in 4", :key="item")
           h3 {{ item }}
     .home-list.w
+      .recommend 热门推荐
+      card(:item="goodsList")
+    .home-list.bottom.w
+      .recommend 发现低价
       card(:item="goodsList")
     mFooter
 </template>
@@ -111,55 +115,29 @@ export default {
     min-width: 900px;
     margin: 0 auto;
   }
-  .home-head-left {
-    line-height: 40px;
-    font-size: 12px;
-    float: left;
+  .recommend {
+    position: relative;
+    width: 99%;
+    padding-left: 10px;
+    font-size: 18px;
+    line-height: 30px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   }
-  .login {
-    color: red;
-    margin-right: 7px;
-  }
-  .home-head {
-    height: 40px;
-  }
-  .home-logo, .home-bottom {
-    height: 90px;
+  .recommend::before {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    top: 6px;
+    left: 0;
+    height: 18px;
+    width: 4px;
     background: #ffda44;
-  }
-  .home-bottom {
-    width: 100%;
-    position: fixed;
-    bottom: 0;
-    height: 150px;
   }
   .content {
     display: grid;
     grid-template-columns: 35% auto;
     grid-template-rows: auto;
     grid-column-gap: 3rem;
-  }
-  .name {
-    text-align: left;
-    font-size: 3rem;
-    line-height: 90px;
-    position: relative;
-  }
-  .name-img::after {
-    display: inline-block;
-    content: '让闲置游荡起来！';
-    font-size: .8rem;
-    position: absolute;
-    top: 0;
-    left: 6.5rem;
-  }
-  .name-slogan {
-    font-size: .8rem;
-  }
-  .item {
-    height: 90px;
-    line-height: 90px;
-    font-size: 1rem;
   }
   .home-banner {
     margin-top: 20px;
@@ -189,7 +167,9 @@ export default {
   }
   .home-list {
     margin-top: 20px;
-    margin-bottom: 150px;
     text-align: left;
+  }
+  .home-list.bottom {
+    margin-bottom: 150px;
   }
 </style>

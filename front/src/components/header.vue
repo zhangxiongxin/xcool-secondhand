@@ -12,13 +12,12 @@
         el-menu.meui(mode="horizontal", background-color="#ffda44", text-color="#000")
           el-menu-item.item(index="it") 数码
           el-menu-item.item(index="cl") 文娱
-          el-menu-item.item(index="daily") 服饰
+          el-menu-item.item(index="daily") 日用
           el-menu-item.item(index="vual") 虚拟
-    .home-bottom
 </template>
 <script>
 export default {
-  name: 'mHeader',
+  name: 'header',
   data () {
     return {
       name: 'xcool'
@@ -36,7 +35,6 @@ export default {
     line-height: 40px;
     font-size: 12px;
     float: left;
-    cursor: pointer;
   }
   .login {
     color: red;
