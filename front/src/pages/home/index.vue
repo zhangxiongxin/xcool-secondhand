@@ -1,19 +1,6 @@
 <template lang="pug">
   .home-index-container
-    .home-head.w
-      .home-head-left
-        a.login(@click="to('/login')") 亲，请登录
-        a.register(@click="to('/register')") 免费注册
-      //- upload
-    .home-logo
-      .content.w
-        .name
-          .name-img 标题
-        el-menu.meui(mode="horizontal", background-color="#ffda44", text-color="#000")
-          el-menu-item.item(index="it") 数码
-          el-menu-item.item(index="cl") 文娱
-          el-menu-item.item(index="daily") 日用
-          el-menu-item.item(index="vual") 虚拟
+    mHeader
     .home-banner.w
       .brast 发布
       el-carousel.banner(:interval="5000" arrow="always")
@@ -21,11 +8,9 @@
           h3 {{ item }}
     .home-list.w
       card(:item="goodsList")
-    .home-bottom
+    mFooter
 </template>
 <script>
-import upload from '@/components/upload'
-import card from '@/components/card'
 export default {
   data () {
     return {
@@ -35,7 +20,7 @@ export default {
           id: 'aaa'
         },
         {
-          name: '女朋友',
+          name: '足球',
           id: 'bbb'
         },
         {
@@ -43,7 +28,7 @@ export default {
           id: 'aaa'
         },
         {
-          name: '女朋友',
+          name: '足球',
           id: 'bbb'
         },
         {
@@ -51,7 +36,7 @@ export default {
           id: 'aaa'
         },
         {
-          name: '女朋友',
+          name: '足球',
           id: 'bbb'
         },
         {
@@ -59,15 +44,59 @@ export default {
           id: 'aaa'
         },
         {
-          name: '女朋友',
+          name: '足球',
           id: 'bbb'
+        },
+        {
+          name: '足球',
+          id: 'bbb'
+        },
+        {
+          name: '篮球',
+          id: 'aaa'
+        },
+        {
+          name: '足球',
+          id: 'bbb'
+        },
+        {
+          name: '篮球',
+          id: 'aaa'
+        },
+        {
+          name: '足球',
+          id: 'bbb'
+        },
+        {
+          name: '篮球',
+          id: 'aaa'
+        },
+        {
+          name: '足球',
+          id: 'bbb'
+        },
+        {
+          name: '篮球',
+          id: 'aaa'
+        },
+        {
+          name: '足球',
+          id: 'bbb'
+        },
+        {
+          name: '篮球',
+          id: 'aaa'
+        },
+        {
+          name: '足球',
+          id: 'bbb'
+        },
+        {
+          name: '篮球',
+          id: 'aaa'
         }
       ]
     }
-  },
-  components: {
-    upload: upload,
-    card: card
   },
   methods: {
     to (url) {
@@ -94,9 +123,15 @@ export default {
   .home-head {
     height: 40px;
   }
-  .home-logo {
+  .home-logo, .home-bottom {
     height: 90px;
     background: #ffda44;
+  }
+  .home-bottom {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    height: 150px;
   }
   .content {
     display: grid;
@@ -126,7 +161,6 @@ export default {
     line-height: 90px;
     font-size: 1rem;
   }
-
   .home-banner {
     margin-top: 20px;
     height: 300px;
@@ -155,5 +189,7 @@ export default {
   }
   .home-list {
     margin-top: 20px;
+    margin-bottom: 150px;
+    text-align: left;
   }
 </style>
