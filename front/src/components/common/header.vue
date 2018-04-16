@@ -23,6 +23,12 @@ export default {
     return {
       name: 'xcool'
     }
+  },
+  methods: {
+    to (url) {
+      this.$router.push(url)
+      console.log(url)
+    }
   }
 }
 </script>

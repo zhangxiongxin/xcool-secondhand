@@ -2,7 +2,7 @@
   .home-index-container
     mHeader
     .home-banner.w
-      .brast 发布
+      .brast(@click="to('/add')") 发布
       el-carousel.banner(:interval="5000" arrow="always")
         el-carousel-item(v-for="item in 4", :key="item")
           h3 {{ item }}
@@ -105,6 +105,7 @@ export default {
   methods: {
     to (url) {
       this.$router.push(url)
+      console.log(url)
     }
   }
 }

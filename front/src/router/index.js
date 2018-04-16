@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import HomePage from '@/pages/home'
+import Add from '@/pages/home/createItem'
 import Login from '@/pages/login'
 import Register from '@/pages/register'
 import NotFound from '@/pages/404'
@@ -14,6 +15,11 @@ export default new Router({
       path: '/',
       name: 'home',
       component: HomePage
+    },
+    {
+      path: '/add',
+      name: 'add',
+      component: Add
     },
     {
       path: '/login',
