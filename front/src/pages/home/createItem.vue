@@ -3,14 +3,14 @@
     mHeader
     .upload-container
       input.upload-input(type="file", @change="update")
-      button(@click="preUpload") 开始上传
+      el-button(@click="preUpload") 开始上传
     mFooter
 </template>
 <script>
 import CommonService from '@/server/common'
 import { uuid } from '@/utils/uuid'
 const region = 'http://up.qiniu.com'
-const Imgurl = 'http://opma82b7e.bkt.clouddn.com'
+// const Imgurl = 'http://opma82b7e.bkt.clouddn.com'
 export default {
   name: 'createItem',
   data () {
@@ -36,6 +36,7 @@ export default {
           console.log(err)
         })
     },
+    // 七牛云上传图片接口
     upload (f, token, key) {
       var xhr = new XMLHttpRequest()
       xhr.open('POST', region, true)
@@ -47,11 +48,14 @@ export default {
       xhr.onreadystatechange = (res) => {
         if (xhr.readyState === 4 && xhr.status === 200 && xhr.responseText !== '') {
           var result = JSON.parse(xhr.responseText)
-          console.log(result)
+          console.log(result, '上传图片返回')
+        } else {
+          console.log(res, '上传失败')
         }
       }
       xhr.send(formData)
     },
+    // 本地图片上传
     update (e) {
       let file = e.target.files[0]
       console.log(file)
