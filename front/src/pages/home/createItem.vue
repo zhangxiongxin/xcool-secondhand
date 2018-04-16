@@ -10,6 +10,7 @@
 import CommonService from '@/server/common'
 import { uuid } from '@/utils/uuid'
 const region = 'http://up.qiniu.com'
+const Imgurl = 'http://opma82b7e.bkt.clouddn.com'
 export default {
   name: 'createItem',
   data () {
@@ -24,6 +25,7 @@ export default {
   methods: {
     // 上传前通过服务端获取七牛云上传凭证
     preUpload () {
+      if (!this.file) throw new Error('file in empty!')
       CommonService.getUploadToken({ key: this.key })
         .then(res => {
           console.log(res)
