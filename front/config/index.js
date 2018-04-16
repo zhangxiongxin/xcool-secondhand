@@ -12,15 +12,15 @@ module.exports = {
     assetsPublicPath: '/',
     proxyTable: {
         '/api/*': {
-            target: 'http://127.0.0.1:5000',
+            target: 'http://127.0.0.1:5000/',
             changeOrigin: true
         },
         '/secondhand': {
-            target: 'http://127.0.0.1:5000',
+            target: 'http://127.0.0.1:5000/',
             changeOrigin: true
         },
         '/upload': {
-            target: 'http://localhost:5000',
+            target: 'http://localhost:5000/',
             changeOrigin: true
         },
         '/sendSMS': {

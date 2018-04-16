@@ -18,6 +18,8 @@ export default function xhr (path, options = {}) {
     }, options.headers)
   }, options)
   return new Promise((resolve, reject) => {
-    axios(config).then()
+    axios(config).then(resp => {
+      resolve(resp.data)
+    })
   })
 }

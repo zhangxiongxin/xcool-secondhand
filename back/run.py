@@ -24,6 +24,14 @@ class GetCode(restful.Resource):
         result = outApi.sendPost(url, postdata, headers)
         return result
 api.add_resource(GetCode, '/api/getCode')
+class GetUploadToken(restful.Resource):
+    def get(self):
+        # print(dir(self))
+        key = request.args.get('key')
+        print(key)
+        token = outApi.getUploadToken(key)
+        return { 'token': token }
+api.add_resource(GetUploadToken, '/api/getUploadToken')
 print(user.generateId())
 if __name__ == '__main__':
     app.run(debug=True)

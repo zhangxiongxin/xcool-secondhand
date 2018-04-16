@@ -10,6 +10,7 @@
         .name
           .name-img 标题
         el-menu.meui(mode="horizontal", background-color="#ffda44", text-color="#000")
+          el-menu-item.item(index="home", @click="to('/')") 首页
           el-menu-item.item(index="it") 数码
           el-menu-item.item(index="cl") 文娱
           el-menu-item.item(index="daily") 服饰
