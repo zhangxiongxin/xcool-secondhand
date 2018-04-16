@@ -8,6 +8,7 @@
 </template>
 <script>
 import CommonService from '@/server/common'
+import { uuid } from '@/utils/uuid'
 const region = 'http://up.qiniu.com'
 export default {
   name: 'createItem',
@@ -16,7 +17,8 @@ export default {
       name: 'xcool',
       file: null,
       key: '',
-      token: ''
+      token: '',
+      fileType: ''
     }
   },
   methods: {
@@ -52,10 +54,22 @@ export default {
       let file = e.target.files[0]
       console.log(file)
       this.file = file
-      this.key = file.name
+      switch (file.type) {
+        case 'image/x-icon':
+          this.fileType = `.icon`
+          break
+        case 'image/png':
+          this.fileType = `.png`
+          break
+        default:
+          this.fileType = `.jpg`
+      }
+      var fileName = uuid()
+      this.key = `${fileName}${this.fileType}`
     }
   },
   created () {
+    console.log(uuid())
   }
 }
 </script>
