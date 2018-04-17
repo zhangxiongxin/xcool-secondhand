@@ -8,7 +8,7 @@ export default {
 </script>
 <style scoped>
   .home-bottom {
-    background: #ffda44;
+    background: #409EFF;
     width: 100%;
     position: fixed;
     bottom: 0;

@@ -2,8 +2,14 @@
   .create-container
     mHeader
     .upload-container
-      input.upload-input(type="file", @change="update")
+      el-button.upload-container(type="primary")
+        span.upload-btn 上传
+          input.upload-input(type="file", @change="update", multiple="multiple", ref="uploadForm")
+      img.goods-img(:src="imgSrc")
       el-button(@click="preUpload") 开始上传
+      //- el-upload.uploader(action="", :show-file-list="false", :on-success="update", :before-upload="update", :auto-upload="false", :on-preview="update")
+      //-   img.goods-img(v-if="imgSrc", :src="imgSrc")
+      //-   i.el-icon-plus.uploader-img(v-else)
     mFooter
 </template>
 <script>
@@ -19,7 +25,9 @@ export default {
       file: null,
       key: '',
       token: '',
-      fileType: ''
+      fileType: '',
+      uploadList: [],
+      imgSrc: ''
     }
   },
   methods: {
@@ -28,12 +36,12 @@ export default {
       if (!this.file) throw new Error('file in empty!')
       CommonService.getUploadToken({ key: this.key })
         .then(res => {
-          console.log(res)
+          // console.log(res)
           this.token = res.token
           this.upload(this.file, this.token, this.key)
         })
-        .catch(err => {
-          console.log(err)
+        .catch(() => {
+          // console.log(err)
         })
     },
     // 七牛云上传图片接口
@@ -50,7 +58,7 @@ export default {
           var result = JSON.parse(xhr.responseText)
           console.log(result, '上传图片返回')
         } else {
-          console.log(res, '上传失败')
+          // console.log(res, '上传失败')
         }
       }
       xhr.send(formData)
@@ -70,12 +78,16 @@ export default {
         default:
           this.fileType = `.jpg`
       }
+      let src = URL.createObjectURL(file)
+      console.log(src)
+      this.imgSrc = src
       var fileName = uuid()
       this.key = `${fileName}${this.fileType}`
+      console.dir(this.$refs.uploadForm)
     }
   },
   created () {
-    console.log(uuid())
+    // console.log(uuid())
   }
 }
 </script>
@@ -84,6 +96,48 @@ export default {
     margin-top: 40px;
   }
   .upload-input {
-    /*opacity: 0;*/
+    position:absolute;
+    right: 0px;
+    top:0px;
+/*    opacity: 0;
+    -ms-filter: 'alpha(opacity=0)';*/
+    font-size: 200px;
   }
+  .goods-img {
+    max-width: 600px;
+  }
+  .upload-btn {
+
+  }
+  .upload-container {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+  }
+/*  .uploader .el-upload {
+    border: 1px dashed #d9d9d9;
+    border-radius: 6px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    width: 600px;
+    height: 600px;
+  }
+  .uploader .el-upload:hover {
+    border-color: #409EFF;
+  }
+  .uploader-img {
+    border: 1px dashed #d9d9d9;
+    font-size: 28px;
+    color: #8c939d;
+    width: 178px;
+    height: 178px;
+    line-height: 178px;
+    text-align: center;
+  }
+  .goods-img {
+    width: 178px;
+    height: 178px;
+    display: block;
+  }*/
 </style>

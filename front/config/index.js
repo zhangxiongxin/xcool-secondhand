@@ -11,6 +11,11 @@ module.exports = {
     assetsSubDirectory: 'static',
     assetsPublicPath: '/',
     proxyTable: {
+        '/order/trpayGetWay': {
+            target: 'http://pay.trsoft.xin/',
+            changeOrigin: true,
+            secure: false
+        },
         '/api/*': {
             target: 'http://127.0.0.1:5000/',
             changeOrigin: true
@@ -24,7 +29,7 @@ module.exports = {
             changeOrigin: true
         },
         '/sendSMS': {
-            target: 'https://api.miaodiyun.com/20150822/industrySMS/sendSMS/',
+            target: 'https://api.miaodiyun.com/20150822/industrySMS/',
             changeOrigin: true,
             secure: false
         }

@@ -1,5 +1,5 @@
 // import store from 'store'
-import axios from 'axios'
+import axios from 'xe-ajax'
 function replaceParams (url, params) {
   return (url + ' ').replace(/:(.*?)(\/|\?| )/g, function (a, b, c) {
     let tmp = params[b]
@@ -20,6 +20,6 @@ export default function xhr (path, options = {}) {
   return new Promise((resolve, reject) => {
     axios(config).then(resp => {
       resolve(resp.data)
-    })
+    }).catch(err => { console.log(err) })
   })
 }

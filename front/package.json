@@ -17,12 +17,14 @@
     "normalize.css": "^8.0.0",
     "pug": "^2.0.2",
     "qiniu-js": "^2.2.2",
+    "qs": "^6.5.1",
     "store": "^2.0.12",
     "stylus": "^0.54.5",
     "stylus-loader": "^3.0.2",
     "vue": "^2.5.2",
     "vue-router": "^3.0.1",
-    "vuex": "^3.0.1"
+    "vuex": "^3.0.1",
+    "xe-ajax": "^3.3.6"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.2",
