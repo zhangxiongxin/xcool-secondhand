@@ -10,7 +10,7 @@ mysql = MySQL()
 app = Flask(__name__)
 app.config['MYSQL_DATABASE_USER'] = 'root'
 app.config['MYSQL_DATABASE_PASSWORD'] = 'root'
-app.config['MYSQL_DATABASE_DB'] = 'secondhand'
+app.config['MYSQL_DATABASE_DB'] = 'demo'
 app.config['MYSQL_DATABASE_HOST'] = 'localhost'
 mysql.init_app(app)
 api = restful.Api(app)
@@ -47,6 +47,20 @@ class Login(restful.Resource):
       result = user.login(userPhone, loginPwd)
       return result
 api.add_resource(Login, '/api/login')
-print(user.generateId())
+class QueryUser(restful.Resource):
+    def post(self):
+      userPhone = request.args.get('userPhone')
+      result = user.queryUser(userPhone)
+      return result
+api.add_resource(QueryUser, '/api/queryUser')
+class Register(restful.Resource):
+    def post(self):
+      userId = request.args.get('userId')
+      loginName = request.args.get('loginName')
+      loginPwd = request.args.get('loginPwd')
+      userPhone = request.args.get('userPhone')
+      result = user.register(userId, loginName, loginPwd, userPhone)
+      return result
+api.add_resource(Register, '/api/register')
 if __name__ == '__main__':
     app.run(debug=True)

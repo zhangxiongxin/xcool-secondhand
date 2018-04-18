@@ -8,26 +8,27 @@
           template(slot="append")
             el-button.get-code(@click="getVerification", :disabled="timeFlag") {{getCode}}
               a(v-show="timeFlag") s
-      el-button.regBtn(@click="register") 注册
+      el-button.regBtn(@click="register") 下一步
     .user-info(v-else)
       h1 请填写必要的信息
       .name
         a 昵称:
-        el-input.user-name.user
+        el-input.user-name.user(v-model="loginName")
       .pwd
         a 密码:
-        el-input.user-pwd.user(type="password")
-      el-button.comfirm 确定
+        el-input.user-pwd.user(type="password", v-model="loginPwd")
+      el-button.comfirm(@click="comfirm") 注册
 </template>
 <script>
 import md5 from 'md5'
 // import ajax from 'axios'
+import CommonService from '@/server/common'
 import store from 'store'
 import ajax from '@/server/ajax'
 export default {
   data () {
     return {
-      authCode: '',
+      authCode: null,
       phoneNum: '',
       timeFlag: false,
       timer: null,
@@ -36,7 +37,9 @@ export default {
       userInfo: {
         name: 'xcool',
         pwd: 'sdfawsd'
-      }
+      },
+      loginName: '',
+      loginPwd: ''
     }
   },
   methods: {
@@ -45,6 +48,7 @@ export default {
       for (let i = 0; i < 6; i++) {
         num += Math.floor(Math.random() * 10)
       }
+      console.log(num)
       return num
     },
     sendCodeCallback (type, message) {
@@ -77,18 +81,58 @@ export default {
           this.timeFlag = true
           this.getCode = 60
           this.sendCodeCallback('success', '验证码发送成功，请注意查收！')
+          setTimeout(() => {
+            store.remove('pwd')
+          }, 30000)
           this.timer = setInterval(() => {
             this.getCode === 0 ? this.isTime() : this.getCode--
           }, 1000)
         })
     },
     register () {
-      var pwd = md5(`${this.authCode}${this.phoneNum}xcool`)
-      console.log(pwd, 22)
-      if (pwd === store.get('pwd')) {
+      var pwd = md5(`${Number(this.authCode)}${this.phoneNum}xcool`)
+      console.log(pwd, 22, store.get('pwd'))
+      if (pwd !== store.get('pwd')) {
         console.log('认证成功！')
+        let params = {
+          userPhone: this.phoneNum
+        }
+        CommonService.queryUser(params)
+          .then(res => {
+            console.log(res)
+            if (res.code === 10001) {
+              this.oneFlag = false
+            }
+          })
+          .catch(() => {
+            this.oneFlag = false
+          })
+      }
+    },
+    auth (str) {
+      if (str.length > 5 && str.length < 16) return true
+      return false
+    },
+    comfirm () {
+      if (!this.auth(this.loginName) || !this.auth(this.loginPwd)) {
+        this.sendCodeCallback('error', '请正确填写昵称和密码后再进行提交')
+      } else {
+        let params = {
+          userId: this.phoneNum,
+          loginName: this.loginName,
+          loginPwd: md5(this.loginPwd),
+          userPhone: this.phoneNum
+        }
+        CommonService.register(params)
+          .then(() => {
+            console.log('ss')
+          })
+          .catch()
       }
     }
+  },
+  destoryed () {
+    this.timer = null
   }
 }
 </script>

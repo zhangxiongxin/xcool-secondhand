@@ -1,5 +1,5 @@
 // import store from 'store'
-import axios from 'xe-ajax'
+import axios from 'axios'
 function replaceParams (url, params) {
   return (url + ' ').replace(/:(.*?)(\/|\?| )/g, function (a, b, c) {
     let tmp = params[b]
