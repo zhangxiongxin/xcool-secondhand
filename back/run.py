@@ -32,6 +32,13 @@ class GetUploadToken(restful.Resource):
         token = outApi.getUploadToken(key)
         return { 'token': token }
 api.add_resource(GetUploadToken, '/api/getUploadToken')
+class Login(restful.Resource):
+    def post(self):
+      userPhone = request.args.get('userPhone')
+      loginPwd = request.args.get('loginPwd')
+      result = user.login(userPhone, loginPwd)
+      return result
+api.add_resource(Login, '/api/login')
 print(user.generateId())
 if __name__ == '__main__':
     app.run(debug=True)

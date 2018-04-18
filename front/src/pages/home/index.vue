@@ -1,8 +1,10 @@
 <template lang="pug">
-  .home-index-container
+  .home-container
     mHeader
     .home-banner.w
-      .brast(@click="to('/add')") 发布
+      .brast(@click="to('/add')")
+        .brast-btn 发布闲置
+        .crowdfunding 众筹会员
       el-carousel.banner(:interval="5000" arrow="always")
         el-carousel-item(v-for="item in 4", :key="item")
           h3 {{ item }}
@@ -164,7 +166,55 @@ export default {
     background-color: #d3dce6;
   }
   .brast {
-    border: 1px solid #000;
+    /*border: 1px solid #000;*/
+    background: #9c9c9b;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+  }
+  .lineone {
+    height: 50%;
+  }
+  .brast-btn, .crowdfunding {
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 130px;
+    height: 130px;
+    position: relative;
+    background: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .brast-btn::after, .crowdfunding::after {
+    right: 30%;
+    top: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-color: rgba(57, 176, 247, 0);
+    border-left-color: #409EFF;
+    border-width: 10px;
+    margin-top: -10px;
+  }
+  .brast-btn::before, .crowdfunding::before {
+    content: '旧物换钱 方便快速';
+    display: inline-block;
+    position: absolute;
+    bottom: -25px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 10px;
+    color: #999;
+  }
+  .brast-btn {
+    margin-bottom: 10px;
+  }
+  .crowdfunding::before {
+    content: '优酷会员了解一下？'
   }
   .home-list {
     margin-top: 20px;
