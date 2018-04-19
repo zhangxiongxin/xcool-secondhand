@@ -17,6 +17,7 @@
     mFooter
 </template>
 <script>
+import CommonService from '@/server/common'
 export default {
   data () {
     return {
@@ -109,6 +110,19 @@ export default {
       this.$router.push(url)
       console.log(url)
     }
+  },
+  created () {
+    let params = {
+      pageNum: 1,
+      pageSize: 10
+    }
+    CommonService.goodsList(params)
+      .then(res => {
+        console.log(res)
+      })
+      .catch(err => {
+        console.log(err)
+      })
   }
 }
 </script>

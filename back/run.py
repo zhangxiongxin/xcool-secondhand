@@ -1,7 +1,7 @@
 from flask import Flask, g
 from flask.ext import restful
 from flask import request
-from app.api import outApi, user
+from app.api import outApi, user, common
 from flask.ext.mysql import MySQL
 # from flask import make_response
 import traceback
@@ -63,5 +63,12 @@ class Register(restful.Resource):
       result = user.register(userId, loginName, loginPwd, userPhone)
       return result
 api.add_resource(Register, '/api/register')
+class GoodsList(restful.Resource):
+    def get(self):
+      pageNum = request.args.get('pageNum')
+      pageSize = request.args.get('pageSize')
+      result = common.getGoodsList(pageNum, pageSize)
+      return result
+api.add_resource(GoodsList, '/api/goodsList')
 if __name__ == '__main__':
     app.run(debug=True)

@@ -15,5 +15,8 @@ class CommonService {
   pay (params) {
     return xhr('order/trpayGetWay', { method: 'GET', params })
   }
+  goodsList (params) {
+    return xhr('api/goodsList', { method: 'GET', params })
+  }
 }
 export default new CommonService()
