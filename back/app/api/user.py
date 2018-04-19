@@ -31,7 +31,6 @@ def login(userPhone, loginPwd):
   cursor = g.db.cursor()
   cursor.execute(sql)
   data = cursor.fetchone()
-  print(data)
   if data:
     code = 10000
     if (data[1] == 1):
@@ -50,7 +49,6 @@ def queryUser(userPhone):
   cursor = g.db.cursor()
   cursor.execute(sql)
   data = cursor.fetchone()
-  print(data)
   if data:
     code = 10000
     if (data[5] == 1):
@@ -66,12 +64,10 @@ def register(userId, loginName, loginPwd, userPhone):
   t = time.time()
   userStatus = 1
   sql = "insert into user(userId, loginName, loginPwd, userPhone, userStatus) values ('%s', '%s', '%s', '%s', '%s')" % (userId, loginName, loginPwd, userPhone, userStatus)
-  print(sql)
   cursor = g.db.cursor()
   cursor.execute(sql)
   data = cursor.fetchone()
   g.db.commit()
-  print(data)
   return data
 def generateId():
   return uuid.uuid1()

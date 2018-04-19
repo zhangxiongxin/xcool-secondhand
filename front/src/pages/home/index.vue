@@ -21,94 +21,12 @@ import CommonService from '@/server/common'
 export default {
   data () {
     return {
-      goodsList: [
-        {
-          name: '篮球',
-          id: 'aaa'
-        },
-        {
-          name: '足球',
-          id: 'bbb'
-        },
-        {
-          name: '篮球',
-          id: 'aaa'
-        },
-        {
-          name: '足球',
-          id: 'bbb'
-        },
-        {
-          name: '篮球',
-          id: 'aaa'
-        },
-        {
-          name: '足球',
-          id: 'bbb'
-        },
-        {
-          name: '篮球',
-          id: 'aaa'
-        },
-        {
-          name: '足球',
-          id: 'bbb'
-        },
-        {
-          name: '足球',
-          id: 'bbb'
-        },
-        {
-          name: '篮球',
-          id: 'aaa'
-        },
-        {
-          name: '足球',
-          id: 'bbb'
-        },
-        {
-          name: '篮球',
-          id: 'aaa'
-        },
-        {
-          name: '足球',
-          id: 'bbb'
-        },
-        {
-          name: '篮球',
-          id: 'aaa'
-        },
-        {
-          name: '足球',
-          id: 'bbb'
-        },
-        {
-          name: '篮球',
-          id: 'aaa'
-        },
-        {
-          name: '足球',
-          id: 'bbb'
-        },
-        {
-          name: '篮球',
-          id: 'aaa'
-        },
-        {
-          name: '足球',
-          id: 'bbb'
-        },
-        {
-          name: '篮球',
-          id: 'aaa'
-        }
-      ]
+      goodsList: []
     }
   },
   methods: {
     to (url) {
       this.$router.push(url)
-      console.log(url)
     }
   },
   created () {
@@ -119,6 +37,7 @@ export default {
     CommonService.goodsList(params)
       .then(res => {
         console.log(res)
+        this.goodsList = res
       })
       .catch(err => {
         console.log(err)

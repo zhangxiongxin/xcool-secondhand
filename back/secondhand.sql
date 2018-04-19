@@ -16,6 +16,40 @@
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 --
+-- Table structure for table `goods`
+--
+
+DROP TABLE IF EXISTS `goods`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `goods` (
+  `goodsId` varchar(30) NOT NULL DEFAULT '',
+  `ownerId` varchar(30) NOT NULL DEFAULT '',
+  `ownerName` varchar(255) NOT NULL DEFAULT '',
+  `goodsImg` varchar(255) DEFAULT NULL,
+  `goodsName` varchar(255) NOT NULL DEFAULT '',
+  `isSale` int(1) NOT NULL DEFAULT '0',
+  `goodsDesc` varchar(255) DEFAULT NULL,
+  `attrCatId` int(1) NOT NULL DEFAULT '0',
+  `createTime` datetime NOT NULL DEFAULT '0000-00-00 00:00:00',
+  `currentPrice` float(8,2) NOT NULL DEFAULT '0.00',
+  `originalPrice` float(8,2) NOT NULL DEFAULT '0.00',
+  `goodsThums` varchar(255) NOT NULL DEFAULT '',
+  PRIMARY KEY (`goodsId`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `goods`
+--
+
+LOCK TABLES `goods` WRITE;
+/*!40000 ALTER TABLE `goods` DISABLE KEYS */;
+INSERT INTO `goods` VALUES ('123','123','123','https://img.alicdn.com/bao/uploaded/i3/6000000006716/TB2cnQqomhlpuFjSspkXXa1ApXa_!!0-fleamarket.jpg_160x160.jpg','123',0,NULL,0,'0000-00-00 00:00:00',0.00,0.00,'123'),('321','321','321','https://img.alicdn.com/bao/uploaded/i1/2354695424/TB28ckgayqAXuNjy1XdXXaYcVXa_!!2354695424.jpg_200x200.jpg','321',0,NULL,0,'0000-00-00 00:00:00',0.00,0.00,'321');
+/*!40000 ALTER TABLE `goods` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
 -- Table structure for table `user`
 --
 
@@ -53,4 +87,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2018-04-18 18:10:39
+-- Dump completed on 2018-04-19 20:16:28

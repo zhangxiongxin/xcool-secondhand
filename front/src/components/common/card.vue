@@ -1,9 +1,9 @@
 <template lang="pug">
   .card-container
     .simgle(v-for="(item, index) in item", @click="fun(item)",:key="index")
-      img.goodsImg(src="https://img.alicdn.com/bao/uploaded/i1/2354695424/TB28ckgayqAXuNjy1XdXXaYcVXa_!!2354695424.jpg_200x200.jpg")
-      h3 名称: {{ item.name }}
-      //- h3 id: {{ item.id }}
+      img.goodsImg(:src="item.goodsImg")
+      a {{ item.goodsName }}
+      a ￥ {{ item.currentPrice }}
 </template>
 <script>
 export default {
@@ -23,6 +23,7 @@ export default {
     width: 10rem;
     height: 14rem;
     margin: 10px 0;
+    margin-right: 20px;
   }
   .goodsImg {
     width: 100%;
@@ -31,7 +32,8 @@ export default {
   .card-container {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    /*justify-content: space-between;*/
+    margin-right: 10px;
     flex-wrap: wrap;
   }
 </style>
