@@ -3,6 +3,7 @@
     h1 登录页
     el-input(placeholder="请输入手机号", v-model="phoneNum")
     el-input(type="password", placeholder="请输入密码", v-model="pwd")
+    el-button(@click="login") 登录
 </template>
 <script>
 import CommonService from '@/server/common'

@@ -10,13 +10,14 @@ mysql = MySQL()
 app = Flask(__name__)
 app.config['MYSQL_DATABASE_USER'] = 'root'
 app.config['MYSQL_DATABASE_PASSWORD'] = 'root'
-app.config['MYSQL_DATABASE_DB'] = 'demo'
+app.config['MYSQL_DATABASE_DB'] = 'secondhand'
 app.config['MYSQL_DATABASE_HOST'] = 'localhost'
 mysql.init_app(app)
+conn = mysql.connect()
 api = restful.Api(app)
 @app.before_request
 def my_before_request():
-  g.db = mysql.connect()
+  g.db = conn
   print('before request', request.headers)
 @app.after_request
 def my_after_request(self):
