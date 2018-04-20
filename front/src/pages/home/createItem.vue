@@ -1,12 +1,36 @@
 <template lang="pug">
   .create-container
     mHeader
-    .upload-container
-      el-button.upload-container(type="primary")
-        span.upload-btn 上传
-          input.upload-input(type="file", @change="update", multiple="multiple", ref="uploadForm")
-      img.goods-img(:src="imgSrc")
-      el-button(@click="preUpload") 开始上传
+    .upload-container.w
+      .child.goods-name-container
+        .label.required 商品名
+        el-input.input-right(placeholder="请输入商品名", v-model="form.goodsName")
+      .child.price-container
+        .label.required 商品价格
+        el-input.input-right(placeholder="请输入商品价格", v-model="form.currentPrice")
+      .child.origin-container
+        .label 商品原价
+        el-input.input-right(placeholder="请输入商品原价", v-model="form.originalPrice")
+      .child.classify-container
+        .label.required 商品分类
+        el-select.input-right(v-model="form.attrCatId")
+          el-option(v-for="item in options", :key="item.value", :label="item.label", :value="item.value")
+      .child.goods-desc-container
+        .label 描述
+        el-input.input-right.desc(type="textarea", v-model="form.goodsDesc", :rows="4", resize="none", placeholder="请输入对商品的一些描述")
+      .goods-img-container
+        el-button.uploadbtn-container(type="primary")
+          span.upload-btn 上传图片
+            input.upload-input(type="file", @change="update", multiple="multiple", ref="uploadForm")
+        img.goods-img(:src="imgSrc")
+      .goods-btn-container
+        el-button.brast(type="primary") 发布闲置
+        el-button.cancel 取消
+      //- el-button.upload-container(type="primary")
+      //-   span.upload-btn 上传
+      //-     input.upload-input(type="file", @change="update", multiple="multiple", ref="uploadForm")
+      //- img.goods-img(:src="imgSrc")
+      //- el-button(@click="preUpload") 开始上传
       //- el-upload.uploader(action="", :show-file-list="false", :on-success="update", :before-upload="update", :auto-upload="false", :on-preview="update")
       //-   img.goods-img(v-if="imgSrc", :src="imgSrc")
       //-   i.el-icon-plus.uploader-img(v-else)
@@ -21,6 +45,34 @@ export default {
   name: 'createItem',
   data () {
     return {
+      form: {
+        ownerId: '',
+        attrCatId: '',
+        goodsImg: '',
+        goodsName: '',
+        isSale: '',
+        goodsDesc: '',
+        createTime: '',
+        currentPrice: '',
+        originalPrice: '',
+        goodsThums: ''
+      },
+      options: [{
+        value: 0,
+        label: '数码'
+      }, {
+        value: 1,
+        label: '文娱'
+      }, {
+        value: 2,
+        label: '服饰'
+      }, {
+        value: 3,
+        label: '虚拟'
+      }, {
+        value: 4,
+        label: '其他'
+      }],
       name: 'xcool',
       file: null,
       key: '',
@@ -92,8 +144,29 @@ export default {
 }
 </script>
 <style scoped>
+  .required {
+    position: relative;
+  }
+  .required::before {
+    font-size: 16px;
+    content: "*";
+    display: inline-block;
+    position: absolute;
+    color: red;
+    left: -21px;
+    top: 4px;
+  }
+  .w {
+    max-width: 800px;
+    min-width: 600px;
+    margin: 0 auto;
+  }
   .upload-container {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
     margin-top: 40px;
+    margin-bottom: 200px;
   }
   .upload-input {
     position:absolute;
@@ -106,14 +179,65 @@ export default {
   .goods-img {
     max-width: 600px;
   }
-  .upload-btn {
-
-  }
-  .upload-container {
+  .uploadbtn-container {
+    height: 40px;
+    width: 15%;
+    margin-right: 5%;
+    margin-left: 10%;
     position: relative;
     display: inline-block;
     overflow: hidden;
   }
+  .child {
+    height: 60px;
+    margin: 10px 0;
+    display: flex;
+  }
+  .label {
+    width: 15%;
+    text-align: left;
+    font-size: 14px;
+    color: #333;
+    margin-right: 5%;
+    margin-left: 10%;
+    line-height: 40px;
+  }
+  .input-right {
+    width: 30%;
+  }
+  .input-right.desc {
+    width: 50%;
+  }
+  .child.goods-desc-container {
+    height: 90px;
+  }
+  .goods-img-container {
+    margin: 20px 0;
+    display: flex;
+    max-height: 400px;
+    align-items: flex-end;
+  }
+  .goods-btn-container {
+    display: flex;
+  }
+  .brast {
+    margin-left: 50%;
+    width: 120px;
+  }
+  .cancel {
+    background: #c2e8fe;
+    color: #39b0f7;
+    width: 120px;
+  }
+  .cancel:hover {
+    background: #39b0f7;
+    color: #fff;
+  }
+/*  .uploadbtn-container.el-button--primary {
+    color: #409EFF;
+    border: none;
+    background: none;
+  }*/
 /*  .uploader .el-upload {
     border: 1px dashed #d9d9d9;
     border-radius: 6px;

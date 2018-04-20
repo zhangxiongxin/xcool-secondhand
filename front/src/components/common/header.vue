@@ -8,7 +8,7 @@
     .home-logo
       .content.w
         .name
-          .name-img 标题
+          .name-img 闲鱼
         el-menu.meui(mode="horizontal", background-color="#409EFF", text-color="#eee")
           el-menu-item.item(index="home", @click="to('/')") 首页
           el-menu-item.item(index="it") 数码
