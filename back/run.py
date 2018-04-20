@@ -70,5 +70,11 @@ class GoodsList(restful.Resource):
       result = common.getGoodsList(pageNum, pageSize)
       return result
 api.add_resource(GoodsList, '/api/goodsList')
+class AddGoods(restful.Resource):
+    def get(self):
+      params = request.args
+      result = common.addGoods(params)
+      return result
+api.add_resource(AddGoods, '/api/add')
 if __name__ == '__main__':
     app.run(debug=True)

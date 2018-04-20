@@ -34,7 +34,7 @@ def login(userPhone, loginPwd):
   if data:
     code = 10000
     if (data[1] == 1):
-      result = 'success'
+      result = { 'name': data[1] }
       token = generate_token(key, 3600)
       return {'code': code, 'message': result, 'token': token}
     else:

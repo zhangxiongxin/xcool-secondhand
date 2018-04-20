@@ -22,7 +22,9 @@ export default {
         loginPwd: md5(this.pwd)
       }
       CommonService.login(params)
-        .then(res => { this.$router.push('/') })
+        .then(res => {
+          this.$router.push('/')
+        })
         .catch(err => { console.log(err) })
     }
   },
