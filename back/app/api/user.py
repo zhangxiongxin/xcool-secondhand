@@ -45,19 +45,20 @@ def login(userPhone, loginPwd):
   g.db.commit()
   return {'code': code, 'message': result}
 def queryUser(userPhone):
-  sql = "select * from user where userPhone=%s;" % (userPhone)
+  sql = "select userStatus from user where userPhone=%s;" % (userPhone)
   cursor = g.db.cursor()
   cursor.execute(sql)
   data = cursor.fetchone()
+  code = 10000
   if data:
-    code = 10000
-    if (data[5] == 1):
-      result = 'success'
+    if (data[0] == 1):
+      result = {'status': 1}
+      token = generate_token(key, 3600)
+      return {'code': code, 'message': result, 'token': token}      
     else:
-      result = 'Account freeze'
+      result = {'status': 0}
   else:
-    code = 10001
-    result = 'no account!'
+    result = {'status': 3}
   g.db.commit()
   return {'code': code, 'message': result}
 def register(userId, loginName, loginPwd, userPhone):

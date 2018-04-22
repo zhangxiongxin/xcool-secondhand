@@ -6,6 +6,7 @@ import Login from '@/pages/login'
 import Register from '@/pages/register'
 import NotFound from '@/pages/404'
 import Pay from '@/pages/home/pay'
+import Admin from '@/pages/admin'
 Vue.use(Router)
 
 export default new Router({
@@ -15,6 +16,11 @@ export default new Router({
       path: '/',
       name: 'home',
       component: HomePage
+    },
+    {
+      path: '/admin',
+      name: 'admin',
+      component: Admin
     },
     {
       path: '/add',
