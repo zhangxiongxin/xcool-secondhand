@@ -7,6 +7,7 @@ import Register from '@/pages/register'
 import NotFound from '@/pages/404'
 import Pay from '@/pages/home/pay'
 import Admin from '@/pages/admin'
+import Detail from '@/pages/home/detail'
 Vue.use(Router)
 
 export default new Router({
@@ -26,6 +27,11 @@ export default new Router({
       path: '/add',
       name: 'add',
       component: Add
+    },
+    {
+      path: '/detail',
+      name: 'detail',
+      component: Detail
     },
     {
       path: '/pay',

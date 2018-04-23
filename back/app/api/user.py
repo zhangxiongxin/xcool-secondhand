@@ -47,14 +47,14 @@ def login(userPhone, loginPwd):
   g.db.commit()
   return {'code': code, 'message': result}
 def queryUser(userPhone):
-  sql = "select userStatus from user where userPhone=%s;" % (userPhone)
+  sql = "select userStatus, loginName from user where userPhone=%s;" % (userPhone)
   cursor = g.db.cursor()
   cursor.execute(sql)
   data = cursor.fetchone()
   code = 10000
   if data:
     if (data[0] == 1):
-      result = {'status': 1}
+      result = {'status': 1, 'loginName': data[1]}
       token = generate_token(key, 3600)
       return {'code': code, 'message': result, 'token': token}      
     else:
@@ -70,6 +70,12 @@ def register(userId, loginName, userPhone, alipay, stress):
   cursor.execute(sql)
   data = cursor.fetchone()
   g.db.commit()
-  return data
+  print(data)
+  code = 10000
+  if (data == None):
+      token = generate_token(key, 3600)
+      result = 'register success!'
+      return {'code': code, 'message': result, 'token': token}
+  return {'code': code, 'message': 'fail'}
 def generateId():
   return uuid.uuid1()

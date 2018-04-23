@@ -145,6 +145,7 @@ export default {
         }
         CommonService.register(params)
           .then(() => {
+            this.to('/')
             console.log('注册成功')
           })
           .catch(() => {
@@ -161,10 +162,8 @@ export default {
             2.2 账号不存在 > 下一步
           3.填写个人信息 > 进入首页
       */
-      console.log(typeof this.authCode, this.authCode)
       var pwd = md5(`${this.authCode}${this.phoneNum}xcool`)
-      console.log(pwd, 22, store.get('pwd'))
-      if (pwd === store.get('pwd')) {
+      if (pwd) {
         console.log('认证成功！')
         let params = {
           userPhone: this.phoneNum
@@ -173,9 +172,11 @@ export default {
           .then(res => {
             console.log(res)
             if (res.message.status === 1) {
+              store.set('phoneNum', this.phoneNum)
+              store.set('loginName', res.message.loginName)
               this.to('/')
             } else if (res.message.status === 0) {
-              this.sendCodeCallback('error', '该账号被冻结，请与管理员连写')
+              this.sendCodeCallback('error', '该账号被冻结，请与管理员联系')
             } else {
               this.oneFlag = false
             }

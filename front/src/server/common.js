@@ -3,6 +3,9 @@ class CommonService {
   getUploadToken (params) {
     return xhr('api/getUploadToken', { method: 'GET', params })
   }
+  addItem (params) {
+    return xhr('api/add', { method: 'POST', params })
+  }
   login (params) {
     return xhr('api/login', { method: 'POST', params })
   }

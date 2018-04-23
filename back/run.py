@@ -72,7 +72,7 @@ class GoodsList(restful.Resource):
       return result
 api.add_resource(GoodsList, '/api/goodsList')
 class AddGoods(restful.Resource):
-    def get(self):
+    def post(self):
       params = request.args
       result = common.addGoods(params)
       return result

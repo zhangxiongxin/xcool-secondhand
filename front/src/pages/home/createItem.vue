@@ -24,35 +24,27 @@
             input.upload-input(type="file", @change="update", multiple="multiple", ref="uploadForm")
         img.goods-img(:src="imgSrc")
       .goods-btn-container
-        el-button.brast(type="primary") 发布闲置
-        el-button.cancel 取消
-      //- el-button.upload-container(type="primary")
-      //-   span.upload-btn 上传
-      //-     input.upload-input(type="file", @change="update", multiple="multiple", ref="uploadForm")
-      //- img.goods-img(:src="imgSrc")
-      //- el-button(@click="preUpload") 开始上传
-      //- el-upload.uploader(action="", :show-file-list="false", :on-success="update", :before-upload="update", :auto-upload="false", :on-preview="update")
-      //-   img.goods-img(v-if="imgSrc", :src="imgSrc")
-      //-   i.el-icon-plus.uploader-img(v-else)
+        el-button.brast(@click="preUpload", type="primary") 发布闲置
+        el-button.cancel(@click="cancel") 取消
     mFooter
 </template>
 <script>
 import CommonService from '@/server/common'
 import { uuid } from '@/utils/uuid'
+import store from 'store'
 const region = 'http://up.qiniu.com'
-// const Imgurl = 'http://opma82b7e.bkt.clouddn.com'
+const ImgBaseUrl = 'http://p79ebonvg.bkt.clouddn.com'
 export default {
   name: 'createItem',
   data () {
     return {
       form: {
-        ownerId: '',
+        ownerId: store.get('phoneNum'),
+        ownerName: store.get('loginName'),
         attrCatId: '',
         goodsImg: '',
         goodsName: '',
-        isSale: '',
         goodsDesc: '',
-        createTime: '',
         currentPrice: '',
         originalPrice: '',
         goodsThums: ''
@@ -79,10 +71,15 @@ export default {
       token: '',
       fileType: '',
       uploadList: [],
-      imgSrc: ''
+      imgSrc: '',
+      imgUrl: '',
+      imgThumb: ''
     }
   },
   methods: {
+    to (url) {
+      this.$router.push(url)
+    },
     // 上传前通过服务端获取七牛云上传凭证
     preUpload () {
       if (!this.file) throw new Error('file in empty!')
@@ -109,6 +106,9 @@ export default {
         if (xhr.readyState === 4 && xhr.status === 200 && xhr.responseText !== '') {
           var result = JSON.parse(xhr.responseText)
           console.log(result, '上传图片返回')
+          this.form.goodsImg = `${ImgBaseUrl}/${result.key}`
+          this.form.goodsThums = `${ImgBaseUrl}/${result.key}/thumb`
+          this.commitItem()
         } else {
           // console.log(res, '上传失败')
         }
@@ -136,6 +136,20 @@ export default {
       var fileName = uuid()
       this.key = `${fileName}${this.fileType}`
       console.dir(this.$refs.uploadForm)
+    },
+    // 提交表单，上传商品
+    commitItem () {
+      CommonService.addItem(this.form)
+        .then((res) => {
+          console.log(res)
+          this.to('/')
+        })
+        .catch((err) => {
+          console.log(err)
+        })
+    },
+    cancel () {
+      this.to('/')
     }
   },
   created () {

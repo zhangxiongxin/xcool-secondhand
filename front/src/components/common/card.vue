@@ -1,17 +1,25 @@
 <template lang="pug">
   .card-container
     .simgle(v-for="(item, index) in item", @click="fun(item)",:key="index")
-      img.goodsImg(:src="item.goodsImg")
+      img.goodsImg(:src="item.goodsThums")
       a {{ item.goodsName }}
       a ￥ {{ item.currentPrice }}
 </template>
 <script>
+import store from 'store'
 export default {
   name: 'card',
-  props: ['item', 'index'],
+  props: {
+    item: {
+      type: Array,
+      required: true
+    }
+  },
   methods: {
     fun (item) {
-      console.log(item.id)
+      console.dir(item)
+      store.set('currentItem', item)
+      this.$router.push('/detail')
     }
   }
 }

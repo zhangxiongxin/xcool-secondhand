@@ -2,9 +2,7 @@
   .home-index-container
     .home-head.w
       .home-head-left
-        a.login(@click="to('/login')") 亲，请登录
-        a.register(@click="to('/register')") 免费注册
-      //- upload
+        a.login(@click="to('/login')") 亲，请登录/注册
     .home-logo
       .content.w
         .name

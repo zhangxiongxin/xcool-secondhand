@@ -100,7 +100,7 @@ export default {
   }
   .brast {
     /*border: 1px solid #000;*/
-    background: #9c9c9b;
+    background: #edeeef;
     display: flex;
     flex-direction: column;
     padding: 10px;
