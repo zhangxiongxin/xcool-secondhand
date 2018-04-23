@@ -58,9 +58,10 @@ class Register(restful.Resource):
     def post(self):
       userId = request.args.get('userId')
       loginName = request.args.get('loginName')
-      loginPwd = request.args.get('loginPwd')
       userPhone = request.args.get('userPhone')
-      result = user.register(userId, loginName, loginPwd, userPhone)
+      alipay = request.args.get('alipay')
+      stress = request.args.get('stress')
+      result = user.register(userId, loginName, userPhone, alipay, stress)
       return result
 api.add_resource(Register, '/api/register')
 class GoodsList(restful.Resource):

@@ -22,7 +22,7 @@
             el-input.user-name.user(v-model="loginName")
           .pwd
             a.reg-info 支付宝账号:
-            el-input.user-pwd.user(v-model="zfb")
+            el-input.user-pwd.user(v-model="alipay")
           .stress
             a.reg-info 详细地址:
             el-input.stress-in(type="textarea", v-model="stress", :rows="2", resize="none")
@@ -37,7 +37,7 @@ import ajax from '@/server/ajax'
 export default {
   data () {
     return {
-      zfb: '',
+      alipay: '',
       phoneNum: '',
       getCode: '获取验证码',
       btnType: 'primary',
@@ -71,31 +71,37 @@ export default {
     },
     // 获取验证码
     getVerification () {
-      var code = this.random()
-      console.log(typeof code, code)
-      var m = 5
-      var params = {
-        accountSid: '26d1714cd0614834a0d62db2c002a730',
-        to: this.phoneNum,
-        timestamp: Date.parse(new Date()),
-        smsContent: `【惠物品】您的验证码为${code}，请于${m}分钟内正确输入，如非本人操作，请忽略此短信。`,
-        sig: md5('26d1714cd0614834a0d62db2c002a73055ba8bef73654108b7688c84de9c9ee2' + Date.parse(new Date()))
+      let reg = /^1[0-9]{10}$/
+      var flag = reg.test(this.phoneNum)
+      if (!flag) {
+        this.sendCodeCallback('error', '手机号码不合法')
+      } else {
+        var code = this.random()
+        console.log(typeof code, code)
+        var m = 5
+        var params = {
+          accountSid: '26d1714cd0614834a0d62db2c002a730',
+          to: this.phoneNum,
+          timestamp: Date.parse(new Date()),
+          smsContent: `【惠物品】您的验证码为${code}，请于${m}分钟内正确输入，如非本人操作，请忽略此短信。`,
+          sig: md5('26d1714cd0614834a0d62db2c002a73055ba8bef73654108b7688c84de9c9ee2' + Date.parse(new Date()))
+        }
+        var pwd = md5(`${code}${this.phoneNum}xcool`)
+        console.log(pwd, 11)
+        store.set('pwd', pwd)
+        ajax('api/getCode', { method: 'POST', params })
+          .then(res => {
+            this.timeFlag = true
+            this.getCode = 60
+            this.sendCodeCallback('success', '验证码发送成功，请注意查收！')
+            setTimeout(() => {
+              store.remove('pwd')
+            }, 30000)
+            this.timer = setInterval(() => {
+              this.getCode === 0 ? this.isTime() : this.getCode--
+            }, 1000)
+          })
       }
-      var pwd = md5(`${code}${this.phoneNum}xcool`)
-      console.log(pwd, 11)
-      store.set('pwd', pwd)
-      ajax('api/getCode', { method: 'POST', params })
-        .then(res => {
-          this.timeFlag = true
-          this.getCode = 60
-          this.sendCodeCallback('success', '验证码发送成功，请注意查收！')
-          setTimeout(() => {
-            store.remove('pwd')
-          }, 30000)
-          this.timer = setInterval(() => {
-            this.getCode === 0 ? this.isTime() : this.getCode--
-          }, 1000)
-        })
     },
     // 生成六位数随机码
     random () {
@@ -127,20 +133,23 @@ export default {
     },
     // 新注册用户填写资料提交验证
     comfirm () {
-      if (!this.auth(this.loginName) || !this.auth(this.loginPwd)) {
+      if (!this.auth(this.loginName) || !this.auth(this.alipay) || !this.auth(this.stress)) {
         this.sendCodeCallback('error', '请正确填写昵称和密码后再进行提交')
       } else {
         let params = {
           userId: this.phoneNum,
           loginName: this.loginName,
-          loginPwd: md5(this.loginPwd),
-          userPhone: this.phoneNum
+          userPhone: this.phoneNum,
+          alipay: this.alipay,
+          stress: this.stress
         }
         CommonService.register(params)
           .then(() => {
-            console.log('ss')
+            console.log('注册成功')
           })
-          .catch()
+          .catch(() => {
+            console.log('注册失败')
+          })
       }
     },
     register () {
@@ -165,7 +174,7 @@ export default {
             console.log(res)
             if (res.message.status === 1) {
               this.to('/')
-            } else if (res.message.status === 3) {
+            } else if (res.message.status === 0) {
               this.sendCodeCallback('error', '该账号被冻结，请与管理员连写')
             } else {
               this.oneFlag = false

@@ -1,7 +1,8 @@
-import uuid, time, base64, hmac
+import uuid, time, base64, hmac, datetime
 from flask import Flask, g
 app = Flask(__name__)
 key = 'xcool95'
+# 生成token
 def generate_token(key, expire=3600):
     ts_str = str(time.time() + expire)
     ts_byte = ts_str.encode("utf-8")
@@ -9,6 +10,7 @@ def generate_token(key, expire=3600):
     token = ts_str+':'+sha1_tshexstr
     b64_token = base64.urlsafe_b64encode(token.encode("utf-8"))
     return b64_token.decode("utf-8")
+# 验证token
 def certify_token(key, token):
     token_str = base64.urlsafe_b64decode(token).decode('utf-8')
     token_list = token_str.split(':')
@@ -61,10 +63,9 @@ def queryUser(userPhone):
     result = {'status': 3}
   g.db.commit()
   return {'code': code, 'message': result}
-def register(userId, loginName, loginPwd, userPhone):
-  t = time.time()
-  userStatus = 1
-  sql = "insert into user(userId, loginName, loginPwd, userPhone, userStatus) values ('%s', '%s', '%s', '%s', '%s')" % (userId, loginName, loginPwd, userPhone, userStatus)
+def register(userId, loginName, userPhone, alipay, stress):
+  createTime  = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+  sql = "insert into user(userId, loginName, userPhone, alipay, stress, userStatus, createTime) values ('%s', '%s', '%s', '%s', '%s', 1, '%s')" % (userId, loginName, userPhone, alipay, stress, createTime)
   cursor = g.db.cursor()
   cursor.execute(sql)
   data = cursor.fetchone()
