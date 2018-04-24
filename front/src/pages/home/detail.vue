@@ -75,7 +75,7 @@ export default {
     width: 450px;
     height: 300px;
     border: 1px solid #000;
-    margin-right: 15px; 
+    margin-right: 15px;
   }
   .goodsImg {
     max-height: 100%;

@@ -1,0 +1,3706 @@
+﻿<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40"
+ xmlns:msxsl="urn:schemas-microsoft-com:xslt" xmlns:user="urn:my-scripts">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>11895</WindowHeight>
+  <WindowWidth>25800</WindowWidth>
+  <WindowTopX>0</WindowTopX>
+  <WindowTopY>0</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Center"/>
+   <Borders/>
+   <Font ss:FontName="等线" x:CharSet="134" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="record">
+  <Table ss:ExpandedColumnCount="13" ss:ExpandedRowCount="243" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="54" ss:DefaultRowHeight="14.25">
+   <Column ss:Index="2" ss:Width="303.75"/>
+   <Column ss:Width="60.75"/>
+   <Column ss:Width="78"/>
+   <Column ss:Index="7" ss:Width="83.25"/>
+   <Column ss:Index="9" ss:Width="103.5"/>
+   <Row>
+    <Cell><Data ss:Type="String">序号</Data></Cell>
+    <Cell><Data ss:Type="String">topicname</Data></Cell>
+    <Cell><Data ss:Type="String">propname</Data></Cell>
+    <Cell><Data ss:Type="String">sourcename</Data></Cell>
+    <Cell><Data ss:Type="String">compname</Data></Cell>
+    <Cell><Data ss:Type="String">typename</Data></Cell>
+    <Cell><Data ss:Type="String">sno</Data></Cell>
+    <Cell><Data ss:Type="String">stuname</Data></Cell>
+    <Cell><Data ss:Type="String">class</Data></Cell>
+    <Cell><Data ss:Type="String">name</Data></Cell>
+    <Cell><Data ss:Type="String">rankname</Data></Cell>
+    <Cell><Data ss:Type="String">applyname</Data></Cell>
+    <Cell><Data ss:Type="String">THESISID</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">基于SpringBoot的创新创业项目管理系统设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">科研课题</Data></Cell>
+    <Cell><Data ss:Type="String">新题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">20131687</Data></Cell>
+    <Cell><Data ss:Type="String">杨智强</Data></Cell>
+    <Cell><Data ss:Type="String">计算机科学与技术</Data></Cell>
+    <Cell><Data ss:Type="String">罗学刚</Data></Cell>
+    <Cell><Data ss:Type="String">讲师</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="String">基于WEB的人力资源管理软件的设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">应用</Data></Cell>
+    <Cell><Data ss:Type="String">生产社会实际</Data></Cell>
+    <Cell><Data ss:Type="String">旧题改进</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">20132469</Data></Cell>
+    <Cell><Data ss:Type="String">卢超</Data></Cell>
+    <Cell><Data ss:Type="String">计算机科学与技术</Data></Cell>
+    <Cell><Data ss:Type="String">刘继光</Data></Cell>
+    <Cell><Data ss:Type="String">教授</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="String">基于Android手机导航系统的研究与设计</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">科研课题</Data></Cell>
+    <Cell><Data ss:Type="String">旧题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201010803038</Data></Cell>
+    <Cell><Data ss:Type="String">许红林</Data></Cell>
+    <Cell><Data ss:Type="String">网络工程</Data></Cell>
+    <Cell><Data ss:Type="String">陈尧</Data></Cell>
+    <Cell><Data ss:Type="String">讲师</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="String">基于Android外卖订餐系统的APP设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">应用</Data></Cell>
+    <Cell><Data ss:Type="String">生产社会实际</Data></Cell>
+    <Cell><Data ss:Type="String">新题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410801001</Data></Cell>
+    <Cell><Data ss:Type="String">曾波</Data></Cell>
+    <Cell><Data ss:Type="String">计算机科学与技术</Data></Cell>
+    <Cell><Data ss:Type="String">刘泽民</Data></Cell>
+    <Cell><Data ss:Type="String">教授</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="String">基于Android的美食购物App的设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">应用</Data></Cell>
+    <Cell><Data ss:Type="String">生产社会实际</Data></Cell>
+    <Cell><Data ss:Type="String">新题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410801003</Data></Cell>
+    <Cell><Data ss:Type="String">陈煜坤</Data></Cell>
+    <Cell><Data ss:Type="String">计算机科学与技术</Data></Cell>
+    <Cell><Data ss:Type="String">陈尧</Data></Cell>
+    <Cell><Data ss:Type="String">讲师</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">6</Data></Cell>
+    <Cell><Data ss:Type="String">基于Android的网上花店销售系统的APP设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">应用</Data></Cell>
+    <Cell><Data ss:Type="String">生产社会实际</Data></Cell>
+    <Cell><Data ss:Type="String">新题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410801004</Data></Cell>
+    <Cell><Data ss:Type="String">冯磊</Data></Cell>
+    <Cell><Data ss:Type="String">计算机科学与技术</Data></Cell>
+    <Cell><Data ss:Type="String">刘泽民</Data></Cell>
+    <Cell><Data ss:Type="String">教授</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">7</Data></Cell>
+    <Cell><Data ss:Type="String">基于JSP的网上问卷调查系统的设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">其他来源</Data></Cell>
+    <Cell><Data ss:Type="String">新题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410801005</Data></Cell>
+    <Cell><Data ss:Type="String">付勇</Data></Cell>
+    <Cell><Data ss:Type="String">计算机科学与技术</Data></Cell>
+    <Cell><Data ss:Type="String">罗佳</Data></Cell>
+    <Cell><Data ss:Type="String">助教</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">8</Data></Cell>
+    <Cell><Data ss:Type="String">家庭财务管理软件的设计和实现</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">生产社会实际</Data></Cell>
+    <Cell><Data ss:Type="String">新题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410801007</Data></Cell>
+    <Cell><Data ss:Type="String">侯文华</Data></Cell>
+    <Cell><Data ss:Type="String">计算机科学与技术</Data></Cell>
+    <Cell><Data ss:Type="String">周朝萱</Data></Cell>
+    <Cell><Data ss:Type="String">副教授</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">9</Data></Cell>
+    <Cell><Data ss:Type="String">基于Web的软件远程安装系统设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">生产社会实际</Data></Cell>
+    <Cell><Data ss:Type="String">新题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410801008</Data></Cell>
+    <Cell><Data ss:Type="String">黄胜</Data></Cell>
+    <Cell><Data ss:Type="String">计算机科学与技术</Data></Cell>
+    <Cell><Data ss:Type="String">周方晓</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">10</Data></Cell>
+    <Cell><Data ss:Type="String">中小型企业人事管理系统设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">应用</Data></Cell>
+    <Cell><Data ss:Type="String">生产社会实际</Data></Cell>
+    <Cell><Data ss:Type="String">旧题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410801009</Data></Cell>
+    <Cell><Data ss:Type="String">蒋杰</Data></Cell>
+    <Cell><Data ss:Type="String">计算机科学与技术</Data></Cell>
+    <Cell><Data ss:Type="String">陈尧</Data></Cell>
+    <Cell><Data ss:Type="String">讲师</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">11</Data></Cell>
+    <Cell><Data ss:Type="String">试卷生成子系统的设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">科研课题</Data></Cell>
+    <Cell><Data ss:Type="String">新题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410801010</Data></Cell>
+    <Cell><Data ss:Type="String">康超</Data></Cell>
+    <Cell><Data ss:Type="String">计算机科学与技术</Data></Cell>
+    <Cell><Data ss:Type="String">欧方平</Data></Cell>
+    <Cell><Data ss:Type="String">讲师</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">12</Data></Cell>
+    <Cell><Data ss:Type="String">攀枝花市旅游电子地图的设计与实现  </Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">生产社会实际</Data></Cell>
+    <Cell><Data ss:Type="String">旧题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410801011</Data></Cell>
+    <Cell><Data ss:Type="String">赖正明</Data></Cell>
+    <Cell><Data ss:Type="String">计算机科学与技术</Data></Cell>
+    <Cell><Data ss:Type="String">刘小英</Data></Cell>
+    <Cell><Data ss:Type="String">讲师</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">13</Data></Cell>
+    <Cell><Data ss:Type="String">数计学院学生管理信息系统设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">应用</Data></Cell>
+    <Cell><Data ss:Type="String">生产社会实际</Data></Cell>
+    <Cell><Data ss:Type="String">旧题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410801012</Data></Cell>
+    <Cell><Data ss:Type="String">李超</Data></Cell>
+    <Cell><Data ss:Type="String">计算机科学与技术</Data></Cell>
+    <Cell><Data ss:Type="String">刘泽民</Data></Cell>
+    <Cell><Data ss:Type="String">教授</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">14</Data></Cell>
+    <Cell><Data ss:Type="String">小型药店综合管理系统的设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">其他来源</Data></Cell>
+    <Cell><Data ss:Type="String">旧题改进</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410801013</Data></Cell>
+    <Cell><Data ss:Type="String">李岱虹</Data></Cell>
+    <Cell><Data ss:Type="String">计算机科学与技术</Data></Cell>
+    <Cell><Data ss:Type="String">蔡炯</Data></Cell>
+    <Cell><Data ss:Type="String">讲师</Data></Cell>
+    <Cell><Data ss:Type="String">否</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">15</Data></Cell>
+    <Cell><Data ss:Type="String">基于互联网金融的众筹系统的设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">应用</Data></Cell>
+    <Cell><Data ss:Type="String">生产社会实际</Data></Cell>
+    <Cell><Data ss:Type="String">新题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410801014</Data></Cell>
+    <Cell><Data ss:Type="String">李军</Data></Cell>
+    <Cell><Data ss:Type="String">计算机科学与技术</Data></Cell>
+    <Cell><Data ss:Type="String">冯伟</Data></Cell>
+    <Cell><Data ss:Type="String">助教</Data></Cell>
+    <Cell><Data ss:Type="String">否</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">16</Data></Cell>
+    <Cell><Data ss:Type="String">攀枝花学院在线投稿审稿系统的设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">生产社会实际</Data></Cell>
+    <Cell><Data ss:Type="String">新题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410801015</Data></Cell>
+    <Cell><Data ss:Type="String">刘冉阳</Data></Cell>
+    <Cell><Data ss:Type="String">计算机科学与技术</Data></Cell>
+    <Cell><Data ss:Type="String">朱正国</Data></Cell>
+    <Cell><Data ss:Type="String">讲师</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">17</Data></Cell>
+    <Cell><Data ss:Type="String">攀枝花学院工会趣味运动会管理系统的设计与实现 </Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">生产社会实际</Data></Cell>
+    <Cell><Data ss:Type="String">新题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410801016</Data></Cell>
+    <Cell><Data ss:Type="String">卢鑫培</Data></Cell>
+    <Cell><Data ss:Type="String">计算机科学与技术</Data></Cell>
+    <Cell><Data ss:Type="String">刘小英</Data></Cell>
+    <Cell><Data ss:Type="String">讲师</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">18</Data></Cell>
+    <Cell><Data ss:Type="String">基于Android的礼物助手App设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">应用</Data></Cell>
+    <Cell><Data ss:Type="String">生产社会实际</Data></Cell>
+    <Cell><Data ss:Type="String">新题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410801017</Data></Cell>
+    <Cell><Data ss:Type="String">罗毅</Data></Cell>
+    <Cell><Data ss:Type="String">计算机科学与技术</Data></Cell>
+    <Cell><Data ss:Type="String">陈尧</Data></Cell>
+    <Cell><Data ss:Type="String">讲师</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">19</Data></Cell>
+    <Cell><Data ss:Type="String">学府广场小区物业管理系统的设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">其他来源</Data></Cell>
+    <Cell><Data ss:Type="String">旧题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410801018</Data></Cell>
+    <Cell><Data ss:Type="String">强超</Data></Cell>
+    <Cell><Data ss:Type="String">计算机科学与技术</Data></Cell>
+    <Cell><Data ss:Type="String">何志国</Data></Cell>
+    <Cell><Data ss:Type="String">教授</Data></Cell>
+    <Cell><Data ss:Type="String">否</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">20</Data></Cell>
+    <Cell><Data ss:Type="String">基于Android的小型新闻发布系统的设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">生产社会实际</Data></Cell>
+    <Cell><Data ss:Type="String">新题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410801020</Data></Cell>
+    <Cell><Data ss:Type="String">秦国宇</Data></Cell>
+    <Cell><Data ss:Type="String">计算机科学与技术</Data></Cell>
+    <Cell><Data ss:Type="String">银　星</Data></Cell>
+    <Cell><Data ss:Type="String">副教授</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">21</Data></Cell>
+    <Cell><Data ss:Type="String">“废宝网”的设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">科研课题</Data></Cell>
+    <Cell><Data ss:Type="String">新题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410801021</Data></Cell>
+    <Cell><Data ss:Type="String">秦伟杰</Data></Cell>
+    <Cell><Data ss:Type="String">计算机科学与技术</Data></Cell>
+    <Cell><Data ss:Type="String">秦振涛</Data></Cell>
+    <Cell><Data ss:Type="String">副教授</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">22</Data></Cell>
+    <Cell><Data ss:Type="String">攀枝花市第六小学网络规划方案设计与仿真</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">生产社会实际</Data></Cell>
+    <Cell><Data ss:Type="String">新题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410801022</Data></Cell>
+    <Cell><Data ss:Type="String">秦园园</Data></Cell>
+    <Cell><Data ss:Type="String">计算机科学与技术</Data></Cell>
+    <Cell><Data ss:Type="String">赖国勇</Data></Cell>
+    <Cell><Data ss:Type="String">讲师</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">23</Data></Cell>
+    <Cell><Data ss:Type="String">专业课程题库及试卷管理软件的设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">生产社会实际</Data></Cell>
+    <Cell><Data ss:Type="String">新题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410801023</Data></Cell>
+    <Cell><Data ss:Type="String">邵梦杰</Data></Cell>
+    <Cell><Data ss:Type="String">计算机科学与技术</Data></Cell>
+    <Cell><Data ss:Type="String">周朝萱</Data></Cell>
+    <Cell><Data ss:Type="String">副教授</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">24</Data></Cell>
+    <Cell><Data ss:Type="String">基于Android的拼车系统的设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">科研课题</Data></Cell>
+    <Cell><Data ss:Type="String">新题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410801024</Data></Cell>
+    <Cell><Data ss:Type="String">宋洪辉</Data></Cell>
+    <Cell><Data ss:Type="String">计算机科学与技术</Data></Cell>
+    <Cell><Data ss:Type="String">罗学刚</Data></Cell>
+    <Cell><Data ss:Type="String">讲师</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">25</Data></Cell>
+    <Cell><Data ss:Type="String">基于Android平台的购物APP的设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">生产社会实际</Data></Cell>
+    <Cell><Data ss:Type="String">新题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410801025</Data></Cell>
+    <Cell><Data ss:Type="String">唐华</Data></Cell>
+    <Cell><Data ss:Type="String">计算机科学与技术</Data></Cell>
+    <Cell><Data ss:Type="String">周朝萱</Data></Cell>
+    <Cell><Data ss:Type="String">副教授</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">26</Data></Cell>
+    <Cell><Data ss:Type="String">基于Unity3D的三消类网络游戏开发</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">生产社会实际</Data></Cell>
+    <Cell><Data ss:Type="String">新题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410801026</Data></Cell>
+    <Cell><Data ss:Type="String">陶治法</Data></Cell>
+    <Cell><Data ss:Type="String">计算机科学与技术</Data></Cell>
+    <Cell><Data ss:Type="String">何志国</Data></Cell>
+    <Cell><Data ss:Type="String">教授</Data></Cell>
+    <Cell><Data ss:Type="String">否</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">27</Data></Cell>
+    <Cell><Data ss:Type="String">《数据库原理课程设计》教学管理网站的设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">生产社会实际</Data></Cell>
+    <Cell><Data ss:Type="String">新题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410801028</Data></Cell>
+    <Cell><Data ss:Type="String">汪钦松</Data></Cell>
+    <Cell><Data ss:Type="String">计算机科学与技术</Data></Cell>
+    <Cell><Data ss:Type="String">周朝萱</Data></Cell>
+    <Cell><Data ss:Type="String">副教授</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">28</Data></Cell>
+    <Cell><Data ss:Type="String">基于安卓的智能遥控系统的设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">应用</Data></Cell>
+    <Cell><Data ss:Type="String">生产社会实际</Data></Cell>
+    <Cell><Data ss:Type="String">新题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410801029</Data></Cell>
+    <Cell><Data ss:Type="String">王凯</Data></Cell>
+    <Cell><Data ss:Type="String">计算机科学与技术</Data></Cell>
+    <Cell><Data ss:Type="String">欧方平</Data></Cell>
+    <Cell><Data ss:Type="String">讲师</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">29</Data></Cell>
+    <Cell><Data ss:Type="String">江苏矿业大学校园网网络设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">生产社会实际</Data></Cell>
+    <Cell><Data ss:Type="String">新题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410801031</Data></Cell>
+    <Cell><Data ss:Type="String">王帅</Data></Cell>
+    <Cell><Data ss:Type="String">计算机科学与技术</Data></Cell>
+    <Cell><Data ss:Type="String">刘彬</Data></Cell>
+    <Cell><Data ss:Type="String">讲师</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">30</Data></Cell>
+    <Cell><Data ss:Type="String">企业合同管理系统的设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">应用</Data></Cell>
+    <Cell><Data ss:Type="String">生产社会实际</Data></Cell>
+    <Cell><Data ss:Type="String">旧题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410801033</Data></Cell>
+    <Cell><Data ss:Type="String">吴飞龙</Data></Cell>
+    <Cell><Data ss:Type="String">计算机科学与技术</Data></Cell>
+    <Cell><Data ss:Type="String">陈尧</Data></Cell>
+    <Cell><Data ss:Type="String">讲师</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">31</Data></Cell>
+    <Cell><Data ss:Type="String">&quot;生活易购&quot;超市管理系统的设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">生产社会实际</Data></Cell>
+    <Cell><Data ss:Type="String">新题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410801034</Data></Cell>
+    <Cell><Data ss:Type="String">向鹏</Data></Cell>
+    <Cell><Data ss:Type="String">计算机科学与技术</Data></Cell>
+    <Cell><Data ss:Type="String">鄢　莉</Data></Cell>
+    <Cell><Data ss:Type="String">讲师</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">32</Data></Cell>
+    <Cell><Data ss:Type="String">校园二手商品交易系统的设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">应用</Data></Cell>
+    <Cell><Data ss:Type="String">其他来源</Data></Cell>
+    <Cell><Data ss:Type="String">旧题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410801035</Data></Cell>
+    <Cell><Data ss:Type="String">肖列</Data></Cell>
+    <Cell><Data ss:Type="String">计算机科学与技术</Data></Cell>
+    <Cell><Data ss:Type="String">黄萍</Data></Cell>
+    <Cell><Data ss:Type="String">讲师</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">33</Data></Cell>
+    <Cell><Data ss:Type="String">中小型企业人力资源管理软件的设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">生产社会实际</Data></Cell>
+    <Cell><Data ss:Type="String">新题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410801036</Data></Cell>
+    <Cell><Data ss:Type="String">肖攀</Data></Cell>
+    <Cell><Data ss:Type="String">计算机科学与技术</Data></Cell>
+    <Cell><Data ss:Type="String">周朝萱</Data></Cell>
+    <Cell><Data ss:Type="String">副教授</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">34</Data></Cell>
+    <Cell><Data ss:Type="String">基于Python的生鲜订购系统的设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">生产社会实际</Data></Cell>
+    <Cell><Data ss:Type="String">新题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410801037</Data></Cell>
+    <Cell><Data ss:Type="String">徐国军</Data></Cell>
+    <Cell><Data ss:Type="String">计算机科学与技术</Data></Cell>
+    <Cell><Data ss:Type="String">兰全祥</Data></Cell>
+    <Cell><Data ss:Type="String">助教</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">35</Data></Cell>
+    <Cell><Data ss:Type="String">万达广场停车收费系统的设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">应用</Data></Cell>
+    <Cell><Data ss:Type="String">生产社会实际</Data></Cell>
+    <Cell><Data ss:Type="String">新题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410801039</Data></Cell>
+    <Cell><Data ss:Type="String">颜逸舟</Data></Cell>
+    <Cell><Data ss:Type="String">计算机科学与技术</Data></Cell>
+    <Cell><Data ss:Type="String">李世文</Data></Cell>
+    <Cell><Data ss:Type="String">教授</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">36</Data></Cell>
+    <Cell><Data ss:Type="String">基于WEB的小型企业人力资源管理系统的设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">其他来源</Data></Cell>
+    <Cell><Data ss:Type="String">旧题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410801040</Data></Cell>
+    <Cell><Data ss:Type="String">晏川</Data></Cell>
+    <Cell><Data ss:Type="String">计算机科学与技术</Data></Cell>
+    <Cell><Data ss:Type="String">何全庆</Data></Cell>
+    <Cell><Data ss:Type="String">讲师</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">37</Data></Cell>
+    <Cell><Data ss:Type="String">攀枝花学院教学交流系统的设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">其他来源</Data></Cell>
+    <Cell><Data ss:Type="String">新题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410801041</Data></Cell>
+    <Cell><Data ss:Type="String">杨介</Data></Cell>
+    <Cell><Data ss:Type="String">计算机科学与技术</Data></Cell>
+    <Cell><Data ss:Type="String">蔡炯</Data></Cell>
+    <Cell><Data ss:Type="String">讲师</Data></Cell>
+    <Cell><Data ss:Type="String">否</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">38</Data></Cell>
+    <Cell><Data ss:Type="String">基于SSM的个人博客系统的设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">生产社会实际</Data></Cell>
+    <Cell><Data ss:Type="String">新题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410801042</Data></Cell>
+    <Cell><Data ss:Type="String">杨金月</Data></Cell>
+    <Cell><Data ss:Type="String">计算机科学与技术</Data></Cell>
+    <Cell><Data ss:Type="String">兰全祥</Data></Cell>
+    <Cell><Data ss:Type="String">助教</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">39</Data></Cell>
+    <Cell><Data ss:Type="String">攀枝花学院工会管理系统的设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">生产社会实际</Data></Cell>
+    <Cell><Data ss:Type="String">新题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410801043</Data></Cell>
+    <Cell><Data ss:Type="String">余静</Data></Cell>
+    <Cell><Data ss:Type="String">计算机科学与技术</Data></Cell>
+    <Cell><Data ss:Type="String">刘小英</Data></Cell>
+    <Cell><Data ss:Type="String">讲师</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">40</Data></Cell>
+    <Cell><Data ss:Type="String">通用物资仓库管理系统的设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">生产社会实际</Data></Cell>
+    <Cell><Data ss:Type="String">新题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410801045</Data></Cell>
+    <Cell><Data ss:Type="String">张钧桓</Data></Cell>
+    <Cell><Data ss:Type="String">计算机科学与技术</Data></Cell>
+    <Cell><Data ss:Type="String">鄢　莉</Data></Cell>
+    <Cell><Data ss:Type="String">讲师</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">41</Data></Cell>
+    <Cell><Data ss:Type="String">高校科研信息管理系统的设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">应用</Data></Cell>
+    <Cell><Data ss:Type="String">其他来源</Data></Cell>
+    <Cell><Data ss:Type="String">旧题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410801046</Data></Cell>
+    <Cell><Data ss:Type="String">张倩</Data></Cell>
+    <Cell><Data ss:Type="String">计算机科学与技术</Data></Cell>
+    <Cell><Data ss:Type="String">黄萍</Data></Cell>
+    <Cell><Data ss:Type="String">讲师</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">42</Data></Cell>
+    <Cell><Data ss:Type="String">攀枝花学院学生公寓管理系统的设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">应用</Data></Cell>
+    <Cell><Data ss:Type="String">生产社会实际</Data></Cell>
+    <Cell><Data ss:Type="String">旧题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410801047</Data></Cell>
+    <Cell><Data ss:Type="String">张小龙</Data></Cell>
+    <Cell><Data ss:Type="String">计算机科学与技术</Data></Cell>
+    <Cell><Data ss:Type="String">陈尧</Data></Cell>
+    <Cell><Data ss:Type="String">讲师</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">43</Data></Cell>
+    <Cell><Data ss:Type="String">房屋中介管理软件的设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">生产社会实际</Data></Cell>
+    <Cell><Data ss:Type="String">新题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410801049</Data></Cell>
+    <Cell><Data ss:Type="String">朱鑫平</Data></Cell>
+    <Cell><Data ss:Type="String">计算机科学与技术</Data></Cell>
+    <Cell><Data ss:Type="String">周朝萱</Data></Cell>
+    <Cell><Data ss:Type="String">副教授</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">44</Data></Cell>
+    <Cell><Data ss:Type="String">攀枝花旅游服务网站的设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">生产社会实际</Data></Cell>
+    <Cell><Data ss:Type="String">新题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410801050</Data></Cell>
+    <Cell><Data ss:Type="String">邹明银</Data></Cell>
+    <Cell><Data ss:Type="String">计算机科学与技术</Data></Cell>
+    <Cell><Data ss:Type="String">银　星</Data></Cell>
+    <Cell><Data ss:Type="String">副教授</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">45</Data></Cell>
+    <Cell><Data ss:Type="String">变量代换法在常微分方程中的应用</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">生产社会实际</Data></Cell>
+    <Cell><Data ss:Type="String">新题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410802001</Data></Cell>
+    <Cell><Data ss:Type="String">蔡娟</Data></Cell>
+    <Cell><Data ss:Type="String">信息与计算科学</Data></Cell>
+    <Cell><Data ss:Type="String">廖永志</Data></Cell>
+    <Cell><Data ss:Type="String">教授</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">46</Data></Cell>
+    <Cell><Data ss:Type="String">常微分方程模型在实际生活中的应用</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">生产社会实际</Data></Cell>
+    <Cell><Data ss:Type="String">新题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410802002</Data></Cell>
+    <Cell><Data ss:Type="String">蔡星怡</Data></Cell>
+    <Cell><Data ss:Type="String">信息与计算科学</Data></Cell>
+    <Cell><Data ss:Type="String">廖永志</Data></Cell>
+    <Cell><Data ss:Type="String">教授</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">47</Data></Cell>
+    <Cell><Data ss:Type="String">LINUX防火墙技术应用研究</Data></Cell>
+    <Cell><Data ss:Type="String">应用</Data></Cell>
+    <Cell><Data ss:Type="String">生产社会实际</Data></Cell>
+    <Cell><Data ss:Type="String">旧题改进</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410802003</Data></Cell>
+    <Cell><Data ss:Type="String">陈昕</Data></Cell>
+    <Cell><Data ss:Type="String">信息与计算科学</Data></Cell>
+    <Cell><Data ss:Type="String">张靖</Data></Cell>
+    <Cell><Data ss:Type="String">教授</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">48</Data></Cell>
+    <Cell><Data ss:Type="String">基于web的自行车在线租赁管理系统的设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">生产社会实际</Data></Cell>
+    <Cell><Data ss:Type="String">新题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410802004</Data></Cell>
+    <Cell><Data ss:Type="String">邓敏</Data></Cell>
+    <Cell><Data ss:Type="String">信息与计算科学</Data></Cell>
+    <Cell><Data ss:Type="String">叶珊</Data></Cell>
+    <Cell><Data ss:Type="String">助教</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">49</Data></Cell>
+    <Cell><Data ss:Type="String">攀枝花绿色农副产品交易管理系统的设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">科研课题</Data></Cell>
+    <Cell><Data ss:Type="String">新题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410802005</Data></Cell>
+    <Cell><Data ss:Type="String">窦兴丽</Data></Cell>
+    <Cell><Data ss:Type="String">信息与计算科学</Data></Cell>
+    <Cell><Data ss:Type="String">赵相瑜</Data></Cell>
+    <Cell><Data ss:Type="String">副教授</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">50</Data></Cell>
+    <Cell><Data ss:Type="String">在线交友婚介系统的设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">生产社会实际</Data></Cell>
+    <Cell><Data ss:Type="String">新题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410802006</Data></Cell>
+    <Cell><Data ss:Type="String">冯孝兰</Data></Cell>
+    <Cell><Data ss:Type="String">信息与计算科学</Data></Cell>
+    <Cell><Data ss:Type="String">赖国勇</Data></Cell>
+    <Cell><Data ss:Type="String">讲师</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">51</Data></Cell>
+    <Cell><Data ss:Type="String">基于Web的小型超市管理系统设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">应用</Data></Cell>
+    <Cell><Data ss:Type="String">生产社会实际</Data></Cell>
+    <Cell><Data ss:Type="String">新题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410802007</Data></Cell>
+    <Cell><Data ss:Type="String">高柳春</Data></Cell>
+    <Cell><Data ss:Type="String">信息与计算科学</Data></Cell>
+    <Cell><Data ss:Type="String">刘泽民</Data></Cell>
+    <Cell><Data ss:Type="String">教授</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">52</Data></Cell>
+    <Cell><Data ss:Type="String">基于MVC的菩提苑小区购房管理系统设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">生产社会实际</Data></Cell>
+    <Cell><Data ss:Type="String">新题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410802008</Data></Cell>
+    <Cell><Data ss:Type="String">官春梅</Data></Cell>
+    <Cell><Data ss:Type="String">信息与计算科学</Data></Cell>
+    <Cell><Data ss:Type="String">赖国勇</Data></Cell>
+    <Cell><Data ss:Type="String">讲师</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">53</Data></Cell>
+    <Cell><Data ss:Type="String">得天独厚酒店管理系统的设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">生产社会实际</Data></Cell>
+    <Cell><Data ss:Type="String">旧题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410802009</Data></Cell>
+    <Cell><Data ss:Type="String">何林君</Data></Cell>
+    <Cell><Data ss:Type="String">信息与计算科学</Data></Cell>
+    <Cell><Data ss:Type="String">何志国</Data></Cell>
+    <Cell><Data ss:Type="String">教授</Data></Cell>
+    <Cell><Data ss:Type="String">否</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">54</Data></Cell>
+    <Cell><Data ss:Type="String">攀枝花钒钛高新技术开发区招商局门户网站设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">研究</Data></Cell>
+    <Cell><Data ss:Type="String">科研课题</Data></Cell>
+    <Cell><Data ss:Type="String">旧题改进</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410802010</Data></Cell>
+    <Cell><Data ss:Type="String">江芮</Data></Cell>
+    <Cell><Data ss:Type="String">信息与计算科学</Data></Cell>
+    <Cell><Data ss:Type="String">秦振涛</Data></Cell>
+    <Cell><Data ss:Type="String">副教授</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">55</Data></Cell>
+    <Cell><Data ss:Type="String">红蜻蜓蛋糕店网购系统的设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">科研课题</Data></Cell>
+    <Cell><Data ss:Type="String">新题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410802011</Data></Cell>
+    <Cell><Data ss:Type="String">兰静</Data></Cell>
+    <Cell><Data ss:Type="String">信息与计算科学</Data></Cell>
+    <Cell><Data ss:Type="String">张会</Data></Cell>
+    <Cell><Data ss:Type="String">副教授</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">56</Data></Cell>
+    <Cell><Data ss:Type="String">攀枝花学院教务处门户网站设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">科研课题</Data></Cell>
+    <Cell><Data ss:Type="String">旧题改进</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410802013</Data></Cell>
+    <Cell><Data ss:Type="String">李瑶瑶</Data></Cell>
+    <Cell><Data ss:Type="String">信息与计算科学</Data></Cell>
+    <Cell><Data ss:Type="String">秦振涛</Data></Cell>
+    <Cell><Data ss:Type="String">副教授</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">57</Data></Cell>
+    <Cell><Data ss:Type="String">基于局域网的文件分发系统的设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">应用</Data></Cell>
+    <Cell><Data ss:Type="String">生产社会实际</Data></Cell>
+    <Cell><Data ss:Type="String">新题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410802014</Data></Cell>
+    <Cell><Data ss:Type="String">刘俊毅</Data></Cell>
+    <Cell><Data ss:Type="String">信息与计算科学</Data></Cell>
+    <Cell><Data ss:Type="String">陈斌</Data></Cell>
+    <Cell><Data ss:Type="String">助教</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">58</Data></Cell>
+    <Cell><Data ss:Type="String">云上攀大学生成果展示平台的设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">科研课题</Data></Cell>
+    <Cell><Data ss:Type="String">新题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410802015</Data></Cell>
+    <Cell><Data ss:Type="String">刘倩</Data></Cell>
+    <Cell><Data ss:Type="String">信息与计算科学</Data></Cell>
+    <Cell><Data ss:Type="String">刘亚尼</Data></Cell>
+    <Cell><Data ss:Type="String">副教授</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">59</Data></Cell>
+    <Cell><Data ss:Type="String">基于web的攀枝花学院校内社交系统的设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">生产社会实际</Data></Cell>
+    <Cell><Data ss:Type="String">新题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410802016</Data></Cell>
+    <Cell><Data ss:Type="String">刘志国</Data></Cell>
+    <Cell><Data ss:Type="String">信息与计算科学</Data></Cell>
+    <Cell><Data ss:Type="String">叶珊</Data></Cell>
+    <Cell><Data ss:Type="String">助教</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">60</Data></Cell>
+    <Cell><Data ss:Type="String">攀大第一家属区物业管理系统的设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">应用</Data></Cell>
+    <Cell><Data ss:Type="String">生产社会实际</Data></Cell>
+    <Cell><Data ss:Type="String">新题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410802019</Data></Cell>
+    <Cell><Data ss:Type="String">漆杨红</Data></Cell>
+    <Cell><Data ss:Type="String">信息与计算科学</Data></Cell>
+    <Cell><Data ss:Type="String">刘泽民</Data></Cell>
+    <Cell><Data ss:Type="String">教授</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">61</Data></Cell>
+    <Cell><Data ss:Type="String">攀枝花特色农产品展销平台的设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">生产社会实际</Data></Cell>
+    <Cell><Data ss:Type="String">新题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410802020</Data></Cell>
+    <Cell><Data ss:Type="String">任红</Data></Cell>
+    <Cell><Data ss:Type="String">信息与计算科学</Data></Cell>
+    <Cell><Data ss:Type="String">吕俊瑞</Data></Cell>
+    <Cell><Data ss:Type="String">讲师</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">62</Data></Cell>
+    <Cell><Data ss:Type="String">基于web的某企业员工信息管理系统的设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">科研课题</Data></Cell>
+    <Cell><Data ss:Type="String">新题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410802022</Data></Cell>
+    <Cell><Data ss:Type="String">孙文川</Data></Cell>
+    <Cell><Data ss:Type="String">信息与计算科学</Data></Cell>
+    <Cell><Data ss:Type="String">叶珊</Data></Cell>
+    <Cell><Data ss:Type="String">助教</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">63</Data></Cell>
+    <Cell><Data ss:Type="String">矩阵的秩及其应用</Data></Cell>
+    <Cell><Data ss:Type="String">其他</Data></Cell>
+    <Cell><Data ss:Type="String">其他来源</Data></Cell>
+    <Cell><Data ss:Type="String">新题目</Data></Cell>
+    <Cell><Data ss:Type="String">论文</Data></Cell>
+    <Cell><Data ss:Type="String">201410802025</Data></Cell>
+    <Cell><Data ss:Type="String">涂媛雅</Data></Cell>
+    <Cell><Data ss:Type="String">信息与计算科学</Data></Cell>
+    <Cell><Data ss:Type="String">谭千蓉</Data></Cell>
+    <Cell><Data ss:Type="String">教授</Data></Cell>
+    <Cell><Data ss:Type="String">否</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">64</Data></Cell>
+    <Cell><Data ss:Type="String">数学与计算机学院学生成绩管理系统的设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">生产社会实际</Data></Cell>
+    <Cell><Data ss:Type="String">新题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410802026</Data></Cell>
+    <Cell><Data ss:Type="String">王燕</Data></Cell>
+    <Cell><Data ss:Type="String">信息与计算科学</Data></Cell>
+    <Cell><Data ss:Type="String">何全庆</Data></Cell>
+    <Cell><Data ss:Type="String">讲师</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">65</Data></Cell>
+    <Cell><Data ss:Type="String">攀枝花阳光康养信息管理系统的设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">科研课题</Data></Cell>
+    <Cell><Data ss:Type="String">新题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410802027</Data></Cell>
+    <Cell><Data ss:Type="String">王永吉</Data></Cell>
+    <Cell><Data ss:Type="String">信息与计算科学</Data></Cell>
+    <Cell><Data ss:Type="String">赵相瑜</Data></Cell>
+    <Cell><Data ss:Type="String">副教授</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">66</Data></Cell>
+    <Cell><Data ss:Type="String">攀枝花市房屋租售管理平台的设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">生产社会实际</Data></Cell>
+    <Cell><Data ss:Type="String">新题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410802028</Data></Cell>
+    <Cell><Data ss:Type="String">谢李</Data></Cell>
+    <Cell><Data ss:Type="String">信息与计算科学</Data></Cell>
+    <Cell><Data ss:Type="String">叶珊</Data></Cell>
+    <Cell><Data ss:Type="String">助教</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">67</Data></Cell>
+    <Cell><Data ss:Type="String">春城宾馆客房预约系统的设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">应用</Data></Cell>
+    <Cell><Data ss:Type="String">生产社会实际</Data></Cell>
+    <Cell><Data ss:Type="String">新题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410802029</Data></Cell>
+    <Cell><Data ss:Type="String">徐华</Data></Cell>
+    <Cell><Data ss:Type="String">信息与计算科学</Data></Cell>
+    <Cell><Data ss:Type="String">李世文</Data></Cell>
+    <Cell><Data ss:Type="String">教授</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">68</Data></Cell>
+    <Cell><Data ss:Type="String">基于web的医药采购管理平台的设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">其他来源</Data></Cell>
+    <Cell><Data ss:Type="String">新题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410802030</Data></Cell>
+    <Cell><Data ss:Type="String">杨浩</Data></Cell>
+    <Cell><Data ss:Type="String">信息与计算科学</Data></Cell>
+    <Cell><Data ss:Type="String">叶珊</Data></Cell>
+    <Cell><Data ss:Type="String">助教</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">69</Data></Cell>
+    <Cell><Data ss:Type="String">数计学院毕业设计管理系统设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">生产社会实际</Data></Cell>
+    <Cell><Data ss:Type="String">新题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410802032</Data></Cell>
+    <Cell><Data ss:Type="String">杨建辉</Data></Cell>
+    <Cell><Data ss:Type="String">信息与计算科学</Data></Cell>
+    <Cell><Data ss:Type="String">银　星</Data></Cell>
+    <Cell><Data ss:Type="String">副教授</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">70</Data></Cell>
+    <Cell><Data ss:Type="String">基于web的攀枝花学院科研管理软件的设计与实现 </Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">生产社会实际</Data></Cell>
+    <Cell><Data ss:Type="String">新题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410802033</Data></Cell>
+    <Cell><Data ss:Type="String">杨练</Data></Cell>
+    <Cell><Data ss:Type="String">信息与计算科学</Data></Cell>
+    <Cell><Data ss:Type="String">周朝萱</Data></Cell>
+    <Cell><Data ss:Type="String">副教授</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">71</Data></Cell>
+    <Cell><Data ss:Type="String">通用试题库管理系统的设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">生产社会实际</Data></Cell>
+    <Cell><Data ss:Type="String">新题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410802034</Data></Cell>
+    <Cell><Data ss:Type="String">杨文龙</Data></Cell>
+    <Cell><Data ss:Type="String">信息与计算科学</Data></Cell>
+    <Cell><Data ss:Type="String">赖国勇</Data></Cell>
+    <Cell><Data ss:Type="String">讲师</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">72</Data></Cell>
+    <Cell><Data ss:Type="String">学府酒店客房管理系统设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">应用</Data></Cell>
+    <Cell><Data ss:Type="String">生产社会实际</Data></Cell>
+    <Cell><Data ss:Type="String">旧题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410802035</Data></Cell>
+    <Cell><Data ss:Type="String">尹杰</Data></Cell>
+    <Cell><Data ss:Type="String">信息与计算科学</Data></Cell>
+    <Cell><Data ss:Type="String">刘泽民</Data></Cell>
+    <Cell><Data ss:Type="String">教授</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">73</Data></Cell>
+    <Cell><Data ss:Type="String">基于php的微信同城外卖小程序的设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">生产社会实际</Data></Cell>
+    <Cell><Data ss:Type="String">新题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410802036</Data></Cell>
+    <Cell><Data ss:Type="String">张芳玲</Data></Cell>
+    <Cell><Data ss:Type="String">信息与计算科学</Data></Cell>
+    <Cell><Data ss:Type="String">何全庆</Data></Cell>
+    <Cell><Data ss:Type="String">讲师</Data></Cell>
+    <Cell><Data ss:Type="String">否</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">74</Data></Cell>
+    <Cell><Data ss:Type="String">舒源宾馆客房管理系统的设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">应用</Data></Cell>
+    <Cell><Data ss:Type="String">生产社会实际</Data></Cell>
+    <Cell><Data ss:Type="String">旧题改进</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410802038</Data></Cell>
+    <Cell><Data ss:Type="String">张雅芝</Data></Cell>
+    <Cell><Data ss:Type="String">信息与计算科学</Data></Cell>
+    <Cell><Data ss:Type="String">李世文</Data></Cell>
+    <Cell><Data ss:Type="String">教授</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">75</Data></Cell>
+    <Cell><Data ss:Type="String">基于Android的天气预报客户端软件设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">应用</Data></Cell>
+    <Cell><Data ss:Type="String">生产社会实际</Data></Cell>
+    <Cell><Data ss:Type="String">旧题目</Data></Cell>
+    <Cell><Data ss:Type="String">论文</Data></Cell>
+    <Cell><Data ss:Type="String">201410802039</Data></Cell>
+    <Cell><Data ss:Type="String">张苧丹</Data></Cell>
+    <Cell><Data ss:Type="String">信息与计算科学</Data></Cell>
+    <Cell><Data ss:Type="String">陈三清</Data></Cell>
+    <Cell><Data ss:Type="String">讲师</Data></Cell>
+    <Cell><Data ss:Type="String">否</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">76</Data></Cell>
+    <Cell><Data ss:Type="String">攀枝花学院校园BBS的设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">生产社会实际</Data></Cell>
+    <Cell><Data ss:Type="String">新题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410802040</Data></Cell>
+    <Cell><Data ss:Type="String">赵雪</Data></Cell>
+    <Cell><Data ss:Type="String">信息与计算科学</Data></Cell>
+    <Cell><Data ss:Type="String">朱正国</Data></Cell>
+    <Cell><Data ss:Type="String">讲师</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">77</Data></Cell>
+    <Cell><Data ss:Type="String">在线二手房中介系统的设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">生产社会实际</Data></Cell>
+    <Cell><Data ss:Type="String">新题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410802041</Data></Cell>
+    <Cell><Data ss:Type="String">郑光宸</Data></Cell>
+    <Cell><Data ss:Type="String">信息与计算科学</Data></Cell>
+    <Cell><Data ss:Type="String">赖国勇</Data></Cell>
+    <Cell><Data ss:Type="String">讲师</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">78</Data></Cell>
+    <Cell><Data ss:Type="String">网上服装租赁系统的设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">生产社会实际</Data></Cell>
+    <Cell><Data ss:Type="String">新题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410802042</Data></Cell>
+    <Cell><Data ss:Type="String">郑欣艺</Data></Cell>
+    <Cell><Data ss:Type="String">信息与计算科学</Data></Cell>
+    <Cell><Data ss:Type="String">吕俊瑞</Data></Cell>
+    <Cell><Data ss:Type="String">讲师</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">79</Data></Cell>
+    <Cell><Data ss:Type="String">高等代数在初等数学中的应用</Data></Cell>
+    <Cell><Data ss:Type="String">其他</Data></Cell>
+    <Cell><Data ss:Type="String">科研课题</Data></Cell>
+    <Cell><Data ss:Type="String">新题目</Data></Cell>
+    <Cell><Data ss:Type="String">论文</Data></Cell>
+    <Cell><Data ss:Type="String">201410802043</Data></Cell>
+    <Cell><Data ss:Type="String">周文</Data></Cell>
+    <Cell><Data ss:Type="String">信息与计算科学</Data></Cell>
+    <Cell><Data ss:Type="String">谭千蓉</Data></Cell>
+    <Cell><Data ss:Type="String">教授</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">80</Data></Cell>
+    <Cell><Data ss:Type="String">攀枝花学院大学生创业服务网的设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">生产社会实际</Data></Cell>
+    <Cell><Data ss:Type="String">新题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410802044</Data></Cell>
+    <Cell><Data ss:Type="String">邹青容</Data></Cell>
+    <Cell><Data ss:Type="String">信息与计算科学</Data></Cell>
+    <Cell><Data ss:Type="String">刘玉斌</Data></Cell>
+    <Cell><Data ss:Type="String">教授</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">81</Data></Cell>
+    <Cell><Data ss:Type="String">个人博客系统的设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">生产社会实际</Data></Cell>
+    <Cell><Data ss:Type="String">旧题改进</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410803001</Data></Cell>
+    <Cell><Data ss:Type="String">陈利</Data></Cell>
+    <Cell><Data ss:Type="String">网络工程</Data></Cell>
+    <Cell><Data ss:Type="String">吴建兵</Data></Cell>
+    <Cell><Data ss:Type="String">副教授</Data></Cell>
+    <Cell><Data ss:Type="String">否</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">82</Data></Cell>
+    <Cell><Data ss:Type="String">智慧源图书销售系统的设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">生产社会实际</Data></Cell>
+    <Cell><Data ss:Type="String">旧题改进</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410803002</Data></Cell>
+    <Cell><Data ss:Type="String">陈友红</Data></Cell>
+    <Cell><Data ss:Type="String">网络工程</Data></Cell>
+    <Cell><Data ss:Type="String">李世文</Data></Cell>
+    <Cell><Data ss:Type="String">教授</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">83</Data></Cell>
+    <Cell><Data ss:Type="String">高校运动会信息管理系统的设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">应用</Data></Cell>
+    <Cell><Data ss:Type="String">生产社会实际</Data></Cell>
+    <Cell><Data ss:Type="String">新题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410803003</Data></Cell>
+    <Cell><Data ss:Type="String">陈宇</Data></Cell>
+    <Cell><Data ss:Type="String">网络工程</Data></Cell>
+    <Cell><Data ss:Type="String">黄萍</Data></Cell>
+    <Cell><Data ss:Type="String">讲师</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">84</Data></Cell>
+    <Cell><Data ss:Type="String">C语言教学网站及网上考试系统的设计与实现 </Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">科研课题</Data></Cell>
+    <Cell><Data ss:Type="String">旧题改进</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410803004</Data></Cell>
+    <Cell><Data ss:Type="String">戴瑞琪</Data></Cell>
+    <Cell><Data ss:Type="String">网络工程</Data></Cell>
+    <Cell><Data ss:Type="String">蒋　斌</Data></Cell>
+    <Cell><Data ss:Type="String">副教授</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">85</Data></Cell>
+    <Cell><Data ss:Type="String">攀枝花学院校园网络安全问题及防护措施研究</Data></Cell>
+    <Cell><Data ss:Type="String">研究</Data></Cell>
+    <Cell><Data ss:Type="String">其他来源</Data></Cell>
+    <Cell><Data ss:Type="String">新题目</Data></Cell>
+    <Cell><Data ss:Type="String">论文</Data></Cell>
+    <Cell><Data ss:Type="String">201410803005</Data></Cell>
+    <Cell><Data ss:Type="String">甘绪良</Data></Cell>
+    <Cell><Data ss:Type="String">网络工程</Data></Cell>
+    <Cell><Data ss:Type="String">黄萍</Data></Cell>
+    <Cell><Data ss:Type="String">讲师</Data></Cell>
+    <Cell><Data ss:Type="String">否</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">86</Data></Cell>
+    <Cell><Data ss:Type="String">车辆故障管理系统的设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">应用</Data></Cell>
+    <Cell><Data ss:Type="String">生产社会实际</Data></Cell>
+    <Cell><Data ss:Type="String">旧题改进</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410803006</Data></Cell>
+    <Cell><Data ss:Type="String">何懋凌</Data></Cell>
+    <Cell><Data ss:Type="String">网络工程</Data></Cell>
+    <Cell><Data ss:Type="String">冯伟</Data></Cell>
+    <Cell><Data ss:Type="String">助教</Data></Cell>
+    <Cell><Data ss:Type="String">否</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">87</Data></Cell>
+    <Cell><Data ss:Type="String">Java精品课程网站的设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">生产社会实际</Data></Cell>
+    <Cell><Data ss:Type="String">旧题改进</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410803007</Data></Cell>
+    <Cell><Data ss:Type="String">胡立根</Data></Cell>
+    <Cell><Data ss:Type="String">网络工程</Data></Cell>
+    <Cell><Data ss:Type="String">吴建兵</Data></Cell>
+    <Cell><Data ss:Type="String">副教授</Data></Cell>
+    <Cell><Data ss:Type="String">否</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">88</Data></Cell>
+    <Cell><Data ss:Type="String">大连民族学院校园网络优化方案设计</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">生产社会实际</Data></Cell>
+    <Cell><Data ss:Type="String">新题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410803009</Data></Cell>
+    <Cell><Data ss:Type="String">蒋璐</Data></Cell>
+    <Cell><Data ss:Type="String">网络工程</Data></Cell>
+    <Cell><Data ss:Type="String">刘彬</Data></Cell>
+    <Cell><Data ss:Type="String">讲师</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">89</Data></Cell>
+    <Cell><Data ss:Type="String">移动智能终端信息泄露原因及防护对策研究</Data></Cell>
+    <Cell><Data ss:Type="String">研究</Data></Cell>
+    <Cell><Data ss:Type="String">其他来源</Data></Cell>
+    <Cell><Data ss:Type="String">新题目</Data></Cell>
+    <Cell><Data ss:Type="String">论文</Data></Cell>
+    <Cell><Data ss:Type="String">201410803010</Data></Cell>
+    <Cell><Data ss:Type="String">蒋文涛</Data></Cell>
+    <Cell><Data ss:Type="String">网络工程</Data></Cell>
+    <Cell><Data ss:Type="String">黄萍</Data></Cell>
+    <Cell><Data ss:Type="String">讲师</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">90</Data></Cell>
+    <Cell><Data ss:Type="String">小型书店管理系统的设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">生产社会实际</Data></Cell>
+    <Cell><Data ss:Type="String">新题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410803011</Data></Cell>
+    <Cell><Data ss:Type="String">康莉</Data></Cell>
+    <Cell><Data ss:Type="String">网络工程</Data></Cell>
+    <Cell><Data ss:Type="String">吴建兵</Data></Cell>
+    <Cell><Data ss:Type="String">副教授</Data></Cell>
+    <Cell><Data ss:Type="String">否</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">91</Data></Cell>
+    <Cell><Data ss:Type="String">射洪县人民医院住院管理系统的设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">科研课题</Data></Cell>
+    <Cell><Data ss:Type="String">新题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410803012</Data></Cell>
+    <Cell><Data ss:Type="String">赖知成</Data></Cell>
+    <Cell><Data ss:Type="String">网络工程</Data></Cell>
+    <Cell><Data ss:Type="String">张会</Data></Cell>
+    <Cell><Data ss:Type="String">副教授</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">92</Data></Cell>
+    <Cell><Data ss:Type="String">攀枝花学院大学生创新创业项目管理系统的设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">生产社会实际</Data></Cell>
+    <Cell><Data ss:Type="String">新题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410803013</Data></Cell>
+    <Cell><Data ss:Type="String">兰家幸</Data></Cell>
+    <Cell><Data ss:Type="String">网络工程</Data></Cell>
+    <Cell><Data ss:Type="String">吕俊瑞</Data></Cell>
+    <Cell><Data ss:Type="String">讲师</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">93</Data></Cell>
+    <Cell><Data ss:Type="String">攀枝花市炳三区社区超市生鲜配送系统的设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">生产社会实际</Data></Cell>
+    <Cell><Data ss:Type="String">新题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410803014</Data></Cell>
+    <Cell><Data ss:Type="String">李大颖</Data></Cell>
+    <Cell><Data ss:Type="String">网络工程</Data></Cell>
+    <Cell><Data ss:Type="String">吕俊瑞</Data></Cell>
+    <Cell><Data ss:Type="String">讲师</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">94</Data></Cell>
+    <Cell><Data ss:Type="String">攀枝花特色的康养旅游信息管理系统的设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">科研课题</Data></Cell>
+    <Cell><Data ss:Type="String">新题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410803015</Data></Cell>
+    <Cell><Data ss:Type="String">李东宝</Data></Cell>
+    <Cell><Data ss:Type="String">网络工程</Data></Cell>
+    <Cell><Data ss:Type="String">蒋　斌</Data></Cell>
+    <Cell><Data ss:Type="String">副教授</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">95</Data></Cell>
+    <Cell><Data ss:Type="String">安信物业管理系统的设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">应用</Data></Cell>
+    <Cell><Data ss:Type="String">生产社会实际</Data></Cell>
+    <Cell><Data ss:Type="String">旧题改进</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410803016</Data></Cell>
+    <Cell><Data ss:Type="String">李和坪</Data></Cell>
+    <Cell><Data ss:Type="String">网络工程</Data></Cell>
+    <Cell><Data ss:Type="String">冯伟</Data></Cell>
+    <Cell><Data ss:Type="String">助教</Data></Cell>
+    <Cell><Data ss:Type="String">否</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">96</Data></Cell>
+    <Cell><Data ss:Type="String">网络超市商品销售管理系统的设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">其他来源</Data></Cell>
+    <Cell><Data ss:Type="String">新题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410803017</Data></Cell>
+    <Cell><Data ss:Type="String">李洪</Data></Cell>
+    <Cell><Data ss:Type="String">网络工程</Data></Cell>
+    <Cell><Data ss:Type="String">张会</Data></Cell>
+    <Cell><Data ss:Type="String">副教授</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">97</Data></Cell>
+    <Cell><Data ss:Type="String">攀枝花学院校园无线组网方案与仿真</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">生产社会实际</Data></Cell>
+    <Cell><Data ss:Type="String">新题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410803018</Data></Cell>
+    <Cell><Data ss:Type="String">李思茂</Data></Cell>
+    <Cell><Data ss:Type="String">网络工程</Data></Cell>
+    <Cell><Data ss:Type="String">罗学刚</Data></Cell>
+    <Cell><Data ss:Type="String">讲师</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">98</Data></Cell>
+    <Cell><Data ss:Type="String">《计算机网络》精品课程管理系统设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">其他来源</Data></Cell>
+    <Cell><Data ss:Type="String">新题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410803019</Data></Cell>
+    <Cell><Data ss:Type="String">李雪</Data></Cell>
+    <Cell><Data ss:Type="String">网络工程</Data></Cell>
+    <Cell><Data ss:Type="String">蔡炯</Data></Cell>
+    <Cell><Data ss:Type="String">讲师</Data></Cell>
+    <Cell><Data ss:Type="String">否</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">99</Data></Cell>
+    <Cell><Data ss:Type="String">攀枝花学院图书管理系统的设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">科研课题</Data></Cell>
+    <Cell><Data ss:Type="String">旧题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410803020</Data></Cell>
+    <Cell><Data ss:Type="String">李雪莉</Data></Cell>
+    <Cell><Data ss:Type="String">网络工程</Data></Cell>
+    <Cell><Data ss:Type="String">陈尧</Data></Cell>
+    <Cell><Data ss:Type="String">讲师</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">100</Data></Cell>
+    <Cell><Data ss:Type="String">计算机专业学习资源系统设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">生产社会实际</Data></Cell>
+    <Cell><Data ss:Type="String">新题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410803021</Data></Cell>
+    <Cell><Data ss:Type="String">林虹雨</Data></Cell>
+    <Cell><Data ss:Type="String">网络工程</Data></Cell>
+    <Cell><Data ss:Type="String">张靖</Data></Cell>
+    <Cell><Data ss:Type="String">教授</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">101</Data></Cell>
+    <Cell><Data ss:Type="String">《数据结构》精品课程教学资源平台的设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">科研课题</Data></Cell>
+    <Cell><Data ss:Type="String">旧题改进</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410803022</Data></Cell>
+    <Cell><Data ss:Type="String">刘鑫</Data></Cell>
+    <Cell><Data ss:Type="String">网络工程</Data></Cell>
+    <Cell><Data ss:Type="String">蒋　斌</Data></Cell>
+    <Cell><Data ss:Type="String">副教授</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">102</Data></Cell>
+    <Cell><Data ss:Type="String">攀枝花学院教材管理系统的设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">应用</Data></Cell>
+    <Cell><Data ss:Type="String">生产社会实际</Data></Cell>
+    <Cell><Data ss:Type="String">旧题改进</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410803023</Data></Cell>
+    <Cell><Data ss:Type="String">罗成</Data></Cell>
+    <Cell><Data ss:Type="String">网络工程</Data></Cell>
+    <Cell><Data ss:Type="String">冯伟</Data></Cell>
+    <Cell><Data ss:Type="String">助教</Data></Cell>
+    <Cell><Data ss:Type="String">否</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">103</Data></Cell>
+    <Cell><Data ss:Type="String">数学与计算机学院党员信息管理系统的设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">生产社会实际</Data></Cell>
+    <Cell><Data ss:Type="String">新题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410803024</Data></Cell>
+    <Cell><Data ss:Type="String">罗云</Data></Cell>
+    <Cell><Data ss:Type="String">网络工程</Data></Cell>
+    <Cell><Data ss:Type="String">刘小英</Data></Cell>
+    <Cell><Data ss:Type="String">讲师</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">104</Data></Cell>
+    <Cell><Data ss:Type="String">学生考勤管理系统的设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">应用</Data></Cell>
+    <Cell><Data ss:Type="String">生产社会实际</Data></Cell>
+    <Cell><Data ss:Type="String">旧题改进</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410803025</Data></Cell>
+    <Cell><Data ss:Type="String">马若豪</Data></Cell>
+    <Cell><Data ss:Type="String">网络工程</Data></Cell>
+    <Cell><Data ss:Type="String">冯伟</Data></Cell>
+    <Cell><Data ss:Type="String">助教</Data></Cell>
+    <Cell><Data ss:Type="String">否</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">105</Data></Cell>
+    <Cell><Data ss:Type="String">攀枝花学院课程设计管理系统的设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">生产社会实际</Data></Cell>
+    <Cell><Data ss:Type="String">新题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410803026</Data></Cell>
+    <Cell><Data ss:Type="String">彭玉佳</Data></Cell>
+    <Cell><Data ss:Type="String">网络工程</Data></Cell>
+    <Cell><Data ss:Type="String">吴建兵</Data></Cell>
+    <Cell><Data ss:Type="String">副教授</Data></Cell>
+    <Cell><Data ss:Type="String">否</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">106</Data></Cell>
+    <Cell><Data ss:Type="String">基于Web的网上图书销售系统的设计与实现 </Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">生产社会实际</Data></Cell>
+    <Cell><Data ss:Type="String">旧题改进</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410803027</Data></Cell>
+    <Cell><Data ss:Type="String">邱林坤</Data></Cell>
+    <Cell><Data ss:Type="String">网络工程</Data></Cell>
+    <Cell><Data ss:Type="String">蒋　斌</Data></Cell>
+    <Cell><Data ss:Type="String">副教授</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">107</Data></Cell>
+    <Cell><Data ss:Type="String">攀枝花学院人事考勤管理系统的设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">其他来源</Data></Cell>
+    <Cell><Data ss:Type="String">新题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410803029</Data></Cell>
+    <Cell><Data ss:Type="String">税长奇</Data></Cell>
+    <Cell><Data ss:Type="String">网络工程</Data></Cell>
+    <Cell><Data ss:Type="String">刘欢</Data></Cell>
+    <Cell><Data ss:Type="String">讲师</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">108</Data></Cell>
+    <Cell><Data ss:Type="String">攀枝花学院职工信息管理系统的设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">生产社会实际</Data></Cell>
+    <Cell><Data ss:Type="String">新题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410803030</Data></Cell>
+    <Cell><Data ss:Type="String">孙横箫</Data></Cell>
+    <Cell><Data ss:Type="String">网络工程</Data></Cell>
+    <Cell><Data ss:Type="String">朱正国</Data></Cell>
+    <Cell><Data ss:Type="String">讲师</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">109</Data></Cell>
+    <Cell><Data ss:Type="String">数据库试题库管理系统的设计与实现 </Data></Cell>
+    <Cell><Data ss:Type="String">应用</Data></Cell>
+    <Cell><Data ss:Type="String">生产社会实际</Data></Cell>
+    <Cell><Data ss:Type="String">新题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410803031</Data></Cell>
+    <Cell><Data ss:Type="String">覃春兰</Data></Cell>
+    <Cell><Data ss:Type="String">网络工程</Data></Cell>
+    <Cell><Data ss:Type="String">刘继光</Data></Cell>
+    <Cell><Data ss:Type="String">教授</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">110</Data></Cell>
+    <Cell><Data ss:Type="String">攀枝花武警消防支队体能档案管理系统的设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">应用</Data></Cell>
+    <Cell><Data ss:Type="String">生产社会实际</Data></Cell>
+    <Cell><Data ss:Type="String">新题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410803032</Data></Cell>
+    <Cell><Data ss:Type="String">汤吉潞</Data></Cell>
+    <Cell><Data ss:Type="String">网络工程</Data></Cell>
+    <Cell><Data ss:Type="String">黄萍</Data></Cell>
+    <Cell><Data ss:Type="String">讲师</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">111</Data></Cell>
+    <Cell><Data ss:Type="String">恒大房地产信息管理系统的设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">科研课题</Data></Cell>
+    <Cell><Data ss:Type="String">新题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410803033</Data></Cell>
+    <Cell><Data ss:Type="String">唐波</Data></Cell>
+    <Cell><Data ss:Type="String">网络工程</Data></Cell>
+    <Cell><Data ss:Type="String">张会</Data></Cell>
+    <Cell><Data ss:Type="String">副教授</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">112</Data></Cell>
+    <Cell><Data ss:Type="String">攀枝花学院教材征订与管理系统的设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">科研课题</Data></Cell>
+    <Cell><Data ss:Type="String">新题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410803034</Data></Cell>
+    <Cell><Data ss:Type="String">唐朝靖</Data></Cell>
+    <Cell><Data ss:Type="String">网络工程</Data></Cell>
+    <Cell><Data ss:Type="String">吕俊瑞</Data></Cell>
+    <Cell><Data ss:Type="String">讲师</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">113</Data></Cell>
+    <Cell><Data ss:Type="String">广汽本田4s店汽车销售信息管理系统的设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">应用</Data></Cell>
+    <Cell><Data ss:Type="String">生产社会实际</Data></Cell>
+    <Cell><Data ss:Type="String">新题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410803035</Data></Cell>
+    <Cell><Data ss:Type="String">王男飞</Data></Cell>
+    <Cell><Data ss:Type="String">网络工程</Data></Cell>
+    <Cell><Data ss:Type="String">黄萍</Data></Cell>
+    <Cell><Data ss:Type="String">讲师</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">114</Data></Cell>
+    <Cell><Data ss:Type="String">攀枝花学院教材管理系统的设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">科研课题</Data></Cell>
+    <Cell><Data ss:Type="String">新题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410803036</Data></Cell>
+    <Cell><Data ss:Type="String">王涛</Data></Cell>
+    <Cell><Data ss:Type="String">网络工程</Data></Cell>
+    <Cell><Data ss:Type="String">张会</Data></Cell>
+    <Cell><Data ss:Type="String">副教授</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">115</Data></Cell>
+    <Cell><Data ss:Type="String">商业银行助学贷款管理系统的设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">科研课题</Data></Cell>
+    <Cell><Data ss:Type="String">新题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410803037</Data></Cell>
+    <Cell><Data ss:Type="String">肖正鹏</Data></Cell>
+    <Cell><Data ss:Type="String">网络工程</Data></Cell>
+    <Cell><Data ss:Type="String">张会</Data></Cell>
+    <Cell><Data ss:Type="String">副教授</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">116</Data></Cell>
+    <Cell><Data ss:Type="String">薪酬福利管理信息系统的设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">生产社会实际</Data></Cell>
+    <Cell><Data ss:Type="String">新题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410803039</Data></Cell>
+    <Cell><Data ss:Type="String">杨安双</Data></Cell>
+    <Cell><Data ss:Type="String">网络工程</Data></Cell>
+    <Cell><Data ss:Type="String">欧方平</Data></Cell>
+    <Cell><Data ss:Type="String">讲师</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">117</Data></Cell>
+    <Cell><Data ss:Type="String">攀枝花学院毕业设计管理系统的设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">科研课题</Data></Cell>
+    <Cell><Data ss:Type="String">旧题改进</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410803040</Data></Cell>
+    <Cell><Data ss:Type="String">杨亮</Data></Cell>
+    <Cell><Data ss:Type="String">网络工程</Data></Cell>
+    <Cell><Data ss:Type="String">蒋　斌</Data></Cell>
+    <Cell><Data ss:Type="String">副教授</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">118</Data></Cell>
+    <Cell><Data ss:Type="String">攀枝花学院图书管理系统的设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">应用</Data></Cell>
+    <Cell><Data ss:Type="String">生产社会实际</Data></Cell>
+    <Cell><Data ss:Type="String">旧题改进</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410803041</Data></Cell>
+    <Cell><Data ss:Type="String">尹程程</Data></Cell>
+    <Cell><Data ss:Type="String">网络工程</Data></Cell>
+    <Cell><Data ss:Type="String">李世文</Data></Cell>
+    <Cell><Data ss:Type="String">教授</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">119</Data></Cell>
+    <Cell><Data ss:Type="String">高校实验室设备管理系统的设计与实现 </Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">科研课题</Data></Cell>
+    <Cell><Data ss:Type="String">旧题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410803042</Data></Cell>
+    <Cell><Data ss:Type="String">游佳杰</Data></Cell>
+    <Cell><Data ss:Type="String">网络工程</Data></Cell>
+    <Cell><Data ss:Type="String">蒋　斌</Data></Cell>
+    <Cell><Data ss:Type="String">副教授</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">120</Data></Cell>
+    <Cell><Data ss:Type="String">彭州市政务中心网络优化分析与设计</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">生产社会实际</Data></Cell>
+    <Cell><Data ss:Type="String">新题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410803043</Data></Cell>
+    <Cell><Data ss:Type="String">张磊</Data></Cell>
+    <Cell><Data ss:Type="String">网络工程</Data></Cell>
+    <Cell><Data ss:Type="String">刘彬</Data></Cell>
+    <Cell><Data ss:Type="String">讲师</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">121</Data></Cell>
+    <Cell><Data ss:Type="String">湄洲城市交通一卡通系统安全加固及项目优化方案</Data></Cell>
+    <Cell><Data ss:Type="String">应用</Data></Cell>
+    <Cell><Data ss:Type="String">生产社会实际</Data></Cell>
+    <Cell><Data ss:Type="String">新题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410803044</Data></Cell>
+    <Cell><Data ss:Type="String">张园</Data></Cell>
+    <Cell><Data ss:Type="String">网络工程</Data></Cell>
+    <Cell><Data ss:Type="String">刘彬</Data></Cell>
+    <Cell><Data ss:Type="String">讲师</Data></Cell>
+    <Cell><Data ss:Type="String">否</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">122</Data></Cell>
+    <Cell><Data ss:Type="String">某小型企业人力资源管理系统设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">应用</Data></Cell>
+    <Cell><Data ss:Type="String">生产社会实际</Data></Cell>
+    <Cell><Data ss:Type="String">旧题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410803045</Data></Cell>
+    <Cell><Data ss:Type="String">张志强</Data></Cell>
+    <Cell><Data ss:Type="String">网络工程</Data></Cell>
+    <Cell><Data ss:Type="String">刘泽民</Data></Cell>
+    <Cell><Data ss:Type="String">教授</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">123</Data></Cell>
+    <Cell><Data ss:Type="String">攀枝花学院学生信息管理系统的设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">生产社会实际</Data></Cell>
+    <Cell><Data ss:Type="String">新题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410803046</Data></Cell>
+    <Cell><Data ss:Type="String">郑邵镭</Data></Cell>
+    <Cell><Data ss:Type="String">网络工程</Data></Cell>
+    <Cell><Data ss:Type="String">鄢　莉</Data></Cell>
+    <Cell><Data ss:Type="String">讲师</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">124</Data></Cell>
+    <Cell><Data ss:Type="String">计算机学院教学科研成果系统设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">生产社会实际</Data></Cell>
+    <Cell><Data ss:Type="String">旧题改进</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410803047</Data></Cell>
+    <Cell><Data ss:Type="String">周晏民</Data></Cell>
+    <Cell><Data ss:Type="String">网络工程</Data></Cell>
+    <Cell><Data ss:Type="String">张靖</Data></Cell>
+    <Cell><Data ss:Type="String">教授</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">125</Data></Cell>
+    <Cell><Data ss:Type="String">惠州城市职业学院WiFi覆盖方案 </Data></Cell>
+    <Cell><Data ss:Type="String">应用</Data></Cell>
+    <Cell><Data ss:Type="String">生产社会实际</Data></Cell>
+    <Cell><Data ss:Type="String">新题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410803048</Data></Cell>
+    <Cell><Data ss:Type="String">周岳生</Data></Cell>
+    <Cell><Data ss:Type="String">网络工程</Data></Cell>
+    <Cell><Data ss:Type="String">刘彬</Data></Cell>
+    <Cell><Data ss:Type="String">讲师</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">126</Data></Cell>
+    <Cell><Data ss:Type="String">基于Android平台的实时交流系统的设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">科研课题</Data></Cell>
+    <Cell><Data ss:Type="String">新题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410803049</Data></Cell>
+    <Cell><Data ss:Type="String">周云枫</Data></Cell>
+    <Cell><Data ss:Type="String">网络工程</Data></Cell>
+    <Cell><Data ss:Type="String">秦振涛</Data></Cell>
+    <Cell><Data ss:Type="String">副教授</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">127</Data></Cell>
+    <Cell><Data ss:Type="String">攀枝花学院学生请假管理系统的设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">生产社会实际</Data></Cell>
+    <Cell><Data ss:Type="String">新题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410803050</Data></Cell>
+    <Cell><Data ss:Type="String">左瑾</Data></Cell>
+    <Cell><Data ss:Type="String">网络工程</Data></Cell>
+    <Cell><Data ss:Type="String">吴建兵</Data></Cell>
+    <Cell><Data ss:Type="String">副教授</Data></Cell>
+    <Cell><Data ss:Type="String">否</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">128</Data></Cell>
+    <Cell><Data ss:Type="String">攀枝花市尾矿库实时监测数据Web展示平台设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">科研课题</Data></Cell>
+    <Cell><Data ss:Type="String">旧题改进</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410804002</Data></Cell>
+    <Cell><Data ss:Type="String">曹慧敏</Data></Cell>
+    <Cell><Data ss:Type="String">软件工程</Data></Cell>
+    <Cell><Data ss:Type="String">岐世峰</Data></Cell>
+    <Cell><Data ss:Type="String">教授</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">129</Data></Cell>
+    <Cell><Data ss:Type="String">攀枝花学院毕业设计系统设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">生产社会实际</Data></Cell>
+    <Cell><Data ss:Type="String">旧题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410804003</Data></Cell>
+    <Cell><Data ss:Type="String">曾卫</Data></Cell>
+    <Cell><Data ss:Type="String">软件工程</Data></Cell>
+    <Cell><Data ss:Type="String">何志国</Data></Cell>
+    <Cell><Data ss:Type="String">教授</Data></Cell>
+    <Cell><Data ss:Type="String">否</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">130</Data></Cell>
+    <Cell><Data ss:Type="String">网上花店管理系统的设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">生产社会实际</Data></Cell>
+    <Cell><Data ss:Type="String">新题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410804004</Data></Cell>
+    <Cell><Data ss:Type="String">曾兴旺</Data></Cell>
+    <Cell><Data ss:Type="String">软件工程</Data></Cell>
+    <Cell><Data ss:Type="String">罗学刚</Data></Cell>
+    <Cell><Data ss:Type="String">讲师</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">131</Data></Cell>
+    <Cell><Data ss:Type="String">基于Node新闻发布系统的设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">应用</Data></Cell>
+    <Cell><Data ss:Type="String">生产社会实际</Data></Cell>
+    <Cell><Data ss:Type="String">新题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410804005</Data></Cell>
+    <Cell><Data ss:Type="String">陈苗苗</Data></Cell>
+    <Cell><Data ss:Type="String">软件工程</Data></Cell>
+    <Cell><Data ss:Type="String">刘继光</Data></Cell>
+    <Cell><Data ss:Type="String">教授</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">132</Data></Cell>
+    <Cell><Data ss:Type="String">通用排课系统设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">科研课题</Data></Cell>
+    <Cell><Data ss:Type="String">旧题改进</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410804006</Data></Cell>
+    <Cell><Data ss:Type="String">陈前华</Data></Cell>
+    <Cell><Data ss:Type="String">软件工程</Data></Cell>
+    <Cell><Data ss:Type="String">欧方平</Data></Cell>
+    <Cell><Data ss:Type="String">讲师</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">133</Data></Cell>
+    <Cell><Data ss:Type="String">基于WEB的高校教材管理软件的设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">生产社会实际</Data></Cell>
+    <Cell><Data ss:Type="String">新题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410804007</Data></Cell>
+    <Cell><Data ss:Type="String">陈双才</Data></Cell>
+    <Cell><Data ss:Type="String">软件工程</Data></Cell>
+    <Cell><Data ss:Type="String">周朝萱</Data></Cell>
+    <Cell><Data ss:Type="String">副教授</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">134</Data></Cell>
+    <Cell><Data ss:Type="String">乐源小区物业管理系统的设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">应用</Data></Cell>
+    <Cell><Data ss:Type="String">生产社会实际</Data></Cell>
+    <Cell><Data ss:Type="String">新题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410804008</Data></Cell>
+    <Cell><Data ss:Type="String">陈智明</Data></Cell>
+    <Cell><Data ss:Type="String">软件工程</Data></Cell>
+    <Cell><Data ss:Type="String">李世文</Data></Cell>
+    <Cell><Data ss:Type="String">教授</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">135</Data></Cell>
+    <Cell><Data ss:Type="String">《算法设计与分析》精品课程教学网站的设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">科研课题</Data></Cell>
+    <Cell><Data ss:Type="String">新题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410804009</Data></Cell>
+    <Cell><Data ss:Type="String">程淼</Data></Cell>
+    <Cell><Data ss:Type="String">软件工程</Data></Cell>
+    <Cell><Data ss:Type="String">银　星</Data></Cell>
+    <Cell><Data ss:Type="String">副教授</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">136</Data></Cell>
+    <Cell><Data ss:Type="String">题库管理子系统的设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">科研课题</Data></Cell>
+    <Cell><Data ss:Type="String">新题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410804010</Data></Cell>
+    <Cell><Data ss:Type="String">程子墨</Data></Cell>
+    <Cell><Data ss:Type="String">软件工程</Data></Cell>
+    <Cell><Data ss:Type="String">欧方平</Data></Cell>
+    <Cell><Data ss:Type="String">讲师</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">137</Data></Cell>
+    <Cell><Data ss:Type="String">手机售卖网站的设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">应用</Data></Cell>
+    <Cell><Data ss:Type="String">生产社会实际</Data></Cell>
+    <Cell><Data ss:Type="String">新题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410804011</Data></Cell>
+    <Cell><Data ss:Type="String">达荣祥</Data></Cell>
+    <Cell><Data ss:Type="String">软件工程</Data></Cell>
+    <Cell><Data ss:Type="String">冯伟</Data></Cell>
+    <Cell><Data ss:Type="String">助教</Data></Cell>
+    <Cell><Data ss:Type="String">否</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">138</Data></Cell>
+    <Cell><Data ss:Type="String">计算机学院绩效管理系统设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">生产社会实际</Data></Cell>
+    <Cell><Data ss:Type="String">新题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410804012</Data></Cell>
+    <Cell><Data ss:Type="String">邓冬林</Data></Cell>
+    <Cell><Data ss:Type="String">软件工程</Data></Cell>
+    <Cell><Data ss:Type="String">张靖</Data></Cell>
+    <Cell><Data ss:Type="String">教授</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">139</Data></Cell>
+    <Cell><Data ss:Type="String">艺术品交易电商平台设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">生产社会实际</Data></Cell>
+    <Cell><Data ss:Type="String">新题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410804014</Data></Cell>
+    <Cell><Data ss:Type="String">杜俊峰</Data></Cell>
+    <Cell><Data ss:Type="String">软件工程</Data></Cell>
+    <Cell><Data ss:Type="String">何全庆</Data></Cell>
+    <Cell><Data ss:Type="String">讲师</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">140</Data></Cell>
+    <Cell><Data ss:Type="String">汽车4S店网络服务系统的设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">生产社会实际</Data></Cell>
+    <Cell><Data ss:Type="String">新题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410804016</Data></Cell>
+    <Cell><Data ss:Type="String">杜浪</Data></Cell>
+    <Cell><Data ss:Type="String">软件工程</Data></Cell>
+    <Cell><Data ss:Type="String">赖国勇</Data></Cell>
+    <Cell><Data ss:Type="String">讲师</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">141</Data></Cell>
+    <Cell><Data ss:Type="String">攀大小区物业管理系统的设计与实现 </Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">生产社会实际</Data></Cell>
+    <Cell><Data ss:Type="String">新题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410804017</Data></Cell>
+    <Cell><Data ss:Type="String">段桂源</Data></Cell>
+    <Cell><Data ss:Type="String">软件工程</Data></Cell>
+    <Cell><Data ss:Type="String">朱正国</Data></Cell>
+    <Cell><Data ss:Type="String">讲师</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">142</Data></Cell>
+    <Cell><Data ss:Type="String">SSM框架实现阅读与分享书籍的网站</Data></Cell>
+    <Cell><Data ss:Type="String">其他</Data></Cell>
+    <Cell><Data ss:Type="String">其他来源</Data></Cell>
+    <Cell><Data ss:Type="String">新题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410804018</Data></Cell>
+    <Cell><Data ss:Type="String">方洁</Data></Cell>
+    <Cell><Data ss:Type="String">软件工程</Data></Cell>
+    <Cell><Data ss:Type="String">何全庆</Data></Cell>
+    <Cell><Data ss:Type="String">讲师</Data></Cell>
+    <Cell><Data ss:Type="String">否</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">143</Data></Cell>
+    <Cell><Data ss:Type="String">攀枝花学院社团管理系统的设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">应用</Data></Cell>
+    <Cell><Data ss:Type="String">生产社会实际</Data></Cell>
+    <Cell><Data ss:Type="String">旧题改进</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410804019</Data></Cell>
+    <Cell><Data ss:Type="String">方玥</Data></Cell>
+    <Cell><Data ss:Type="String">软件工程</Data></Cell>
+    <Cell><Data ss:Type="String">冯伟</Data></Cell>
+    <Cell><Data ss:Type="String">助教</Data></Cell>
+    <Cell><Data ss:Type="String">否</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">144</Data></Cell>
+    <Cell><Data ss:Type="String">攀枝花市中小企业信息平台的设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">应用</Data></Cell>
+    <Cell><Data ss:Type="String">生产社会实际</Data></Cell>
+    <Cell><Data ss:Type="String">新题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410804020</Data></Cell>
+    <Cell><Data ss:Type="String">冯超</Data></Cell>
+    <Cell><Data ss:Type="String">软件工程</Data></Cell>
+    <Cell><Data ss:Type="String">黄萍</Data></Cell>
+    <Cell><Data ss:Type="String">讲师</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">145</Data></Cell>
+    <Cell><Data ss:Type="String">Java Web课程的移动学习平台设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">其他来源</Data></Cell>
+    <Cell><Data ss:Type="String">新题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410804021</Data></Cell>
+    <Cell><Data ss:Type="String">冯皓</Data></Cell>
+    <Cell><Data ss:Type="String">软件工程</Data></Cell>
+    <Cell><Data ss:Type="String">罗学刚</Data></Cell>
+    <Cell><Data ss:Type="String">讲师</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">146</Data></Cell>
+    <Cell><Data ss:Type="String">高校党务管理系统的设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">应用</Data></Cell>
+    <Cell><Data ss:Type="String">其他来源</Data></Cell>
+    <Cell><Data ss:Type="String">旧题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410804022</Data></Cell>
+    <Cell><Data ss:Type="String">冯杉</Data></Cell>
+    <Cell><Data ss:Type="String">软件工程</Data></Cell>
+    <Cell><Data ss:Type="String">黄萍</Data></Cell>
+    <Cell><Data ss:Type="String">讲师</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">147</Data></Cell>
+    <Cell><Data ss:Type="String">攀枝花学院田径运动会管理系统的设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">生产社会实际</Data></Cell>
+    <Cell><Data ss:Type="String">新题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410804023</Data></Cell>
+    <Cell><Data ss:Type="String">付聪</Data></Cell>
+    <Cell><Data ss:Type="String">软件工程</Data></Cell>
+    <Cell><Data ss:Type="String">刘小英</Data></Cell>
+    <Cell><Data ss:Type="String">讲师</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">148</Data></Cell>
+    <Cell><Data ss:Type="String">C语言在线学习及测试系统设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">生产社会实际</Data></Cell>
+    <Cell><Data ss:Type="String">新题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410804025</Data></Cell>
+    <Cell><Data ss:Type="String">付振东</Data></Cell>
+    <Cell><Data ss:Type="String">软件工程</Data></Cell>
+    <Cell><Data ss:Type="String">银　星</Data></Cell>
+    <Cell><Data ss:Type="String">副教授</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">149</Data></Cell>
+    <Cell><Data ss:Type="String">数计学院分工会综合信息管理平台设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">生产社会实际</Data></Cell>
+    <Cell><Data ss:Type="String">新题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410804026</Data></Cell>
+    <Cell><Data ss:Type="String">高建波</Data></Cell>
+    <Cell><Data ss:Type="String">软件工程</Data></Cell>
+    <Cell><Data ss:Type="String">岐世峰</Data></Cell>
+    <Cell><Data ss:Type="String">教授</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">150</Data></Cell>
+    <Cell><Data ss:Type="String">攀枝花学院校内公告系统的设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">应用</Data></Cell>
+    <Cell><Data ss:Type="String">生产社会实际</Data></Cell>
+    <Cell><Data ss:Type="String">新题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410804027</Data></Cell>
+    <Cell><Data ss:Type="String">高晓露</Data></Cell>
+    <Cell><Data ss:Type="String">软件工程</Data></Cell>
+    <Cell><Data ss:Type="String">刘继光</Data></Cell>
+    <Cell><Data ss:Type="String">教授</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">151</Data></Cell>
+    <Cell><Data ss:Type="String">公园大地小区物业管理系统的设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">其他来源</Data></Cell>
+    <Cell><Data ss:Type="String">旧题改进</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410804029</Data></Cell>
+    <Cell><Data ss:Type="String">何杰玉</Data></Cell>
+    <Cell><Data ss:Type="String">软件工程</Data></Cell>
+    <Cell><Data ss:Type="String">蔡炯</Data></Cell>
+    <Cell><Data ss:Type="String">讲师</Data></Cell>
+    <Cell><Data ss:Type="String">否</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">152</Data></Cell>
+    <Cell><Data ss:Type="String">基于树莓派的智能家庭助理系统的设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">生产社会实际</Data></Cell>
+    <Cell><Data ss:Type="String">新题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410804030</Data></Cell>
+    <Cell><Data ss:Type="String">何思贤</Data></Cell>
+    <Cell><Data ss:Type="String">软件工程</Data></Cell>
+    <Cell><Data ss:Type="String">欧方平</Data></Cell>
+    <Cell><Data ss:Type="String">讲师</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">153</Data></Cell>
+    <Cell><Data ss:Type="String">微信点餐小程序的设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">生产社会实际</Data></Cell>
+    <Cell><Data ss:Type="String">新题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410804031</Data></Cell>
+    <Cell><Data ss:Type="String">贺艳霞</Data></Cell>
+    <Cell><Data ss:Type="String">软件工程</Data></Cell>
+    <Cell><Data ss:Type="String">吴建兵</Data></Cell>
+    <Cell><Data ss:Type="String">副教授</Data></Cell>
+    <Cell><Data ss:Type="String">否</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">154</Data></Cell>
+    <Cell><Data ss:Type="String">基于Node/vue学习资源共享平台的设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">应用</Data></Cell>
+    <Cell><Data ss:Type="String">生产社会实际</Data></Cell>
+    <Cell><Data ss:Type="String">新题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410804035</Data></Cell>
+    <Cell><Data ss:Type="String">黄静</Data></Cell>
+    <Cell><Data ss:Type="String">软件工程</Data></Cell>
+    <Cell><Data ss:Type="String">刘继光</Data></Cell>
+    <Cell><Data ss:Type="String">教授</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">155</Data></Cell>
+    <Cell><Data ss:Type="String">基于SSM的高校学生成绩管理系统的设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">生产社会实际</Data></Cell>
+    <Cell><Data ss:Type="String">新题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410804036</Data></Cell>
+    <Cell><Data ss:Type="String">黄坤</Data></Cell>
+    <Cell><Data ss:Type="String">软件工程</Data></Cell>
+    <Cell><Data ss:Type="String">兰全祥</Data></Cell>
+    <Cell><Data ss:Type="String">助教</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">156</Data></Cell>
+    <Cell><Data ss:Type="String">新华文轩图书管理系统的设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">生产社会实际</Data></Cell>
+    <Cell><Data ss:Type="String">旧题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410804037</Data></Cell>
+    <Cell><Data ss:Type="String">黄兰林</Data></Cell>
+    <Cell><Data ss:Type="String">软件工程</Data></Cell>
+    <Cell><Data ss:Type="String">何志国</Data></Cell>
+    <Cell><Data ss:Type="String">教授</Data></Cell>
+    <Cell><Data ss:Type="String">否</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">157</Data></Cell>
+    <Cell><Data ss:Type="String">攀枝花学院教改项目综合管理信息平台设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">生产社会实际</Data></Cell>
+    <Cell><Data ss:Type="String">新题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410804039</Data></Cell>
+    <Cell><Data ss:Type="String">蒋碧玉</Data></Cell>
+    <Cell><Data ss:Type="String">软件工程</Data></Cell>
+    <Cell><Data ss:Type="String">岐世峰</Data></Cell>
+    <Cell><Data ss:Type="String">教授</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">158</Data></Cell>
+    <Cell><Data ss:Type="String">汽车配件网络销售系统的设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">科研课题</Data></Cell>
+    <Cell><Data ss:Type="String">新题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410804040</Data></Cell>
+    <Cell><Data ss:Type="String">蒋帅</Data></Cell>
+    <Cell><Data ss:Type="String">软件工程</Data></Cell>
+    <Cell><Data ss:Type="String">蒋　斌</Data></Cell>
+    <Cell><Data ss:Type="String">副教授</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">159</Data></Cell>
+    <Cell><Data ss:Type="String">健身俱乐部会员管理系统的设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">应用</Data></Cell>
+    <Cell><Data ss:Type="String">生产社会实际</Data></Cell>
+    <Cell><Data ss:Type="String">旧题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410804041</Data></Cell>
+    <Cell><Data ss:Type="String">敬鑫</Data></Cell>
+    <Cell><Data ss:Type="String">软件工程</Data></Cell>
+    <Cell><Data ss:Type="String">陈尧</Data></Cell>
+    <Cell><Data ss:Type="String">讲师</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">160</Data></Cell>
+    <Cell><Data ss:Type="String">基于WEB的图书管理系统设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">应用</Data></Cell>
+    <Cell><Data ss:Type="String">生产社会实际</Data></Cell>
+    <Cell><Data ss:Type="String">新题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410804042</Data></Cell>
+    <Cell><Data ss:Type="String">赖艳梅</Data></Cell>
+    <Cell><Data ss:Type="String">软件工程</Data></Cell>
+    <Cell><Data ss:Type="String">刘继光</Data></Cell>
+    <Cell><Data ss:Type="String">教授</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">161</Data></Cell>
+    <Cell><Data ss:Type="String">得天独厚酒店管理系统的设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">其他来源</Data></Cell>
+    <Cell><Data ss:Type="String">旧题改进</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410804043</Data></Cell>
+    <Cell><Data ss:Type="String">黎帆</Data></Cell>
+    <Cell><Data ss:Type="String">软件工程</Data></Cell>
+    <Cell><Data ss:Type="String">蔡炯</Data></Cell>
+    <Cell><Data ss:Type="String">讲师</Data></Cell>
+    <Cell><Data ss:Type="String">否</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">162</Data></Cell>
+    <Cell><Data ss:Type="String">攀枝花学院学生成绩管理系统的设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">生产社会实际</Data></Cell>
+    <Cell><Data ss:Type="String">旧题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410804044</Data></Cell>
+    <Cell><Data ss:Type="String">黎文静</Data></Cell>
+    <Cell><Data ss:Type="String">软件工程</Data></Cell>
+    <Cell><Data ss:Type="String">何志国</Data></Cell>
+    <Cell><Data ss:Type="String">教授</Data></Cell>
+    <Cell><Data ss:Type="String">否</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">163</Data></Cell>
+    <Cell><Data ss:Type="String">利用Unity3D引擎的手机游戏设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">生产社会实际</Data></Cell>
+    <Cell><Data ss:Type="String">新题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410804045</Data></Cell>
+    <Cell><Data ss:Type="String">李嘉文</Data></Cell>
+    <Cell><Data ss:Type="String">软件工程</Data></Cell>
+    <Cell><Data ss:Type="String">周方晓</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">164</Data></Cell>
+    <Cell><Data ss:Type="String">攀枝花学院毕业设计选题系统的设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">应用</Data></Cell>
+    <Cell><Data ss:Type="String">生产社会实际</Data></Cell>
+    <Cell><Data ss:Type="String">旧题改进</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410804046</Data></Cell>
+    <Cell><Data ss:Type="String">李静</Data></Cell>
+    <Cell><Data ss:Type="String">软件工程</Data></Cell>
+    <Cell><Data ss:Type="String">刘继光</Data></Cell>
+    <Cell><Data ss:Type="String">教授</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">165</Data></Cell>
+    <Cell><Data ss:Type="String">基于Android的百度地图APP设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">应用</Data></Cell>
+    <Cell><Data ss:Type="String">生产社会实际</Data></Cell>
+    <Cell><Data ss:Type="String">新题目</Data></Cell>
+    <Cell><Data ss:Type="String">论文</Data></Cell>
+    <Cell><Data ss:Type="String">201410804047</Data></Cell>
+    <Cell><Data ss:Type="String">李龙</Data></Cell>
+    <Cell><Data ss:Type="String">软件工程</Data></Cell>
+    <Cell><Data ss:Type="String">陈三清</Data></Cell>
+    <Cell><Data ss:Type="String">讲师</Data></Cell>
+    <Cell><Data ss:Type="String">否</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">166</Data></Cell>
+    <Cell><Data ss:Type="String">数计学院答疑互助系统设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">应用</Data></Cell>
+    <Cell><Data ss:Type="String">科研课题</Data></Cell>
+    <Cell><Data ss:Type="String">新题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410804048</Data></Cell>
+    <Cell><Data ss:Type="String">李瑞麒</Data></Cell>
+    <Cell><Data ss:Type="String">软件工程</Data></Cell>
+    <Cell><Data ss:Type="String">秦振涛</Data></Cell>
+    <Cell><Data ss:Type="String">副教授</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">167</Data></Cell>
+    <Cell><Data ss:Type="String">攀枝花学院考研论坛的设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">生产社会实际</Data></Cell>
+    <Cell><Data ss:Type="String">新题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410804049</Data></Cell>
+    <Cell><Data ss:Type="String">李滔</Data></Cell>
+    <Cell><Data ss:Type="String">软件工程</Data></Cell>
+    <Cell><Data ss:Type="String">周朝萱</Data></Cell>
+    <Cell><Data ss:Type="String">副教授</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">168</Data></Cell>
+    <Cell><Data ss:Type="String">小型网上书店系统设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">科研课题</Data></Cell>
+    <Cell><Data ss:Type="String">新题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410804050</Data></Cell>
+    <Cell><Data ss:Type="String">李学琴</Data></Cell>
+    <Cell><Data ss:Type="String">软件工程</Data></Cell>
+    <Cell><Data ss:Type="String">银　星</Data></Cell>
+    <Cell><Data ss:Type="String">副教授</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">169</Data></Cell>
+    <Cell><Data ss:Type="String">攀枝花学院学生二手交易平台的设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">应用</Data></Cell>
+    <Cell><Data ss:Type="String">科研课题</Data></Cell>
+    <Cell><Data ss:Type="String">旧题改进</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410804051</Data></Cell>
+    <Cell><Data ss:Type="String">李永辉</Data></Cell>
+    <Cell><Data ss:Type="String">软件工程</Data></Cell>
+    <Cell><Data ss:Type="String">秦振涛</Data></Cell>
+    <Cell><Data ss:Type="String">副教授</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">170</Data></Cell>
+    <Cell><Data ss:Type="String">攀枝花学院学术成果展示平台分析与设计</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">科研课题</Data></Cell>
+    <Cell><Data ss:Type="String">新题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410804052</Data></Cell>
+    <Cell><Data ss:Type="String">李宇</Data></Cell>
+    <Cell><Data ss:Type="String">软件工程</Data></Cell>
+    <Cell><Data ss:Type="String">刘彬</Data></Cell>
+    <Cell><Data ss:Type="String">讲师</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">171</Data></Cell>
+    <Cell><Data ss:Type="String">恒星公司的库存管理系统的设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">生产社会实际</Data></Cell>
+    <Cell><Data ss:Type="String">新题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410804054</Data></Cell>
+    <Cell><Data ss:Type="String">李中杰</Data></Cell>
+    <Cell><Data ss:Type="String">软件工程</Data></Cell>
+    <Cell><Data ss:Type="String">岐世峰</Data></Cell>
+    <Cell><Data ss:Type="String">教授</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">172</Data></Cell>
+    <Cell><Data ss:Type="String">基于Node.js的SPA式个人博客的设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">生产社会实际</Data></Cell>
+    <Cell><Data ss:Type="String">新题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410804055</Data></Cell>
+    <Cell><Data ss:Type="String">梁伟</Data></Cell>
+    <Cell><Data ss:Type="String">软件工程</Data></Cell>
+    <Cell><Data ss:Type="String">兰全祥</Data></Cell>
+    <Cell><Data ss:Type="String">助教</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">173</Data></Cell>
+    <Cell><Data ss:Type="String">基于Spring MVC的论文投稿管理系统设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">科研课题</Data></Cell>
+    <Cell><Data ss:Type="String">旧题改进</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410804056</Data></Cell>
+    <Cell><Data ss:Type="String">林龙</Data></Cell>
+    <Cell><Data ss:Type="String">软件工程</Data></Cell>
+    <Cell><Data ss:Type="String">罗学刚</Data></Cell>
+    <Cell><Data ss:Type="String">讲师</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">174</Data></Cell>
+    <Cell><Data ss:Type="String">《Access数据库》精品课程网站的设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">生产社会实际</Data></Cell>
+    <Cell><Data ss:Type="String">新题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410804057</Data></Cell>
+    <Cell><Data ss:Type="String">刘丹</Data></Cell>
+    <Cell><Data ss:Type="String">软件工程</Data></Cell>
+    <Cell><Data ss:Type="String">岐世峰</Data></Cell>
+    <Cell><Data ss:Type="String">教授</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">175</Data></Cell>
+    <Cell><Data ss:Type="String">基于Web的图书管理系统设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">应用</Data></Cell>
+    <Cell><Data ss:Type="String">生产社会实际</Data></Cell>
+    <Cell><Data ss:Type="String">旧题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410804058</Data></Cell>
+    <Cell><Data ss:Type="String">刘纪良</Data></Cell>
+    <Cell><Data ss:Type="String">软件工程</Data></Cell>
+    <Cell><Data ss:Type="String">刘泽民</Data></Cell>
+    <Cell><Data ss:Type="String">教授</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">176</Data></Cell>
+    <Cell><Data ss:Type="String">攀枝花学院工资管理系统的设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">生产社会实际</Data></Cell>
+    <Cell><Data ss:Type="String">旧题改进</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410804061</Data></Cell>
+    <Cell><Data ss:Type="String">刘小龙</Data></Cell>
+    <Cell><Data ss:Type="String">软件工程</Data></Cell>
+    <Cell><Data ss:Type="String">李世文</Data></Cell>
+    <Cell><Data ss:Type="String">教授</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">177</Data></Cell>
+    <Cell><Data ss:Type="String">基于Web的网上房屋中介系统的设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">生产社会实际</Data></Cell>
+    <Cell><Data ss:Type="String">新题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410804062</Data></Cell>
+    <Cell><Data ss:Type="String">刘鑫</Data></Cell>
+    <Cell><Data ss:Type="String">软件工程</Data></Cell>
+    <Cell><Data ss:Type="String">蒋　斌</Data></Cell>
+    <Cell><Data ss:Type="String">副教授</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">178</Data></Cell>
+    <Cell><Data ss:Type="String">电机运动控制系统的设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">应用</Data></Cell>
+    <Cell><Data ss:Type="String">生产社会实际</Data></Cell>
+    <Cell><Data ss:Type="String">旧题改进</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410804063</Data></Cell>
+    <Cell><Data ss:Type="String">刘照超</Data></Cell>
+    <Cell><Data ss:Type="String">软件工程</Data></Cell>
+    <Cell><Data ss:Type="String">欧方平</Data></Cell>
+    <Cell><Data ss:Type="String">讲师</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">179</Data></Cell>
+    <Cell><Data ss:Type="String">基于SSMH的学生社团OA管理系统的设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">生产社会实际</Data></Cell>
+    <Cell><Data ss:Type="String">新题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410804064</Data></Cell>
+    <Cell><Data ss:Type="String">龙保运</Data></Cell>
+    <Cell><Data ss:Type="String">软件工程</Data></Cell>
+    <Cell><Data ss:Type="String">兰全祥</Data></Cell>
+    <Cell><Data ss:Type="String">助教</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">180</Data></Cell>
+    <Cell><Data ss:Type="String">攀枝花市精准扶贫信息平台设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">科研课题</Data></Cell>
+    <Cell><Data ss:Type="String">新题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410804069</Data></Cell>
+    <Cell><Data ss:Type="String">马佳磊</Data></Cell>
+    <Cell><Data ss:Type="String">软件工程</Data></Cell>
+    <Cell><Data ss:Type="String">罗学刚</Data></Cell>
+    <Cell><Data ss:Type="String">讲师</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">181</Data></Cell>
+    <Cell><Data ss:Type="String">攀枝花市中心医院网上预约挂号系统的设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">生产社会实际</Data></Cell>
+    <Cell><Data ss:Type="String">新题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410804071</Data></Cell>
+    <Cell><Data ss:Type="String">明智</Data></Cell>
+    <Cell><Data ss:Type="String">软件工程</Data></Cell>
+    <Cell><Data ss:Type="String">刘小英</Data></Cell>
+    <Cell><Data ss:Type="String">讲师</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">182</Data></Cell>
+    <Cell><Data ss:Type="String">攀枝花市政协提案在线信息系统的设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">科研课题</Data></Cell>
+    <Cell><Data ss:Type="String">新题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410804072</Data></Cell>
+    <Cell><Data ss:Type="String">牟建川</Data></Cell>
+    <Cell><Data ss:Type="String">软件工程</Data></Cell>
+    <Cell><Data ss:Type="String">刘颖</Data></Cell>
+    <Cell><Data ss:Type="String">讲师</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">183</Data></Cell>
+    <Cell><Data ss:Type="String">B2C类型电子商务网站的设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">生产社会实际</Data></Cell>
+    <Cell><Data ss:Type="String">新题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410804073</Data></Cell>
+    <Cell><Data ss:Type="String">倪凡</Data></Cell>
+    <Cell><Data ss:Type="String">软件工程</Data></Cell>
+    <Cell><Data ss:Type="String">吴建兵</Data></Cell>
+    <Cell><Data ss:Type="String">副教授</Data></Cell>
+    <Cell><Data ss:Type="String">否</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">184</Data></Cell>
+    <Cell><Data ss:Type="String">攀枝花学院毕业设计选题系统的设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">生产社会实际</Data></Cell>
+    <Cell><Data ss:Type="String">新题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410804074</Data></Cell>
+    <Cell><Data ss:Type="String">倪浩</Data></Cell>
+    <Cell><Data ss:Type="String">软件工程</Data></Cell>
+    <Cell><Data ss:Type="String">朱正国</Data></Cell>
+    <Cell><Data ss:Type="String">讲师</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">185</Data></Cell>
+    <Cell><Data ss:Type="String">基于Android的WiFi管理器设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">生产社会实际</Data></Cell>
+    <Cell><Data ss:Type="String">新题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410804075</Data></Cell>
+    <Cell><Data ss:Type="String">聂强</Data></Cell>
+    <Cell><Data ss:Type="String">软件工程</Data></Cell>
+    <Cell><Data ss:Type="String">周方晓</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">186</Data></Cell>
+    <Cell><Data ss:Type="String">基于Node.js的追剧网站的设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">生产社会实际</Data></Cell>
+    <Cell><Data ss:Type="String">新题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410804076</Data></Cell>
+    <Cell><Data ss:Type="String">庞晓峰</Data></Cell>
+    <Cell><Data ss:Type="String">软件工程</Data></Cell>
+    <Cell><Data ss:Type="String">兰全祥</Data></Cell>
+    <Cell><Data ss:Type="String">助教</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">187</Data></Cell>
+    <Cell><Data ss:Type="String">基于PHP的手机售卖网站设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">生产社会实际</Data></Cell>
+    <Cell><Data ss:Type="String">新题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410804077</Data></Cell>
+    <Cell><Data ss:Type="String">彭凯伦</Data></Cell>
+    <Cell><Data ss:Type="String">软件工程</Data></Cell>
+    <Cell><Data ss:Type="String">何全庆</Data></Cell>
+    <Cell><Data ss:Type="String">讲师</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">188</Data></Cell>
+    <Cell><Data ss:Type="String">远程视频监控系统的设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">其他来源</Data></Cell>
+    <Cell><Data ss:Type="String">旧题改进</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410804078</Data></Cell>
+    <Cell><Data ss:Type="String">钱伟业</Data></Cell>
+    <Cell><Data ss:Type="String">软件工程</Data></Cell>
+    <Cell><Data ss:Type="String">蔡炯</Data></Cell>
+    <Cell><Data ss:Type="String">讲师</Data></Cell>
+    <Cell><Data ss:Type="String">否</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">189</Data></Cell>
+    <Cell><Data ss:Type="String">程序设计类课程在线考试系统的设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">科研课题</Data></Cell>
+    <Cell><Data ss:Type="String">新题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410804079</Data></Cell>
+    <Cell><Data ss:Type="String">邱小兵</Data></Cell>
+    <Cell><Data ss:Type="String">软件工程</Data></Cell>
+    <Cell><Data ss:Type="String">张会</Data></Cell>
+    <Cell><Data ss:Type="String">副教授</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">190</Data></Cell>
+    <Cell><Data ss:Type="String">某小型公司仓储管理系统设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">应用</Data></Cell>
+    <Cell><Data ss:Type="String">生产社会实际</Data></Cell>
+    <Cell><Data ss:Type="String">新题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410804080</Data></Cell>
+    <Cell><Data ss:Type="String">任林幸</Data></Cell>
+    <Cell><Data ss:Type="String">软件工程</Data></Cell>
+    <Cell><Data ss:Type="String">刘泽民</Data></Cell>
+    <Cell><Data ss:Type="String">教授</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">191</Data></Cell>
+    <Cell><Data ss:Type="String">攀枝花学院开放实验管理系统设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">生产社会实际</Data></Cell>
+    <Cell><Data ss:Type="String">新题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410804081</Data></Cell>
+    <Cell><Data ss:Type="String">邵元斌</Data></Cell>
+    <Cell><Data ss:Type="String">软件工程</Data></Cell>
+    <Cell><Data ss:Type="String">赖国勇</Data></Cell>
+    <Cell><Data ss:Type="String">讲师</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">192</Data></Cell>
+    <Cell><Data ss:Type="String">基于react的小日子APP设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">应用</Data></Cell>
+    <Cell><Data ss:Type="String">生产社会实际</Data></Cell>
+    <Cell><Data ss:Type="String">新题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410804082</Data></Cell>
+    <Cell><Data ss:Type="String">申倩</Data></Cell>
+    <Cell><Data ss:Type="String">软件工程</Data></Cell>
+    <Cell><Data ss:Type="String">陈三清</Data></Cell>
+    <Cell><Data ss:Type="String">讲师</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">193</Data></Cell>
+    <Cell><Data ss:Type="String">基于Android的个人运动管理APP设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">科研课题</Data></Cell>
+    <Cell><Data ss:Type="String">新题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410804083</Data></Cell>
+    <Cell><Data ss:Type="String">施樊</Data></Cell>
+    <Cell><Data ss:Type="String">软件工程</Data></Cell>
+    <Cell><Data ss:Type="String">陈尧</Data></Cell>
+    <Cell><Data ss:Type="String">讲师</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">194</Data></Cell>
+    <Cell><Data ss:Type="String">基于B/S的学生作业管理系统设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">生产社会实际</Data></Cell>
+    <Cell><Data ss:Type="String">新题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410804084</Data></Cell>
+    <Cell><Data ss:Type="String">石高林</Data></Cell>
+    <Cell><Data ss:Type="String">软件工程</Data></Cell>
+    <Cell><Data ss:Type="String">何志国</Data></Cell>
+    <Cell><Data ss:Type="String">教授</Data></Cell>
+    <Cell><Data ss:Type="String">否</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">195</Data></Cell>
+    <Cell><Data ss:Type="String">中小学生家—校联系系统设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">科研课题</Data></Cell>
+    <Cell><Data ss:Type="String">新题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410804086</Data></Cell>
+    <Cell><Data ss:Type="String">孙介烽</Data></Cell>
+    <Cell><Data ss:Type="String">软件工程</Data></Cell>
+    <Cell><Data ss:Type="String">银　星</Data></Cell>
+    <Cell><Data ss:Type="String">副教授</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">196</Data></Cell>
+    <Cell><Data ss:Type="String">股市信息爬取系统的实现</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">科研课题</Data></Cell>
+    <Cell><Data ss:Type="String">新题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410804087</Data></Cell>
+    <Cell><Data ss:Type="String">孙友朋</Data></Cell>
+    <Cell><Data ss:Type="String">软件工程</Data></Cell>
+    <Cell><Data ss:Type="String">张俊坤</Data></Cell>
+    <Cell><Data ss:Type="String">讲师</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">197</Data></Cell>
+    <Cell><Data ss:Type="String">攀枝花学院教师教学质量评价系统的设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">科研课题</Data></Cell>
+    <Cell><Data ss:Type="String">旧题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410804088</Data></Cell>
+    <Cell><Data ss:Type="String">唐国珍</Data></Cell>
+    <Cell><Data ss:Type="String">软件工程</Data></Cell>
+    <Cell><Data ss:Type="String">刘小英</Data></Cell>
+    <Cell><Data ss:Type="String">讲师</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">198</Data></Cell>
+    <Cell><Data ss:Type="String">电子书制作子系统的设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">科研课题</Data></Cell>
+    <Cell><Data ss:Type="String">新题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410804089</Data></Cell>
+    <Cell><Data ss:Type="String">唐磊</Data></Cell>
+    <Cell><Data ss:Type="String">软件工程</Data></Cell>
+    <Cell><Data ss:Type="String">欧方平</Data></Cell>
+    <Cell><Data ss:Type="String">讲师</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">199</Data></Cell>
+    <Cell><Data ss:Type="String">攀枝花学院在线考试系统的设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">生产社会实际</Data></Cell>
+    <Cell><Data ss:Type="String">新题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410804090</Data></Cell>
+    <Cell><Data ss:Type="String">唐鹏</Data></Cell>
+    <Cell><Data ss:Type="String">软件工程</Data></Cell>
+    <Cell><Data ss:Type="String">朱正国</Data></Cell>
+    <Cell><Data ss:Type="String">讲师</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">200</Data></Cell>
+    <Cell><Data ss:Type="String">网上电器销售系统的设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">生产社会实际</Data></Cell>
+    <Cell><Data ss:Type="String">旧题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410804092</Data></Cell>
+    <Cell><Data ss:Type="String">唐宿芯</Data></Cell>
+    <Cell><Data ss:Type="String">软件工程</Data></Cell>
+    <Cell><Data ss:Type="String">吕俊瑞</Data></Cell>
+    <Cell><Data ss:Type="String">讲师</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">201</Data></Cell>
+    <Cell><Data ss:Type="String">攀枝花恒力公司建筑设备租赁管理系统的设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">研究</Data></Cell>
+    <Cell><Data ss:Type="String">生产社会实际</Data></Cell>
+    <Cell><Data ss:Type="String">旧题改进</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410804093</Data></Cell>
+    <Cell><Data ss:Type="String">唐云</Data></Cell>
+    <Cell><Data ss:Type="String">软件工程</Data></Cell>
+    <Cell><Data ss:Type="String">秦振涛</Data></Cell>
+    <Cell><Data ss:Type="String">副教授</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">202</Data></Cell>
+    <Cell><Data ss:Type="String">二手商品交易系统的设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">其他来源</Data></Cell>
+    <Cell><Data ss:Type="String">旧题改进</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410804094</Data></Cell>
+    <Cell><Data ss:Type="String">滕友</Data></Cell>
+    <Cell><Data ss:Type="String">软件工程</Data></Cell>
+    <Cell><Data ss:Type="String">蔡炯</Data></Cell>
+    <Cell><Data ss:Type="String">讲师</Data></Cell>
+    <Cell><Data ss:Type="String">否</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">203</Data></Cell>
+    <Cell><Data ss:Type="String">大学学生社团联合会管理系统的设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">生产社会实际</Data></Cell>
+    <Cell><Data ss:Type="String">新题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410804095</Data></Cell>
+    <Cell><Data ss:Type="String">田坤林</Data></Cell>
+    <Cell><Data ss:Type="String">软件工程</Data></Cell>
+    <Cell><Data ss:Type="String">刘颖</Data></Cell>
+    <Cell><Data ss:Type="String">讲师</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">204</Data></Cell>
+    <Cell><Data ss:Type="String">基于Web的通用企业工资管理系统设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">生产社会实际</Data></Cell>
+    <Cell><Data ss:Type="String">新题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410804096</Data></Cell>
+    <Cell><Data ss:Type="String">田蕊铭</Data></Cell>
+    <Cell><Data ss:Type="String">软件工程</Data></Cell>
+    <Cell><Data ss:Type="String">岐世峰</Data></Cell>
+    <Cell><Data ss:Type="String">教授</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">205</Data></Cell>
+    <Cell><Data ss:Type="String">川菜馆餐饮管理系统的设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">应用</Data></Cell>
+    <Cell><Data ss:Type="String">生产社会实际</Data></Cell>
+    <Cell><Data ss:Type="String">新题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410804097</Data></Cell>
+    <Cell><Data ss:Type="String">汪剑波</Data></Cell>
+    <Cell><Data ss:Type="String">软件工程</Data></Cell>
+    <Cell><Data ss:Type="String">陈斌</Data></Cell>
+    <Cell><Data ss:Type="String">助教</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">206</Data></Cell>
+    <Cell><Data ss:Type="String">基于WEB的校园博客系统的设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">生产社会实际</Data></Cell>
+    <Cell><Data ss:Type="String">新题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410804098</Data></Cell>
+    <Cell><Data ss:Type="String">王东</Data></Cell>
+    <Cell><Data ss:Type="String">软件工程</Data></Cell>
+    <Cell><Data ss:Type="String">银　星</Data></Cell>
+    <Cell><Data ss:Type="String">副教授</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">207</Data></Cell>
+    <Cell><Data ss:Type="String">攀枝花旅游公司航班订票系统的设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">其他来源</Data></Cell>
+    <Cell><Data ss:Type="String">新题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410804100</Data></Cell>
+    <Cell><Data ss:Type="String">王敏</Data></Cell>
+    <Cell><Data ss:Type="String">软件工程</Data></Cell>
+    <Cell><Data ss:Type="String">刘欢</Data></Cell>
+    <Cell><Data ss:Type="String">讲师</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">208</Data></Cell>
+    <Cell><Data ss:Type="String">基于Web的小型仓储管理系统的设计与实现 </Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">生产社会实际</Data></Cell>
+    <Cell><Data ss:Type="String">新题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410804102</Data></Cell>
+    <Cell><Data ss:Type="String">王文涛</Data></Cell>
+    <Cell><Data ss:Type="String">软件工程</Data></Cell>
+    <Cell><Data ss:Type="String">蒋　斌</Data></Cell>
+    <Cell><Data ss:Type="String">副教授</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">209</Data></Cell>
+    <Cell><Data ss:Type="String">“阳光水果”网店电商平台的设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">生产社会实际</Data></Cell>
+    <Cell><Data ss:Type="String">新题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410804103</Data></Cell>
+    <Cell><Data ss:Type="String">王颖</Data></Cell>
+    <Cell><Data ss:Type="String">软件工程</Data></Cell>
+    <Cell><Data ss:Type="String">岐世峰</Data></Cell>
+    <Cell><Data ss:Type="String">教授</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">210</Data></Cell>
+    <Cell><Data ss:Type="String">攀枝花学院创新创业项目管理系统设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">生产社会实际</Data></Cell>
+    <Cell><Data ss:Type="String">新题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410804104</Data></Cell>
+    <Cell><Data ss:Type="String">王愉潇</Data></Cell>
+    <Cell><Data ss:Type="String">软件工程</Data></Cell>
+    <Cell><Data ss:Type="String">赖国勇</Data></Cell>
+    <Cell><Data ss:Type="String">讲师</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">211</Data></Cell>
+    <Cell><Data ss:Type="String">攀枝花学院科研课题评审系统的设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">生产社会实际</Data></Cell>
+    <Cell><Data ss:Type="String">旧题改进</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410804105</Data></Cell>
+    <Cell><Data ss:Type="String">魏帆</Data></Cell>
+    <Cell><Data ss:Type="String">软件工程</Data></Cell>
+    <Cell><Data ss:Type="String">罗学刚</Data></Cell>
+    <Cell><Data ss:Type="String">讲师</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">212</Data></Cell>
+    <Cell><Data ss:Type="String">基于Node.js的美食APP设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">生产社会实际</Data></Cell>
+    <Cell><Data ss:Type="String">新题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410804106</Data></Cell>
+    <Cell><Data ss:Type="String">魏子强</Data></Cell>
+    <Cell><Data ss:Type="String">软件工程</Data></Cell>
+    <Cell><Data ss:Type="String">兰全祥</Data></Cell>
+    <Cell><Data ss:Type="String">助教</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">213</Data></Cell>
+    <Cell><Data ss:Type="String">计算机学院校友信息管理系统的设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">生产社会实际</Data></Cell>
+    <Cell><Data ss:Type="String">新题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410804107</Data></Cell>
+    <Cell><Data ss:Type="String">吴登科</Data></Cell>
+    <Cell><Data ss:Type="String">软件工程</Data></Cell>
+    <Cell><Data ss:Type="String">张靖</Data></Cell>
+    <Cell><Data ss:Type="String">教授</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">214</Data></Cell>
+    <Cell><Data ss:Type="String">网络超市管理系统的设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">其他来源</Data></Cell>
+    <Cell><Data ss:Type="String">新题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410804108</Data></Cell>
+    <Cell><Data ss:Type="String">伍涛</Data></Cell>
+    <Cell><Data ss:Type="String">软件工程</Data></Cell>
+    <Cell><Data ss:Type="String">刘欢</Data></Cell>
+    <Cell><Data ss:Type="String">讲师</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">215</Data></Cell>
+    <Cell><Data ss:Type="String">基于IOS的攀枝花国胜茶溯源系统的设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">生产社会实际</Data></Cell>
+    <Cell><Data ss:Type="String">旧题改进</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410804109</Data></Cell>
+    <Cell><Data ss:Type="String">夏凡</Data></Cell>
+    <Cell><Data ss:Type="String">软件工程</Data></Cell>
+    <Cell><Data ss:Type="String">程江珂</Data></Cell>
+    <Cell><Data ss:Type="String">讲师</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">216</Data></Cell>
+    <Cell><Data ss:Type="String">基于移动端的鞋类品牌商城的设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">应用</Data></Cell>
+    <Cell><Data ss:Type="String">生产社会实际</Data></Cell>
+    <Cell><Data ss:Type="String">新题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410804111</Data></Cell>
+    <Cell><Data ss:Type="String">肖翠翠</Data></Cell>
+    <Cell><Data ss:Type="String">软件工程</Data></Cell>
+    <Cell><Data ss:Type="String">刘继光</Data></Cell>
+    <Cell><Data ss:Type="String">教授</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">217</Data></Cell>
+    <Cell><Data ss:Type="String">在线图书销售系统的设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">应用</Data></Cell>
+    <Cell><Data ss:Type="String">生产社会实际</Data></Cell>
+    <Cell><Data ss:Type="String">新题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410804112</Data></Cell>
+    <Cell><Data ss:Type="String">肖锐</Data></Cell>
+    <Cell><Data ss:Type="String">软件工程</Data></Cell>
+    <Cell><Data ss:Type="String">刘继光</Data></Cell>
+    <Cell><Data ss:Type="String">教授</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">218</Data></Cell>
+    <Cell><Data ss:Type="String">基于WEB的攀枝花学院社团管理系统的设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">生产社会实际</Data></Cell>
+    <Cell><Data ss:Type="String">新题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410804113</Data></Cell>
+    <Cell><Data ss:Type="String">肖文胜</Data></Cell>
+    <Cell><Data ss:Type="String">软件工程</Data></Cell>
+    <Cell><Data ss:Type="String">兰全祥</Data></Cell>
+    <Cell><Data ss:Type="String">助教</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">219</Data></Cell>
+    <Cell><Data ss:Type="String">电脑公司进货管理系统的设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">其他来源</Data></Cell>
+    <Cell><Data ss:Type="String">旧题改进</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410804114</Data></Cell>
+    <Cell><Data ss:Type="String">谢伟明</Data></Cell>
+    <Cell><Data ss:Type="String">软件工程</Data></Cell>
+    <Cell><Data ss:Type="String">蔡炯</Data></Cell>
+    <Cell><Data ss:Type="String">讲师</Data></Cell>
+    <Cell><Data ss:Type="String">否</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">220</Data></Cell>
+    <Cell><Data ss:Type="String">攀枝花学院宿舍管理系统的设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">科研课题</Data></Cell>
+    <Cell><Data ss:Type="String">新题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410804115</Data></Cell>
+    <Cell><Data ss:Type="String">谢宗余</Data></Cell>
+    <Cell><Data ss:Type="String">软件工程</Data></Cell>
+    <Cell><Data ss:Type="String">张会</Data></Cell>
+    <Cell><Data ss:Type="String">副教授</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">221</Data></Cell>
+    <Cell><Data ss:Type="String">攀枝花市煤气总公司门户网站的设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">生产社会实际</Data></Cell>
+    <Cell><Data ss:Type="String">新题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410804116</Data></Cell>
+    <Cell><Data ss:Type="String">胥方</Data></Cell>
+    <Cell><Data ss:Type="String">软件工程</Data></Cell>
+    <Cell><Data ss:Type="String">岐世峰</Data></Cell>
+    <Cell><Data ss:Type="String">教授</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">222</Data></Cell>
+    <Cell><Data ss:Type="String">移动订餐系统的设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">科研课题</Data></Cell>
+    <Cell><Data ss:Type="String">旧题改进</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410804117</Data></Cell>
+    <Cell><Data ss:Type="String">徐凌颖</Data></Cell>
+    <Cell><Data ss:Type="String">软件工程</Data></Cell>
+    <Cell><Data ss:Type="String">罗学刚</Data></Cell>
+    <Cell><Data ss:Type="String">讲师</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">223</Data></Cell>
+    <Cell><Data ss:Type="String">攀枝花学院计算机等级考试报名管理系统的设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">生产社会实际</Data></Cell>
+    <Cell><Data ss:Type="String">新题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410804118</Data></Cell>
+    <Cell><Data ss:Type="String">晏聪聪</Data></Cell>
+    <Cell><Data ss:Type="String">软件工程</Data></Cell>
+    <Cell><Data ss:Type="String">朱正国</Data></Cell>
+    <Cell><Data ss:Type="String">讲师</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">224</Data></Cell>
+    <Cell><Data ss:Type="String">《数据结构》精品教学资源系统设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">生产社会实际</Data></Cell>
+    <Cell><Data ss:Type="String">旧题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410804119</Data></Cell>
+    <Cell><Data ss:Type="String">羊绍林</Data></Cell>
+    <Cell><Data ss:Type="String">软件工程</Data></Cell>
+    <Cell><Data ss:Type="String">何志国</Data></Cell>
+    <Cell><Data ss:Type="String">教授</Data></Cell>
+    <Cell><Data ss:Type="String">否</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">225</Data></Cell>
+    <Cell><Data ss:Type="String">基于推送框架的Android信息交流APP设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">应用</Data></Cell>
+    <Cell><Data ss:Type="String">生产社会实际</Data></Cell>
+    <Cell><Data ss:Type="String">新题目</Data></Cell>
+    <Cell><Data ss:Type="String">论文</Data></Cell>
+    <Cell><Data ss:Type="String">201410804121</Data></Cell>
+    <Cell><Data ss:Type="String">殷鹏</Data></Cell>
+    <Cell><Data ss:Type="String">软件工程</Data></Cell>
+    <Cell><Data ss:Type="String">陈三清</Data></Cell>
+    <Cell><Data ss:Type="String">讲师</Data></Cell>
+    <Cell><Data ss:Type="String">否</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">226</Data></Cell>
+    <Cell><Data ss:Type="String">基于数字媒体技术的《迟到了》创意短片的设计与制作</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">生产社会实际</Data></Cell>
+    <Cell><Data ss:Type="String">新题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410804122</Data></Cell>
+    <Cell><Data ss:Type="String">张宽</Data></Cell>
+    <Cell><Data ss:Type="String">软件工程</Data></Cell>
+    <Cell><Data ss:Type="String">刘小英</Data></Cell>
+    <Cell><Data ss:Type="String">讲师</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">227</Data></Cell>
+    <Cell><Data ss:Type="String">基于JSP的汽车配件销售系统的设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">生产社会实际</Data></Cell>
+    <Cell><Data ss:Type="String">新题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410804124</Data></Cell>
+    <Cell><Data ss:Type="String">张乾</Data></Cell>
+    <Cell><Data ss:Type="String">软件工程</Data></Cell>
+    <Cell><Data ss:Type="String">吕俊瑞</Data></Cell>
+    <Cell><Data ss:Type="String">讲师</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">228</Data></Cell>
+    <Cell><Data ss:Type="String">攀枝花学院后勤服务在线互动系统设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">生产社会实际</Data></Cell>
+    <Cell><Data ss:Type="String">新题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410804125</Data></Cell>
+    <Cell><Data ss:Type="String">张山</Data></Cell>
+    <Cell><Data ss:Type="String">软件工程</Data></Cell>
+    <Cell><Data ss:Type="String">赖国勇</Data></Cell>
+    <Cell><Data ss:Type="String">讲师</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">229</Data></Cell>
+    <Cell><Data ss:Type="String">攀枝花市二手车辆网上信息爬取系统的实现</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">科研课题</Data></Cell>
+    <Cell><Data ss:Type="String">新题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410804126</Data></Cell>
+    <Cell><Data ss:Type="String">张园</Data></Cell>
+    <Cell><Data ss:Type="String">软件工程</Data></Cell>
+    <Cell><Data ss:Type="String">张俊坤</Data></Cell>
+    <Cell><Data ss:Type="String">讲师</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">230</Data></Cell>
+    <Cell><Data ss:Type="String">向日葵网上商城的设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">应用</Data></Cell>
+    <Cell><Data ss:Type="String">生产社会实际</Data></Cell>
+    <Cell><Data ss:Type="String">新题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410804127</Data></Cell>
+    <Cell><Data ss:Type="String">张子豪</Data></Cell>
+    <Cell><Data ss:Type="String">软件工程</Data></Cell>
+    <Cell><Data ss:Type="String">陈斌</Data></Cell>
+    <Cell><Data ss:Type="String">助教</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">231</Data></Cell>
+    <Cell><Data ss:Type="String">网络存储系统的设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">应用</Data></Cell>
+    <Cell><Data ss:Type="String">生产社会实际</Data></Cell>
+    <Cell><Data ss:Type="String">新题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410804128</Data></Cell>
+    <Cell><Data ss:Type="String">赵骏霖</Data></Cell>
+    <Cell><Data ss:Type="String">软件工程</Data></Cell>
+    <Cell><Data ss:Type="String">陈斌</Data></Cell>
+    <Cell><Data ss:Type="String">助教</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">232</Data></Cell>
+    <Cell><Data ss:Type="String">小型仓储管理系统的设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">科研课题</Data></Cell>
+    <Cell><Data ss:Type="String">新题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410804129</Data></Cell>
+    <Cell><Data ss:Type="String">赵垒</Data></Cell>
+    <Cell><Data ss:Type="String">软件工程</Data></Cell>
+    <Cell><Data ss:Type="String">银　星</Data></Cell>
+    <Cell><Data ss:Type="String">副教授</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">233</Data></Cell>
+    <Cell><Data ss:Type="String">攀枝花阳光康养招商引资项目管理系统的设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">科研课题</Data></Cell>
+    <Cell><Data ss:Type="String">新题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410804130</Data></Cell>
+    <Cell><Data ss:Type="String">赵袁</Data></Cell>
+    <Cell><Data ss:Type="String">软件工程</Data></Cell>
+    <Cell><Data ss:Type="String">赵相瑜</Data></Cell>
+    <Cell><Data ss:Type="String">副教授</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">234</Data></Cell>
+    <Cell><Data ss:Type="String">掌上服装专卖APP的设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">生产社会实际</Data></Cell>
+    <Cell><Data ss:Type="String">新题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410804131</Data></Cell>
+    <Cell><Data ss:Type="String">郑宏</Data></Cell>
+    <Cell><Data ss:Type="String">软件工程</Data></Cell>
+    <Cell><Data ss:Type="String">吴建兵</Data></Cell>
+    <Cell><Data ss:Type="String">副教授</Data></Cell>
+    <Cell><Data ss:Type="String">否</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">235</Data></Cell>
+    <Cell><Data ss:Type="String">攀枝花学院图书管理系统的设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">生产社会实际</Data></Cell>
+    <Cell><Data ss:Type="String">旧题改进</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410804132</Data></Cell>
+    <Cell><Data ss:Type="String">郑莎</Data></Cell>
+    <Cell><Data ss:Type="String">软件工程</Data></Cell>
+    <Cell><Data ss:Type="String">朱正国</Data></Cell>
+    <Cell><Data ss:Type="String">讲师</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">236</Data></Cell>
+    <Cell><Data ss:Type="String">基于WEB的电子书店系统的设计与实现 </Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">科研课题</Data></Cell>
+    <Cell><Data ss:Type="String">新题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410804134</Data></Cell>
+    <Cell><Data ss:Type="String">周伙</Data></Cell>
+    <Cell><Data ss:Type="String">软件工程</Data></Cell>
+    <Cell><Data ss:Type="String">何全庆</Data></Cell>
+    <Cell><Data ss:Type="String">讲师</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">237</Data></Cell>
+    <Cell><Data ss:Type="String">小型进销存管理系统的设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">应用</Data></Cell>
+    <Cell><Data ss:Type="String">生产社会实际</Data></Cell>
+    <Cell><Data ss:Type="String">新题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410804135</Data></Cell>
+    <Cell><Data ss:Type="String">周毅</Data></Cell>
+    <Cell><Data ss:Type="String">软件工程</Data></Cell>
+    <Cell><Data ss:Type="String">陈斌</Data></Cell>
+    <Cell><Data ss:Type="String">助教</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">238</Data></Cell>
+    <Cell><Data ss:Type="String">网上花店的设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">应用</Data></Cell>
+    <Cell><Data ss:Type="String">生产社会实际</Data></Cell>
+    <Cell><Data ss:Type="String">新题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410804136</Data></Cell>
+    <Cell><Data ss:Type="String">周瑜</Data></Cell>
+    <Cell><Data ss:Type="String">软件工程</Data></Cell>
+    <Cell><Data ss:Type="String">陈斌</Data></Cell>
+    <Cell><Data ss:Type="String">助教</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">239</Data></Cell>
+    <Cell><Data ss:Type="String">基于B/S的小型商场在线购物系统的研究与实现</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">科研课题</Data></Cell>
+    <Cell><Data ss:Type="String">新题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410804137</Data></Cell>
+    <Cell><Data ss:Type="String">朱洪五</Data></Cell>
+    <Cell><Data ss:Type="String">软件工程</Data></Cell>
+    <Cell><Data ss:Type="String">何全庆</Data></Cell>
+    <Cell><Data ss:Type="String">讲师</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">240</Data></Cell>
+    <Cell><Data ss:Type="String">基于Android的教师点名软件设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">应用</Data></Cell>
+    <Cell><Data ss:Type="String">生产社会实际</Data></Cell>
+    <Cell><Data ss:Type="String">旧题改进</Data></Cell>
+    <Cell><Data ss:Type="String">论文</Data></Cell>
+    <Cell><Data ss:Type="String">201410804138</Data></Cell>
+    <Cell><Data ss:Type="String">祝梓</Data></Cell>
+    <Cell><Data ss:Type="String">软件工程</Data></Cell>
+    <Cell><Data ss:Type="String">陈三清</Data></Cell>
+    <Cell><Data ss:Type="String">讲师</Data></Cell>
+    <Cell><Data ss:Type="String">否</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">241</Data></Cell>
+    <Cell><Data ss:Type="String">网络聊天系统的设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">科研课题</Data></Cell>
+    <Cell><Data ss:Type="String">旧题目</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410804139</Data></Cell>
+    <Cell><Data ss:Type="String">左森</Data></Cell>
+    <Cell><Data ss:Type="String">软件工程</Data></Cell>
+    <Cell><Data ss:Type="String">何全庆</Data></Cell>
+    <Cell><Data ss:Type="String">讲师</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">242</Data></Cell>
+    <Cell><Data ss:Type="String">校园二手物品交易系统设计与实现</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">科研课题</Data></Cell>
+    <Cell><Data ss:Type="String">旧题改进</Data></Cell>
+    <Cell><Data ss:Type="String">设计</Data></Cell>
+    <Cell><Data ss:Type="String">201410904046</Data></Cell>
+    <Cell><Data ss:Type="String">张熊鑫</Data></Cell>
+    <Cell><Data ss:Type="String">软件工程</Data></Cell>
+    <Cell><Data ss:Type="String">张靖</Data></Cell>
+    <Cell><Data ss:Type="String">教授</Data></Cell>
+    <Cell><Data ss:Type="String">是</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>0</VerticalResolution>
+   </Print>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>13</ActiveRow>
+     <ActiveCol>8</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>
