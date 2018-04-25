@@ -77,5 +77,47 @@ def register(userId, loginName, userPhone, alipay, stress):
       result = 'register success!'
       return {'code': code, 'message': result, 'token': token}
   return {'code': code, 'message': 'fail'}
+def modify(alipay, loginName, stress, userId):
+  code = 10000
+  sql = "update user set alipay='%s', loginName='%s', stress='%s' where userId='%s';" % (alipay, loginName, stress, userId)
+  cursor = g.db.cursor()
+  cursor.execute(sql)
+  data = cursor.fetchone()
+  g.db.commit()
+  if (data == None):
+    result = 'modify success!'
+    return {'code': code, 'message': result}
+  return {'code': code, 'message': 'fail'}
+def adminLogin(adminId, password):
+  print(adminId, password)
+  sql = "select * from admin where adminId='%s';" % (adminId)
+  cursor = g.db.cursor()
+  cursor.execute(sql)
+  data = cursor.fetchone()
+  print(data)
+  if data:
+    if (data[1] == password):
+      return {'result': 'success'}
+    else:
+      return {'result': 'account or password is wrong'}
+  else:
+    return {'result': 'account or password is wrong'}
+def illegalAccounts():
+  sql = "select * from user where userStatus=0;"
+  cursor = g.db.cursor()
+  cursor.execute(sql)
+  rows = cursor.fetchall()
+  result = []
+  for row in rows:
+    result.append({ 'loginName': row[1], 'userPhone': row[0] })
+  return result
+def queryIlUser(userId):
+  sql = "select * from user where userId='%s';" % (userId)
+  cursor = g.db.cursor()
+  cursor.execute(sql)
+  data = cursor.fetchone()
+  if data:
+    return { 'loginName': data[1], 'userPhone': data[0] }
+  return False
 def generateId():
   return uuid.uuid1()

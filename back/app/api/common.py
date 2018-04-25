@@ -13,6 +13,14 @@ def getGoodsList(pageNum, pageSize):
   for row in rows:
     result.append({ 'goodsId': row[0], 'ownerId': row[1], 'goodsName': row[4], 'ownerName': row[2], 'currentPrice': row[9], 'originalPrice': row[10], 'goodsImg': row[3], 'goodsThums': row[11] })
   return result
+def queryUserInfo(userId):
+  sql = "select * from user where userId='%s'" % (userId)
+  cursor = g.db.cursor()
+  cursor.execute(sql)
+  rows = cursor.fetchone()
+  createTime = format(rows[5])
+  result = {'loginName': rows[1],'userPhone': rows[2],'createTime': createTime,'alipay': rows[6],'stress': rows[7]}
+  return {'code': 10000, 'message': result}
 def addGoods(params):
   myUuid = str(uuid.uuid1())
   print(myUuid)

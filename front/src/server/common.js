@@ -12,6 +12,12 @@ class CommonService {
   queryUser (params) {
     return xhr('api/queryUser', { method: 'POST', params })
   }
+  queryUserInfo (params) {
+    return xhr('api/queryUserInfo', { method: 'GET', params })
+  }
+  modifyUserInfo (params) {
+    return xhr('api/modifyUserInfo', { method: 'POST', params })
+  }
   register (params) {
     return xhr('api/register', { method: 'POST', params })
   }
@@ -20,6 +26,15 @@ class CommonService {
   }
   goodsList (params) {
     return xhr('api/goodsList', { method: 'GET', params })
+  }
+  adminLogin (params) {
+    return xhr('api/adminLogin', { method: 'GET', params })
+  }
+  illegalAccounts () {
+    return xhr('api/illegalAccounts', { method: 'GET' })
+  }
+  queryIlUser (params) {
+    return xhr('api/queryIlUser', { method: 'GET', params })
   }
 }
 export default new CommonService()

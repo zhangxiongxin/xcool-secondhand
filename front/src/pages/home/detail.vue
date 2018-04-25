@@ -15,7 +15,7 @@
           a.origin-price-num {{ originalPrice }}
         .ownerName {{ ownerName }}
         el-button(@click="pay", type="primary") 立即购买
-    .pay-container.w(e-else)
+    .pay-container.w(v-else)
       .logo 收银台
       .order-info
         .order-num 132123

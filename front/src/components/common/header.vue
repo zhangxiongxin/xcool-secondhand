@@ -3,6 +3,8 @@
     .home-head.w
       .home-head-left
         a.login(@click="to('/login')") 亲，请登录/注册
+      .home-head-right
+        a.profile(@click="to('/profile')") 个人中心
     .home-logo
       .content.w
         .name
@@ -46,6 +48,13 @@ export default {
   .login {
     color: red;
     margin-right: 7px;
+  }
+  .profile {
+    float: right;
+    line-height: 40px;
+    color: #000;
+    font-size: 14px;
+    cursor: pointer;
   }
   .home-head {
     height: 40px;

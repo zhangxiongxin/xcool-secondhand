@@ -77,5 +77,38 @@ class AddGoods(restful.Resource):
       result = common.addGoods(params)
       return result
 api.add_resource(AddGoods, '/api/add')
+class QueryUserInfo(restful.Resource):
+    def get(self):
+      userId = request.args.get('userId')
+      result = common.queryUserInfo(userId)
+      return result
+api.add_resource(QueryUserInfo, '/api/queryUserInfo')
+class ModifyUserInfo(restful.Resource):
+    def post(self):
+      userId = request.args.get('userId')
+      alipay = request.args.get('alipay')
+      stress = request.args.get('stress')
+      loginName = request.args.get('loginName')
+      result = user.modify(alipay, loginName, stress, userId)
+      return result
+api.add_resource(ModifyUserInfo, '/api/modifyUserInfo')
+class AdminLogin(restful.Resource):
+    def get(self):
+      adminId = str(request.args.get('adminId'))
+      password = request.args.get('password')
+      result = user.adminLogin(adminId, password)
+      return result
+api.add_resource(AdminLogin, '/api/adminLogin')
+class IllegalAccounts(restful.Resource):
+    def get(self):
+      result = user.illegalAccounts()
+      return result
+api.add_resource(IllegalAccounts, '/api/illegalAccounts')
+class QueryIlUser(restful.Resource):
+    def get(self):
+      userId = request.args.get('userId')
+      result = user.queryIlUser(userId)
+      return result
+api.add_resource(QueryIlUser, '/api/queryIlUser')
 if __name__ == '__main__':
     app.run(debug=True)
