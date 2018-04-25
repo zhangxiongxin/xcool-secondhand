@@ -18,7 +18,7 @@ api = restful.Api(app)
 @app.before_request
 def my_before_request():
   g.db = conn
-  print('before request', request.headers)
+  # print('before request', request.headers)
 @app.after_request
 def my_after_request(self):
   try: print('after request')
@@ -110,5 +110,12 @@ class QueryIlUser(restful.Resource):
       result = user.queryIlUser(userId)
       return result
 api.add_resource(QueryIlUser, '/api/queryIlUser')
+class ControlUser(restful.Resource):
+    def post(self):
+      userId = request.args.get('userId')
+      userStatus = request.args.get('userStatus')
+      result = user.controlUser(userId, userStatus)
+      return result
+api.add_resource(ControlUser, '/api/controlUser')
 if __name__ == '__main__':
     app.run(debug=True)

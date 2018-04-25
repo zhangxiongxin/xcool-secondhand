@@ -7,28 +7,54 @@
     .content(v-else)
       el-input(placeholder="输入手机号查询用户", v-model="userPhone")
       el-button(type="primary", @click="queryUser") 查询
+      label 昵称：{{queryResult.loginName}}
+      label 手机号：{{queryResult.userPhone}}
+      el-button(@click="controlUser(queryResult.userPhone, 0)") 禁用
+      list(:items="illegalAccountsList", @controlUser="controlUser")
 </template>
 <script>
 import CommonService from '@/server/common'
 import md5 from 'md5'
+import list from './list'
 export default {
   name: 'admin',
+  components: {
+    list: list
+  },
   data () {
     return {
       userPhone: '',
       account: '',
       pwd: '',
       hasLogined: false,
-      illegalAccountsList: []
+      illegalAccountsList: [],
+      queryResult: {
+        loginName: '',
+        userPhone: ''
+      }
     }
   },
   methods: {
+    controlUser (id, type) {
+      let params = {
+        userId: id,
+        userStatus: type
+      }
+      CommonService.controlUser(params)
+        .then((res) => {
+          console.log(res)
+          this.illegalAccounts()
+        })
+    },
     queryUser () {
       let params = {
         userId: this.userPhone
       }
       CommonService.queryIlUser(params)
-        .then()
+        .then((res) => {
+          this.queryResult.loginName = res.loginName
+          this.queryResult.userPhone = res.userPhone
+        })
         .catch()
     },
     login () {

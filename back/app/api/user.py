@@ -110,14 +110,23 @@ def illegalAccounts():
   result = []
   for row in rows:
     result.append({ 'loginName': row[1], 'userPhone': row[0] })
-  return result
+  return {'result': result}
 def queryIlUser(userId):
   sql = "select * from user where userId='%s';" % (userId)
   cursor = g.db.cursor()
   cursor.execute(sql)
   data = cursor.fetchone()
   if data:
-    return { 'loginName': data[1], 'userPhone': data[0] }
+    return { 'loginName': data[1], 'userPhone': data[0], 'userStatus': data[4] }
+  return False
+def controlUser(userId, userStatus):
+  sql = "update user set userStatus='%s' where userId='%s';" % (userStatus, userId)
+  cursor = g.db.cursor()
+  cursor.execute(sql)
+  data = cursor.fetchone()
+  g.db.commit()
+  if data:
+    return True
   return False
 def generateId():
   return uuid.uuid1()

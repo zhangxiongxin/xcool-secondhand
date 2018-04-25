@@ -36,5 +36,8 @@ class CommonService {
   queryIlUser (params) {
     return xhr('api/queryIlUser', { method: 'GET', params })
   }
+  controlUser (params) {
+    return xhr('api/controlUser', { method: 'POST', params })
+  }
 }
 export default new CommonService()
