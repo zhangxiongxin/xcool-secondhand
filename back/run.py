@@ -21,7 +21,7 @@ def my_before_request():
   # print('before request', request.headers)
 @app.after_request
 def my_after_request(self):
-  try: print('after request')
+  try: print('after request') 
   except: traceback.print_exc()
   return self
 class GetCode(restful.Resource):

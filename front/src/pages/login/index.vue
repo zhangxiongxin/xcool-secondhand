@@ -30,6 +30,7 @@
     .login-bottom
 </template>
 <script>
+import {checkType} from '@/utils/common'
 import CommonService from '@/server/common'
 import md5 from 'md5'
 import store from 'store'
@@ -71,13 +72,11 @@ export default {
     },
     // 获取验证码
     getVerification () {
-      let reg = /^1[0-9]{10}$/
-      var flag = reg.test(this.phoneNum)
+      var flag = checkType.check(this.phoneNum, 'mobile')
       if (!flag) {
         this.sendCodeCallback('error', '手机号码不合法')
       } else {
         var code = this.random()
-        console.log(typeof code, code)
         var m = 5
         var params = {
           accountSid: '26d1714cd0614834a0d62db2c002a730',
@@ -87,7 +86,6 @@ export default {
           sig: md5('26d1714cd0614834a0d62db2c002a73055ba8bef73654108b7688c84de9c9ee2' + Date.parse(new Date()))
         }
         var pwd = md5(`${code}${this.phoneNum}xcool`)
-        console.log(pwd, 11)
         store.set('pwd', pwd)
         ajax('api/getCode', { method: 'POST', params })
           .then(res => {
@@ -270,5 +268,12 @@ export default {
   }
   .comfirm {
     margin-top: 20px;
+  }
+</style>
+<style>
+  .verification-code .el-input-group__append {
+    color: #fff;
+    background: #409EFF;
+    border: 1px solid #409EFF;
   }
 </style>

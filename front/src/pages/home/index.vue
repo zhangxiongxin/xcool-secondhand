@@ -5,9 +5,9 @@
       .brast(@click="to('/add')")
         .brast-btn 发布闲置
         .crowdfunding 众筹会员
-      el-carousel.banner(:interval="5000" arrow="always")
-        el-carousel-item(v-for="item in 4", :key="item")
-          h3 {{ item }}
+      el-carousel.banner(:interval="5000" arrow="always", indicator-position="outside")
+        el-carousel-item(v-for="item in 1", :key="item")
+          img.ad(src="http://bpic.588ku.com/back_pic/03/64/70/5157ad7e50bb573.jpg")
     .home-list.w
       .recommend 热门推荐
       card(:item="goodsList")
@@ -50,6 +50,10 @@ export default {
     max-width: 1200px;
     min-width: 900px;
     margin: 0 auto;
+  }
+  .ad {
+    height: 100%;
+    max-width: 100%;
   }
   .recommend {
     position: relative;

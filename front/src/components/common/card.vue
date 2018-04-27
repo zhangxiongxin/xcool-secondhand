@@ -3,7 +3,7 @@
     .simgle(v-for="(item, index) in item", @click="fun(item)",:key="index")
       img.goodsImg(:src="item.goodsThums")
       a {{ item.goodsName }}
-      a ￥ {{ item.currentPrice }}
+      a.money ￥{{ item.currentPrice }}
 </template>
 <script>
 import store from 'store'
@@ -43,5 +43,8 @@ export default {
     /*justify-content: space-between;*/
     margin-right: 10px;
     flex-wrap: wrap;
+  }
+  .money {
+    color: red;
   }
 </style>

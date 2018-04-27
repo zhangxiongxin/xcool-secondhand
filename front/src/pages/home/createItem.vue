@@ -90,7 +90,6 @@ export default {
           this.upload(this.file, this.token, this.key)
         })
         .catch(() => {
-          // console.log(err)
         })
     },
     // 七牛云上传图片接口
@@ -191,6 +190,7 @@ export default {
     font-size: 200px;
   }
   .goods-img {
+    max-height: 300px;
     max-width: 600px;
   }
   .uploadbtn-container {

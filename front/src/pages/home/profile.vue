@@ -112,4 +112,7 @@ export default {
     max-width: 1200px;
     margin: 0 auto;
   }
+  label {
+    line-height: 40px;
+  }
 </style>
