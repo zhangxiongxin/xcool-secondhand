@@ -20,7 +20,10 @@
             label 收货地址
             el-input.normal-input(v-model="stress", :disabled="writeable")
           el-button(type="primary", @click="modify") {{btn.value}}
-      el-tab-pane(label="订单信息", name="second")
+      el-tab-pane(label="我的发布", name="second")
+        orderItem(:items="orderList1", type="owner")
+      el-tab-pane(label="我的购买", name="third")
+        orderItem(:items="orderList1", type="customer")
     mFooter
 </template>
 <script>
@@ -30,6 +33,14 @@ export default {
   name: 'profile',
   data () {
     return {
+      orderList1: [
+        {
+          goodsName: '篮球'
+        },
+        {
+          goodsName: '足球'
+        }
+      ],
       tabPosition: 'left',
       activeName: 'first',
       writeable: true,

@@ -85,6 +85,13 @@ def modify(alipay, loginName, stress, userId):
   data = cursor.fetchone()
   g.db.commit()
   if (data == None):
+    sql2 = "update goods set ownerName='%s' where ownerId='%s';" % (loginName, userId)
+    sql3 = "update goods_order set ownerName='%s' where ownerId='%s';" % (loginName, userId)
+    sql4 = "update goods_order set customerName='%s' where customerId='%s';" % (loginName, userId)
+    cursor.execute(sql2)
+    cursor.execute(sql3)
+    cursor.execute(sql4)
+    g.db.commit()
     result = 'modify success!'
     return {'code': code, 'message': result}
   return {'code': code, 'message': 'fail'}

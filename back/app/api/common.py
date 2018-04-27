@@ -5,7 +5,7 @@ def getGoodsList(pageNum, pageSize):
   pageNum = int(pageNum)
   pageSize = int(pageSize)
   start = pageSize * (pageNum - 1)
-  sql = "select * from goods limit %s, %s;" % (start, pageSize)
+  sql = "select * from goods where isSale=0 order by createTime desc limit %s, %s;" % (start, pageSize)
   cursor = g.db.cursor()
   cursor.execute(sql)
   rows = cursor.fetchall()
