@@ -65,7 +65,8 @@ def queryUser(userPhone):
   return {'code': code, 'message': result}
 def register(userId, loginName, userPhone, alipay, stress):
   createTime  = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-  sql = "insert into user(userId, loginName, userPhone, alipay, stress, userStatus, createTime) values ('%s', '%s', '%s', '%s', '%s', 1, '%s')" % (userId, loginName, userPhone, alipay, stress, createTime)
+  createNy  = datetime.datetime.now().strftime("%Y.%m")
+  sql = "insert into user(userId, loginName, userPhone, alipay, stress, userStatus, createTime, createNy) values ('%s', '%s', '%s', '%s', '%s', 1, '%s', '%s')" % (userId, loginName, userPhone, alipay, stress, createTime, createNy)
   cursor = g.db.cursor()
   cursor.execute(sql)
   data = cursor.fetchone()

@@ -126,7 +126,7 @@ export default {
     },
     // 简单验证输入
     auth (str) {
-      if (str.length > 5 && str.length < 16) return true
+      if (str.length > 5 || str.length < 16) return true
       return false
     },
     // 新注册用户填写资料提交验证

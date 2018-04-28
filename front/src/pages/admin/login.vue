@@ -1,5 +1,4 @@
 <template lang="pug">
-  router-view.admin-container
     .login-form(v-if="!hasLogined")
       el-input.input-item(placeholder="请输入管理员账号", v-model="account")
       el-input.input-item(placeholder="请输入管理员密码", type="password", v-model="pwd")
@@ -17,7 +16,7 @@ import CommonService from '@/server/common'
 import md5 from 'md5'
 import list from './list'
 export default {
-  name: 'admin',
+  name: 'adminLogin',
   components: {
     list: list
   },

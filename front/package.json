@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "axios": "^0.18.0",
+    "echarts": "^4.0.4",
     "element-ui": "^2.2.2",
     "md5": "^2.2.1",
     "normalize.css": "^8.0.0",

@@ -9,6 +9,8 @@ import Pay from '@/pages/home/pay'
 import Admin from '@/pages/admin'
 import Detail from '@/pages/home/detail'
 import Profile from '@/pages/home/profile'
+import Emain from '@/pages/admin/main'
+import AdminLogin from '@/pages/admin/login'
 Vue.use(Router)
 
 export default new Router({
@@ -22,7 +24,20 @@ export default new Router({
     {
       path: '/admin',
       name: 'admin',
-      component: Admin
+      redirect: '/admin/adminLogin',
+      component: Admin,
+      children: [
+        {
+          path: 'main',
+          name: 'emain',
+          component: Emain
+        },
+        {
+          path: 'adminLogin',
+          name: 'adminLogin',
+          component: AdminLogin
+        }
+      ]
     },
     {
       path: '/add',
