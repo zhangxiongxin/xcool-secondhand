@@ -10,6 +10,7 @@
 import { attrChartData, userChartData, buyChartData } from './data'
 import side from './side'
 import echarts from 'echarts'
+import CommonService from '@/server/common'
 export default {
   name: 'emain',
   components: { side },
@@ -74,6 +75,7 @@ export default {
   },
   mounted () {
     this.init()
+    CommonService.goodsList()
   }
 }
 </script>

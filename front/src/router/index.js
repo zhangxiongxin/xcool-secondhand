@@ -22,6 +22,11 @@ export default new Router({
       component: HomePage
     },
     {
+      path: '/adminLogin',
+      name: 'adminLogin',
+      component: AdminLogin
+    },
+    {
       path: '/admin',
       name: 'admin',
       redirect: '/admin/adminLogin',
