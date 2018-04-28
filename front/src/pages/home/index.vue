@@ -10,7 +10,7 @@
           img.ad(src="http://bpic.588ku.com/back_pic/03/64/70/5157ad7e50bb573.jpg")
     .home-list.w
       .recommend 热门推荐
-      card(:item="goodsList")
+      card(:item="goodsList", @add="add")
     .home-list.bottom.w
       .recommend 发现低价
       card(:item="goodsList")
@@ -21,27 +21,34 @@ import CommonService from '@/server/common'
 export default {
   data () {
     return {
-      goodsList: []
+      goodsList: [],
+      params: {
+        pageNum: 1,
+        pageSize: 10
+      }
     }
   },
   methods: {
     to (url) {
       this.$router.push(url)
+    },
+    add () {
+      this.params.pageNum++
+      this.getList()
+    },
+    getList () {
+      CommonService.goodsList(this.params)
+        .then(res => {
+          console.log(res)
+          this.goodsList = this.goodsList.concat(res)
+        })
+        .catch(err => {
+          console.log(err)
+        })
     }
   },
   created () {
-    let params = {
-      pageNum: 1,
-      pageSize: 10
-    }
-    CommonService.goodsList(params)
-      .then(res => {
-        console.log(res)
-        this.goodsList = res
-      })
-      .catch(err => {
-        console.log(err)
-      })
+    this.getList()
   }
 }
 </script>
@@ -154,7 +161,7 @@ export default {
     content: '优酷会员了解一下？'
   }
   .home-list {
-    margin-top: 20px;
+    margin-top: 40px;
     text-align: left;
   }
   .home-list.bottom {
