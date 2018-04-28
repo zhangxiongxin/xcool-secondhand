@@ -119,3 +119,4 @@ class ControlUser(restful.Resource):
 api.add_resource(ControlUser, '/api/controlUser')
 if __name__ == '__main__':
     app.run(debug=True)
+# sql = "select attrCatId count(*) from goods group by attrCatId"
