@@ -70,7 +70,7 @@ CREATE TABLE `goods` (
 
 LOCK TABLES `goods` WRITE;
 /*!40000 ALTER TABLE `goods` DISABLE KEYS */;
-INSERT INTO `goods` VALUES ('0e1d816e46ce11e8a296fcaa14e772b6','17608015960','熊大帅','http://p79ebonvg.bkt.clouddn.com/a847da2f48ca4d44b9cd9963.png','足球',0,'123123',1,'2018-04-23 16:12:24',12.00,12.00,'http://p79ebonvg.bkt.clouddn.com/a847da2f48ca4d44b9cd9963.png/thumb'),('37ba6622-46ca-11e8-8feb-fcaa14e772b6','17608015960','熊大帅','http://p79ebonvg.bkt.clouddn.com/93013857d59c40489375598d.png','手机',0,'12313',0,'2018-04-23 15:44:56',600.00,3111.00,'http://p79ebonvg.bkt.clouddn.com/93013857d59c40489375598d.png/thumb');
+INSERT INTO `goods` VALUES ('0e1d816e46ce11e8a296fcaa14e772b6','17608015960','熊大帅','http://p79ebonvg.bkt.clouddn.com/a847da2f48ca4d44b9cd9963.png','足球',0,'123123',1,'2018-04-23 16:12:24',12.00,12.00,'http://p79ebonvg.bkt.clouddn.com/a847da2f48ca4d44b9cd9963.png/thumb'),('21bca76e4ae411e887bafcaa14e772b6','17608015960','熊大帅','http://p79ebonvg.bkt.clouddn.com/d4c5bcde5a444001b573cb4a.jpg','签字笔',0,'',1,'2018-04-28 21:00:31',12.00,32.00,'http://p79ebonvg.bkt.clouddn.com/d4c5bcde5a444001b573cb4a.jpg/thumb'),('32d1236e4ae411e8ab12fcaa14e772b6','17608015960','熊大帅','http://p79ebonvg.bkt.clouddn.com/4f3bfcc291f749798f135341.jpg','衣服',0,'',2,'2018-04-28 21:01:00',43.00,123.00,'http://p79ebonvg.bkt.clouddn.com/4f3bfcc291f749798f135341.jpg/thumb'),('36680db84a1011e893ecfcaa14e772b6','17608015960','熊大帅','http://p79ebonvg.bkt.clouddn.com/bba251b0dd8d4450a59e446a.jpg','4G手机',0,'安装宽带送的',0,'2018-04-27 19:43:32',200.00,400.00,'http://p79ebonvg.bkt.clouddn.com/bba251b0dd8d4450a59e446a.jpg/thumb'),('37ba6622-46ca-11e8-8feb-fcaa14e772b6','17608015960','熊大帅','http://p79ebonvg.bkt.clouddn.com/93013857d59c40489375598d.png','手机',0,'12313',0,'2018-04-23 15:44:56',600.00,3111.00,'http://p79ebonvg.bkt.clouddn.com/93013857d59c40489375598d.png/thumb'),('410bc5944ae411e8ae7efcaa14e772b6','17608015960','熊大帅','http://p79ebonvg.bkt.clouddn.com/637cfa17743a4599ae22627f.jpg','盆栽',0,'',4,'2018-04-28 21:01:23',1.00,5.00,'http://p79ebonvg.bkt.clouddn.com/637cfa17743a4599ae22627f.jpg/thumb'),('4b12f01c4a0711e8834afcaa14e772b6','17608015960','熊大帅','http://p79ebonvg.bkt.clouddn.com/8075904794e542cf8c0926e2.jpg','vivo X9',0,'用了一年，外观完好',4,'2018-04-27 18:39:41',500.00,1500.00,'http://p79ebonvg.bkt.clouddn.com/8075904794e542cf8c0926e2.jpg/thumb'),('4e1f7ddc4a1011e8aa3afcaa14e772b6','17608015960','熊大帅','http://p79ebonvg.bkt.clouddn.com/ca68c4d43359499292795b2c.jpg','T裇',0,'粉红色的',2,'2018-04-27 19:44:12',10.00,30.00,'http://p79ebonvg.bkt.clouddn.com/ca68c4d43359499292795b2c.jpg/thumb'),('684af8fe4a1011e8a7bffcaa14e772b6','17608015960','熊大帅','http://p79ebonvg.bkt.clouddn.com/533c42aae0ad4da3a446f6ba.jpg','2k电视',0,'夏普电视',0,'2018-04-27 19:44:56',1500.00,2500.00,'http://p79ebonvg.bkt.clouddn.com/533c42aae0ad4da3a446f6ba.jpg/thumb'),('68e1a3b04ad211e891fbfcaa14e772b6','17608015960','熊大帅','http://p79ebonvg.bkt.clouddn.com/b0e60a5ac094435c8a55319b.png','小说',0,'平凡的世界',1,'2018-04-28 18:53:39',14.00,28.00,'http://p79ebonvg.bkt.clouddn.com/b0e60a5ac094435c8a55319b.png/thumb'),('a29b7ade4ae411e8ae59fcaa14e772b6','17608015960','熊大帅','http://p79ebonvg.bkt.clouddn.com/1221054cbe0c4a6baff21419.jpg','乒乓球拍',0,'',1,'2018-04-28 21:04:07',20.00,40.00,'http://p79ebonvg.bkt.clouddn.com/1221054cbe0c4a6baff21419.jpg/thumb'),('e84487e449ef11e8b147fcaa14e772b6','17608015960','熊大帅','http://p79ebonvg.bkt.clouddn.com/47eb5a2c74c9415992cee18b.jpg','自行车',0,'自己骑了一年，看起来挺新的',4,'2018-04-27 15:52:18',300.00,500.00,'http://p79ebonvg.bkt.clouddn.com/47eb5a2c74c9415992cee18b.jpg/thumb');
 /*!40000 ALTER TABLE `goods` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -93,6 +93,7 @@ CREATE TABLE `goods_order` (
   `orderStatus` int(1) NOT NULL DEFAULT '0',
   `ownerDisplay` int(1) NOT NULL DEFAULT '0',
   `customerDisplay` int(1) NOT NULL DEFAULT '0',
+  `createNy` varchar(20) NOT NULL DEFAULT '2018.01',
   PRIMARY KEY (`orderId`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
@@ -122,6 +123,7 @@ CREATE TABLE `user` (
   `createTime` datetime NOT NULL DEFAULT '0000-00-00 00:00:00',
   `alipay` varchar(255) NOT NULL DEFAULT '',
   `stress` varchar(255) NOT NULL DEFAULT '十号楼',
+  `createNy` varchar(20) NOT NULL DEFAULT '2018.01',
   PRIMARY KEY (`userId`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
@@ -132,7 +134,7 @@ CREATE TABLE `user` (
 
 LOCK TABLES `user` WRITE;
 /*!40000 ALTER TABLE `user` DISABLE KEYS */;
-INSERT INTO `user` VALUES ('13550277556','夏天阿塞阀啊安','13550277556',NULL,1,'2018-04-23 13:50:19','13550277556','成都市双流区'),('17608015960','熊大帅haha','17608015960','http:\\\\www',1,'2018-04-23 13:50:19','986192524@qq.com','十号楼10503'),('18328810637','小小','18328810637',NULL,1,'2018-04-23 13:50:19','17608015960','十号楼');
+INSERT INTO `user` VALUES ('13550277556','光头强','13550277556',NULL,0,'2018-04-23 13:50:19','13550277556','成都市双流区','2018.01'),('15928728280','熊二','15928728280',NULL,0,'2018-04-28 18:19:38','15928728280','七号楼702','2018.04'),('17608015960','熊大帅','17608015960','http:\\\\www',0,'2018-04-23 13:50:19','986192524@qq.com','十号楼705','2018.01'),('18328810637','小小','18328810637',NULL,0,'2018-04-23 13:50:19','17608015960','十号楼','2018.01');
 /*!40000 ALTER TABLE `user` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -145,4 +147,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2018-04-25 19:17:57
+-- Dump completed on 2018-05-04 14:58:01

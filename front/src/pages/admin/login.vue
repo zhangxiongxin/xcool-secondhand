@@ -1,8 +1,8 @@
 <template lang="pug">
-    .login-form(v-if="hasLogined")
+    .login-form(v-if="!hasLogined")
       el-input.input-item(placeholder="请输入管理员账号", v-model="account")
       el-input.input-item(placeholder="请输入管理员密码", type="password", v-model="pwd")
-      el-button.input-item(@click="login") 登0录
+      el-button.input-item(@click="login") 登录
     .content(v-else)
       .query-container
         .top
