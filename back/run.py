@@ -3,11 +3,13 @@ from flask.ext import restful
 from flask import request
 from app.api import outApi, user, common
 from flask.ext.mysql import MySQL
+from flask_cors import *
 # from flask import make_response
 import traceback
 import json
 mysql = MySQL()
 app = Flask(__name__)
+CORS(app, supports_credentials=True)
 app.config['MYSQL_DATABASE_USER'] = 'root'
 app.config['MYSQL_DATABASE_PASSWORD'] = 'root'
 app.config['MYSQL_DATABASE_DB'] = 'secondhand'
