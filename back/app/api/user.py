@@ -28,15 +28,15 @@ def certify_token(key, token):
         return 'token certification failed'
     # token certification success
     return True 
-def login(userPhone, loginPwd):
-  sql = "select loginPwd, userStatus from user where userPhone=%s;" % (userPhone)
+def login(userPhone):
+  sql = "select userStatus from user where userPhone=%s;" % (userPhone)
   cursor = g.db.cursor()
   cursor.execute(sql)
   data = cursor.fetchone()
   if data:
     code = 10000
-    if (data[1] == 1):
-      result = { 'name': data[1] }
+    if (data[0] == 1):
+      result = { 'name': data[0] }
       token = generate_token(key, 3600)
       return {'code': code, 'message': result, 'token': token}
     else:

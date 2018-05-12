@@ -46,8 +46,7 @@ api.add_resource(GetUploadToken, '/api/getUploadToken')
 class Login(restful.Resource):
     def post(self):
       userPhone = request.args.get('userPhone')
-      loginPwd = request.args.get('loginPwd')
-      result = user.login(userPhone, loginPwd)
+      result = user.login(userPhone)
       return result
 api.add_resource(Login, '/api/login')
 class QueryUser(restful.Resource):

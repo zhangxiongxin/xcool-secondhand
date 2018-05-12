@@ -14,7 +14,7 @@
               template(slot="append")
                 el-button.get-code(:type="btnType", @click="getVerification", :disabled="timeFlag") {{getCode}}
                   a(v-show="timeFlag") s
-          el-button.login_btn(type="primary", @click="register") 登录/注册
+          el-button.login_btn(type="primary", @click="registerLogin") 登录/注册
         .user-info(v-else)
           h4 请填写必要的信息
           .name
@@ -51,24 +51,12 @@ export default {
         pwd: 'sdfawsd'
       },
       loginName: '',
-      loginPwd: '',
       stress: ''
     }
   },
   methods: {
     to (url) {
       this.$router.push(url)
-    },
-    login () {
-      let params = {
-        userPhone: this.phoneNum,
-        loginPwd: md5(this.pwd)
-      }
-      CommonService.login(params)
-        .then(res => {
-          this.$router.push('/')
-        })
-        .catch(err => { console.log(err) })
     },
     // 获取验证码
     getVerification () {
@@ -143,15 +131,14 @@ export default {
         }
         CommonService.register(params)
           .then(() => {
-            this.to('/')
-            console.log('注册成功')
+            this.registerLogin()
           })
           .catch(() => {
             console.log('注册失败')
           })
       }
     },
-    register () {
+    registerLogin () {
       /*
         流程：
           1.验证码校验；
