@@ -75,7 +75,6 @@ export default {
   },
   mounted () {
     this.init()
-    CommonService.goodsList()
   }
 }
 </script>

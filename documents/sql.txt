@@ -1,0 +1,5 @@
+select attrCatId, count(*) from goods group by attrCatId;
+select count(*) from goods;
+select count(*) from goods where attrCatId=0;
+select createNy, count(*) from user group by createNy;
+select createNy, count(*) from goods_order group by createNy;

@@ -5,7 +5,7 @@
       a.nick-name 昵称：{{ item.loginName }}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
       a.phone 电话：{{ item.userPhone }}
       //- el-button(@click="controlUser(item.userPhone, 1)") 启用
-      a.qy 启用
+      a.qy(@click="controlUser(item.userPhone, 1)") 启用
 </template>
 <script>
 export default {
